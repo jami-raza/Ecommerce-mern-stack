@@ -1,0 +1,81 @@
+const products = [
+    {
+        _id:'1',
+        name: 'Herbal oil',
+        image:'/images/sexoil.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'Japan',
+        category:'Herbal oil',
+        price:900,
+        countInstock:3,
+        rating:4.5,
+        numReviews:4,
+    },
+    {
+        _id:'2',
+        name: 'Herbal sex oil',
+        image:'/images/sexoil2.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'China',
+        category:'Herbal oil',
+        price:1200,
+        countInstock:5,
+        rating:5.0,
+        numReviews:5,
+    },
+    {
+        _id:'3',
+        name: 'Hair oil',
+        image:'/images/amla.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'China',
+        category:'Hair oil',
+        price:800,
+        countInstock:8,
+        rating:5.0,
+        numReviews:5,
+    },
+    {
+        _id:'4',
+        name: 'Hair oil',
+        image:'/images/vatika.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'China',
+        category:'Hair oil',
+        price:950,
+        countInstock:2,
+        rating:3.2,
+        numReviews:10,
+    },
+    {
+        _id:'5',
+        name: 'Beard oil',
+        image:'/images/beard-oil.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'China',
+        category:'Beard oil',
+        price:650,
+        countInstock:3,
+        rating:4.2,
+        numReviews:6,
+    },
+    {
+        _id:'6',
+        name: 'Beard oil',
+        image:'/images/beard-oil2.jpg',
+        description:
+        'Men Penis Enlarge Essence, Zhengpin Natural Herbal Massage Oil for Men, Men Health Care Penis Massage Dick Increases Size Delay Sex Cream (10ml) ...',
+        Brand:'China',
+        category:'Beard oil',
+        price:750,
+        countInstock:8,
+        rating:4.4,
+        numReviews:7,
+    },
+]
+export default products;

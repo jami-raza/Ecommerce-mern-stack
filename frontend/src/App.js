@@ -1,10 +1,22 @@
 import React from 'react'
-
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import {Container} from 'react-bootstrap';
+import HomeScreen from './screens/Homescreen'
 function App() {
   return (
-    <div className="App">
-      <h1>Lets build ecommerce shop</h1>
-    </div>
+    <>
+    <Header/>
+    <main className="py-3">
+      <Container>
+      
+      <HomeScreen/>
+      </Container>
+      
+      </main>
+      <Footer/>
+    
+    </>
   );
 }
 
