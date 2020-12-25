@@ -1,7 +1,9 @@
 const express  = require ('express');
-const products  = require('./data/products');
 const connectDB = require('./config/db')
 const dotenv = require('dotenv')
+const productRoutes = require('./routes/productRoutes')
+const notFound = require('./middlerware/errorHandler')
+const errorHandler = require('./middlerware/errorHandler')
 
 dotenv.config()
 connectDB()
@@ -12,13 +14,9 @@ app.get('/', (req,res) => {
     res.send('Api is running')
 })
 
-app.get('/api/products', (req,res) => {
-    res.json(products)
-})
+app.use('/api/products',productRoutes)
 
-app.get('/api/products/:id', (req,res) => {
-    const product = products.find((p)=>p._id === req.params.id)
-    res.json(product)
-})
+app.use(notFound)
+app.use(errorHandler)
 
 app.listen(5000, console.log('Server running on port 5000'))
