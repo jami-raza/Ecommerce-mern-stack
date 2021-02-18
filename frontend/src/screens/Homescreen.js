@@ -30,6 +30,7 @@ const Homescreen = () => {
               <Product product={product} />
             </Col>
           ))}
+          <img src="https://drive.google.com/file/d/1EOwJIZud6yY-5XHlJ3wYu097PvwCcD3u/view?usp=sharing"/>
         </Row>
       )}
     </>
