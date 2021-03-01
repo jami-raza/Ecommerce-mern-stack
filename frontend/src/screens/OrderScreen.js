@@ -24,14 +24,12 @@ const OrderScreen = ({ match }) => {
     order.itemsPrice = addDecimals(
       order.orderItems.reduce((acc, item) => acc + item.price * item.qty, 0)
     );
-    order.itemsTaxPrice = addDecimals(
-      Number((0.15 * order.itemsPrice).toFixed(2))
-    );
+    
 
     order.itemsTotalPrice = (
       Number(order.itemsPrice) +
-      Number(order.shippingPrice) +
-      Number(order.itemsTaxPrice)
+      Number(order.shippingPrice) 
+      
     ).toFixed(2);
   }
 
@@ -67,7 +65,7 @@ const OrderScreen = ({ match }) => {
               <p>
                 <strong>Address :</strong>
                 {order.shippingAddress.address}, {order.shippingAddress.city}{" "}
-                {order.shippingAddress.postalCode},{" "}
+                
                 {order.shippingAddress.country}
               </p>
               {order.isDelivered ? (
@@ -142,12 +140,7 @@ const OrderScreen = ({ match }) => {
                   <Col>${order.shippingPrice}</Col>
                 </Row>
               </ListGroup.Item>
-              <ListGroup.Item>
-                <Row>
-                  <Col>Tax</Col>
-                  <Col>${order.itemsTaxPrice}</Col>
-                </Row>
-              </ListGroup.Item>
+              
               <ListGroup.Item>
                 <Row>
                   <Col>Total Price</Col>

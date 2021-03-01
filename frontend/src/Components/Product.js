@@ -1,37 +1,39 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
-import Rating from './Rating';
 import {Link} from 'react-router-dom';
+
+
+import '../Style/Product.css'
 const Product = ({product}) => {
+    
+    
     return (
-        <Card className="my-3 p-3 rounded">
+        <div className="product-card">
             <Link to ={`/product/${product._id}`}>
-                <Card.Img src={product.image} variant="top"/>
-            </Link>
-            <Card.Body>
-            <Link to ={`/product/${product._id}`}>
-                <Card.Title>
-                    <strong>{product.name}</strong>
-                </Card.Title>
-            </Link>
-            <Card.Text as='div'>
-                <div className='my-3'>
-                    {product.rating} from {product.numReviews} reviews
+                <div className="image-container">
+                <img src={product.image}/>
                 </div>
-            </Card.Text>
-            <Card.Text as='div'>
-                <Rating
-                value={product.rating}
-                text={`${product.numReviews} reviews`}
-                
-                />
-            </Card.Text>
-            <Card.Text as='h3'>
-                Rs.{product.price}
-            </Card.Text>
+            </Link>
             
-            </Card.Body>
-        </Card>
+            <Link to ={`/product/${product._id}`}>
+            <span class="short-text">{product.brand}</span>
+                <h3>
+                    {product.name}
+                </h3>
+                
+            </Link>
+            
+            <div className="body">
+                <h4>
+                Rs.{product.price}
+                </h4>
+                
+            </div>
+            <div className="cart-preview">
+                <div className="cart-btn">
+                    <Link to={`/product/${product._id}`}><button>Shop Now</button></Link>
+                </div>
+            </div>
+        </div>
     )
 }
 

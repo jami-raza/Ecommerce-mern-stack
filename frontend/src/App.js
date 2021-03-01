@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer'
 import {Container} from 'react-bootstrap';
 import HomeScreen from './screens/Homescreen';
 import ProductScreen from './screens/ProductScreen';
@@ -16,14 +16,22 @@ import OrderScreen from './screens/OrderScreen';
 import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
+import ProductListScreen from './screens/ProductListScreen';
+import About from './screens/AboutScreen'
+import Contactus from './Components/Contactus'
+import RefundPolicy from './Components/RefundPolicy'
+import ReplacingPolicy from './Components/ReplacingPolicy'
+
+
 
 const App = () => {
   return (
     <Router>
     <Header/>
-    <main className="py-3">
-      <Container>
+    <main>
       
+      
+       <Container style={{marginTop:'20px',marginBottom:'20px'}}>
       <Route path='/login' component={LoginScreen} />
       <Route path='/register' component={RegisterScreen} />
       <Route path='/profile' component={ProfileScreen} />
@@ -33,15 +41,26 @@ const App = () => {
       <Route path='/order/:id' component={OrderScreen} />
       <Route path='/product/:id' component={ProductScreen} />
       <Route path='/cart/:id?' component={CartScreen} />
+
       <Route path='/admin/userlist' component={UserListScreen} />
       <Route path='/admin/user/:id/edit' component={UserEditScreen} />
+     
+
+      <Route path='/admin/productlist' component={ProductListScreen} />
+      {/*<Route path='/admin/product/:id/edit' component={ProductEditScreen} />*/}
       <Route path='/admin/orderlist' component={OrderListScreen} />
-      <Route path='/' component={HomeScreen} exact />
+      <Route path='/about-us' component={About} />
+      <Route path='/contact-us' component={Contactus} />
+      <Route path='/refund-policy' component={RefundPolicy} />
+      <Route path='/replacing-policy' component={ReplacingPolicy} />
 
       </Container>
-      
+      <Container fluid style={{margin:'-20px 0 0 0',padding:0}}>
+      <Route path='/' component={HomeScreen} exact />
+      </Container>
+      <Footer />
       </main>
-      <Footer/>
+      
     
     </Router>
   );

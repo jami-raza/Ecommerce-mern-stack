@@ -1,0 +1,142 @@
+@font-face{
+  src: url(../Content/C_BOX_D.TTF);
+  font-family: ChocolateBox;
+}
+
+
+.blogbanner{
+    position: relative;
+}
+
+.bannerimg{
+    width:1348px;
+     height:auto;
+     
+     margin-bottom: 70px;
+     opacity: 0.9;
+    
+}
+.blogbannerimgmustache{
+    position: absolute;
+    bottom:150px;
+    left: 520px;
+    width: 320px;
+    height:60px;
+}
+.blogbanner .bannertext2 {
+    position: absolute;
+   
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: #2b292993; /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+.bannertext2{
+    top: 0px;
+    font-size: 40px;
+    font-family: ChocolateBox;
+    text-align: center;
+}
+
+.bannertext3{
+    bottom:85px;
+    position: absolute;
+    left: 623px;
+    font-size: 48px;
+    font-family: ChocolateBox;
+    text-align: center;
+    color: rgb(168, 168, 168);
+}
+ 
+  .blogfont1{
+    font-size: 38px;
+    font-family: ChocolateBox;
+    text-align: center;
+}
+
+.blogdiv{
+    margin-top: 100px;
+}
+.blogfont2{
+    font-size: 24px;
+    font-family: ChocolateBox;
+    text-align: center;
+}
+
+
+.blogimg{
+    width:420px;
+    height:350px;
+}
+
+
+ 
+
+
+
+.overlaycontainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .blogoverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: #363636;
+    opacity: 0.9;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+
+
+
+
+
+  }
+  
+  .overlaycontainer:hover .blogoverlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .text {
+    color: white;
+    font-family: ChocolateBox;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .blogbtn{
+     
+      margin-top:20px;
+      background-color: transparent;
+      font-family: ChocolateBox;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 22px;
+      border-radius: 5px;
+        height: 60px;
+        width: 150px;
+        border: 1px solid white;
+  }
+
+  .blogbtn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }

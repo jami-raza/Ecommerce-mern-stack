@@ -3,8 +3,13 @@ import { useDispatch, useSelector } from 'react-redux'
 import {Container, Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 import {logout} from '../actions/userAction'
+import Logo from '../Content/images/Silver.png'
 
 const Header = () => {
+
+    
+
+
 
     const dispatch = useDispatch()
 
@@ -17,12 +22,12 @@ const Header = () => {
 
     return (
         
-        <header>
+        <header >
         
-        <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+        <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect >
         <Container>
         <LinkContainer to="/">
-        <Navbar.Brand >Sahr-e-Zayt</Navbar.Brand>
+        <Navbar.Brand ><img style={{width:'100%',maxWidth:'50px',height:'50px',objectFit:'contain'}} src={Logo} alt="Baba Beard"/></Navbar.Brand>
         </LinkContainer>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

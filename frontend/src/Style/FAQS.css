@@ -1,0 +1,75 @@
+@font-face{
+  src: url(../Content/C_BOX_D.TTF);
+  font-family: ChocolateBox;
+}
+
+hr{
+    border: 1px solid black;
+}
+.dvfaqs1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.faqsmainheading{
+font-family: ChocolateBox;
+font-size:50px ;
+font-weight: bold;
+text-align: center;
+
+color: rgb(83, 83, 83)
+}
+.faqquestionheading{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: ChocolateBox;
+    font-size:30px ;
+    font-weight: bold;
+    color:  rgb(56, 54, 54);
+
+}
+
+.faqans{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 98, 98);
+}
+.collapsible {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(56, 54, 54);
+    cursor: pointer;
+    padding: 18px;
+   
+    border: none;
+   
+    outline: none;
+   
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  .content {
+    max-height: 0;
+    padding: 0 18px;
+   
+    overflow: hidden;
+    background-color: #f1f1f1;
+    transition: max-height 0.2s ease-out;
+  }
+  .collapsible:after {
+    content:  "▼"; /* Unicode character for "plus" sign (+) */
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+    float: right;
+   
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }

@@ -1,24 +1,10 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import Product from "../Components/Product";
-import { Row, Col } from "react-bootstrap";
-import { listProducts } from "../actions/productAction";
-import Message from '../Components/Message';
-import Loader from '../Components/Loader';
-
+import React from "react";
+import Home from '../Components/Home'
 const Homescreen = () => {
-  const dispatch = useDispatch();
-
-  const productList = useSelector((state) => state.productList);
-  const { loading, error, products } = productList;
-
-  useEffect(() => {
-    dispatch(listProducts());
-  }, [dispatch]);
 
   return (
     <>
-      <h1>Latest Products</h1>
+      {/*<h1>Latest Products</h1>
       {loading ? (
         <h2><Loader/></h2>
       ) : error ? (
@@ -30,9 +16,11 @@ const Homescreen = () => {
               <Product product={product} />
             </Col>
           ))}
-          <img src="https://drive.google.com/file/d/1EOwJIZud6yY-5XHlJ3wYu097PvwCcD3u/view?usp=sharing"/>
+         
         </Row>
-      )}
+          )}*/}
+          <Home/>
+ 
     </>
   );
 };

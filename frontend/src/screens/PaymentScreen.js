@@ -12,7 +12,7 @@ const PaymentScreen = ({ history }) => {
   if (!shippingAddress) {
     history.push("/shipping");
   }
-  const [paymentMethod, setPaymentMethod] = useState("PayPal");
+  const [paymentMethod, setPaymentMethod] = useState("Cash On Delivery");
 
   const dispatch = useDispatch();
 
@@ -34,7 +34,7 @@ const PaymentScreen = ({ history }) => {
               label="Paypal or Credit Card"
               id="PayPal"
               name="paymenMethod"
-              value="PayPal"
+              value="Cash on Delivery"
               checked
               onChange={(e) => setPaymentMethod(e.target.value)}
             ></Form.Check>

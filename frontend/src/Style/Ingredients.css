@@ -1,0 +1,152 @@
+
+@font-face{
+  src: url(../Content/C_BOX_D.TTF);
+  font-family: ChocolateBox;
+}
+
+.ingredienthead{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.IngredientMainHeading{
+ text-align:center;
+}
+.ingcursor{
+   cursor: pointer;
+}
+
+.column {
+    float: left;
+    
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+      margin-top: 50px;
+    padding: 20px;
+    color: black;
+  
+    border : 1px solid black;
+    margin-bottom: 50px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Closable button inside the container tab */
+  .closebtn {
+    float: right;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .ingimage1{
+      
+    width: 100%;
+      max-width: 400px;
+      padding-left: 40px;
+      padding-right: 40px;
+    
+    }
+
+    .ArganOilImg{
+      width:360px;
+      height:300px ;
+      padding-left: 30px;
+    }
+
+    .EucalyptusImg{
+      width:470px;
+       height:340px; 
+       padding-left: 60px;
+    }
+    .RosemaryImg{
+      width:470px;
+       height:300px;
+       padding-left: 15px;
+    }
+    .TeatreeImg{
+      width:420px;
+       height:330px;
+       padding-left: 70px;
+    }
+    .PeppermintImg{
+      width:320px;
+      height:300px;  
+      padding-left: 50px;
+    }
+    .LavenderImg{
+      width:470px;
+       height:300px; 
+      padding-left: 45px;
+    }
+    .Description{
+        
+        font-size: 20px;
+        text-align: center;
+        
+      }
+      .Title{
+        font-family: ChocolateBox;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 70px;
+        text-align: center;
+       
+      }
+      .MainTitle{
+        font-family: ChocolateBox;
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 70px;
+        text-align: center;
+       
+      }
+     
+    .btningredients{
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+          height: 60px;
+          width: 150px;
+          border-radius: 5px ;
+          border: 1px solid white;
+          text-align: center;
+    }
+    .btningredients:hover{
+        color: black;
+        background-color: white;
+    }
+    .divbtning{
+        justify-content: center;
+        display: flex;
+    }
+    .Footerrowing{
+        background-color:rgb(38, 40, 43);
+        margin-top: 80px;
+       
+    }
+    .act1 {
+    
+       
+      
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+    .act2{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }

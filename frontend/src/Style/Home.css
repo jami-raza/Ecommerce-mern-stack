@@ -1,0 +1,1825 @@
+/*for heading*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+/*for button*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+/*for button*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/*for heading 2*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+/*for body */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*for button 2 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  src: url(../Content/C_BOX_D.TTF);
+  font-family: ChocolateBox;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+}
+.banner-model {
+  position: absolute;
+  left: -250px;
+  width: auto;
+  height: 550px;
+  top: 150px;
+}
+.banner-bottle {
+  position: absolute;
+  right: 120px;
+  width: auto;
+  height: 550px;
+  top: 138px;
+}
+
+.banner-title {
+  font-size: 2rem;
+  color: #f8f8f8;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 350px;
+  right: 240px;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.banner-btn {
+  position: absolute;
+  right: 500px;
+  top: 420px;
+}
+.banner-btn button {
+  padding: 5px 10px 5px 10px;
+  color: #f8f8f8;
+  background: transparent;
+  background-position: right bottom;
+  font-size: 1.5rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  border: 1px solid #f8f8f8;
+  transition: all 0.6s ease;
+  outline: none;
+}
+
+.banner-btn button:hover {
+  background: white;
+  color: #000;
+  background-position: left bottom;
+}
+
+/* Banner Section End */
+
+/* Home section 2 Start */
+.home-section-2 .home-section-2-row {
+  margin-top: 10px;
+}
+.home-section-2 .home-section-2-row .home-section-2-col {
+  margin-top: 60px;
+}
+.home-section-2 .home-section-2-row .home-section-2-col h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  transform: translate(rotateY(190));
+}
+.home-section-2 .home-section-2-row .home-section-2-col h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.7rem;
+  margin-top: -20px;
+  font-weight: 500;
+}
+
+.home-section-2 .home-section-2-row .home-section-2-col .desc {
+  margin-top: 40px;
+}
+.home-section-2 .home-section-2-row .home-section-2-col .desc p {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  font-size: 1rem;
+  margin-right: 40px;
+}
+.home-section-2 .home-section-2-row .home-section-2-col .desc button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  background-color: #2b2929;
+  margin-top: 30px;
+  transition: all 0.5s ease;
+  outline: none;
+}
+.home-section-2 .home-section-2-row .home-section-2-col-2 img {
+  width: auto;
+  height: 450px;
+}
+.home-section-2 .home-section-2-row .home-section-2-col .desc button:hover {
+  background-color: #f8f8f8;
+  color: #282828;
+  border: 1px solid #282828;
+}
+/* Home section 2 Ends */
+
+/* Home section 2 First */
+
+.home-section-3 {
+  background-color: #f2f6f7;
+}
+
+.home-section-3 .home-section-3-row {
+  margin-top: 100px;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col {
+  background-image: url("https://maelectrics.com/tf/html/arowana-preview/arowana/img/banner/10.png");
+  height: 400px;
+  background-size: 95%;
+  width: auto;
+  background-repeat: no-repeat;
+}
+.home-section-3 .home-section-3-row .home-section-3-col .content {
+  margin-top: 160px;
+  margin-left: 40px;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col .content h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2b2929;
+}
+.home-section-3 .home-section-3-row .home-section-3-col .content h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #2b2929;
+  margin-right: 50%;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col .content button {
+  padding: 8px 30px 8px 30px;
+  color: #f8f8f8;
+  background-color: #2b2929;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col .content button:hover {
+  color: #2b2929;
+  background-color: transparent;
+  box-shadow: 0 1px 4px 1px #2b29293f;
+}
+.home-section-3 .home-section-3-row .home-section-3-col-2 {
+  background-image: url("https://maelectrics.com/tf/html/arowana-preview/arowana/img/banner/11.png");
+  height: 400px;
+  width: auto;
+  background-size: cover;
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+  margin-top: 160px;
+  position: absolute;
+  right: 50px;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col-2 .content h5 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2b2929;
+}
+.home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #2b2929;
+}
+
+.home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+  padding: 8px 30px 8px 30px;
+  color: #f8f8f8;
+  background-color: #2b2929;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-section-3
+  .home-section-3-row
+  .home-section-3-col-2
+  .content
+  button:hover {
+  color: #2b2929;
+  background-color: transparent;
+  box-shadow: 0 1px 4px 1px #2b29293f;
+}
+/* Home section 3 Ends */
+
+/* Home section 4 Start */
+.home-section-4 .home-section-4-row {
+  margin-top: 100px;
+}
+.home-section-4 .home-section-4-row .home-section-4-col {
+  margin-bottom:50px;
+}
+.home-section-4 .home-section-4-row .home-section-4-col h2{
+  font-size:2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight:500;
+  text-align: center;
+}
+
+.home-section-4 .home-section-4-row .home-section-4-col p{
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  font-size: 1rem;
+  margin-right: 40px;
+  margin:20px 180px 10px 180px;
+  text-align:center;
+  
+}
+
+
+/* Home section 4 Ends */
+/* Media Queries*/
+@media (max-width: 400px) {
+  .banner {
+    background-repeat: repeat-x;
+    height: 280px;
+  }
+  .banner-model {
+    height: 250px;
+    left: -150px;
+    top: 180px;
+  }
+  .banner-bottle {
+    height: 250px;
+    right: 10px;
+  }
+  .banner-title {
+    right: 30px;
+    font-size: 1rem;
+    top: 230px;
+  }
+  .banner-btn {
+    right: 180px;
+    top: 250px;
+  }
+  .banner-btn button {
+    font-size: 1rem;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 200px;
+    margin-top: 60px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col .content button {
+    font-size: 1rem;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    top:-80px;
+    right:0;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+    font-size: 1rem;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    
+    font-size: 0.9rem;
+    
+    margin:20px 10px 10px 10px;
+    
+    
+  }
+}
+
+@media (min-width: 401px) {
+  .banner {
+    height: 350px;
+    
+  }
+  .banner-model {
+    height: 250px;
+    left: -150px;
+    top: 180px;
+  }
+  .banner-bottle {
+    height: 250px;
+    right: 10px;
+  }
+  .banner-title {
+    right: 30px;
+    font-size: 1rem;
+    top: 230px;
+  }
+  .banner-btn {
+    right: 180px;
+    top: 250px;
+  }
+  .banner-btn button {
+    font-size: 1rem;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col img {
+    width: auto;
+    height: 300px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col .content button {
+    font-size: 1rem;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 300px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    top:-40px;
+    right:10px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+    font-size: 1rem;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    
+    font-size: 0.9rem;
+    
+    margin:20px 10px 10px 10px;
+    
+    
+  }
+}
+@media (min-width: 601px) {
+  .banner {
+    height: 400px;
+  }
+  .banner-model {
+    height: 350px;
+  }
+  .banner-bottle {
+    height: 350px;
+    right: 30px;
+  }
+  .banner-title {
+    right: 70px;
+    font-size: 1.4rem;
+    top: 280px;
+  }
+  .banner-btn {
+    right: 270px;
+    top: 320px;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 300px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #2b2929;
+    margin-right: 50%;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col .content button {
+    padding: 8px 30px 8px 30px;
+    color: #f8f8f8;
+    background-color: #2b2929;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-family: "Roboto", sans-serif;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #2b2929;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+    padding: 8px 30px 8px 30px;
+    color: #f8f8f8;
+    background-color: #2b2929;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-family: "Roboto", sans-serif;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    
+    margin:20px 10px 10px 10px;
+    
+    
+  }
+}
+@media (min-width: 769px) {
+  .banner {
+    height: 450px;
+  }
+  .banner-model {
+    height: 400px;
+  }
+  .banner-bottle {
+    height: 400px;
+    right: 50px;
+  }
+  .banner-title {
+    right: 70px;
+    font-size: 1.8rem;
+    top: 280px;
+  }
+  .banner-btn {
+    right: 300px;
+    top: 320px;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 300px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col {
+    background-image: url("https://maelectrics.com/tf/html/arowana-preview/arowana/img/banner/10.png");
+    height: 400px;
+    background-size: 95%;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    margin-top: 100px;
+    position: absolute;
+    right: 20px;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    
+    margin:20px 100px 10px 100px;
+    
+    
+  }
+}
+@media (min-width: 996px) {
+  .banner-title {
+    right: 130px;
+    font-size: 1.8rem;
+    top: 280px;
+  }
+  .banner-bottle {
+    right: 100px;
+  }
+  .banner {
+    height: 550px;
+  }
+  .banner-btn {
+    right: 400px;
+    top: 320px;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 350px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  
+
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    margin-top: 110px;
+    position: absolute;
+    right: 40px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+    padding: 8px 30px 8px 30px;
+    color: #f8f8f8;
+    background-color: #2b2929;
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-family: "Roboto", sans-serif;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    
+    margin:20px 100px 10px 100px;
+    
+    
+  }
+}
+@media (min-width: 1200px) {
+  .banner {
+    height: 600px;
+  }
+  .banner-model {
+    height: 550px;
+    left: -250px;
+    top: 180px;
+  }
+  .banner-bottle {
+    height: 550px;
+    right: 200px;
+  }
+  .banner-title {
+    top: 350px;
+    right: 240px;
+  }
+  .banner-btn {
+    right: 500px;
+    top: 420px;
+  }
+  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
+    width: auto;
+    height: 450px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col .content {
+    margin-top: 160px;
+    margin-left: 40px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col {
+    background-image: url("https://maelectrics.com/tf/html/arowana-preview/arowana/img/banner/10.png");
+    height: 400px;
+    background-size: 95%;
+    width: auto;
+    background-repeat: no-repeat;
+  }
+
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    margin-top: 200px;
+    right: 50px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h5 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #2b2929;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #2b2929;
+  }
+  
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
+    padding: 8px 30px 8px 30px;
+    color: #f8f8f8;
+    background-color: #2b2929;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    font-family: "Roboto", sans-serif;
+  }
+  .home-section-4 .home-section-4-row .home-section-4-col p{
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 1rem;
+    margin-right: 40px;
+    margin:20px 180px 10px 180px;
+    text-align:center;
+    
+  }
+}
+/*
+.linktag {
+  text-decoration: none;
+  color: white;
+}
+.linktag:hover {
+  text-decoration: none;
+  color: gray;
+}
+.dvnav {
+  background-color: #2b2929;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.navbarcontent1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.navbarcontent1 ul li {
+  display: inline-block;
+}
+
+.navbarcontent1 ul li a {
+  display: inline-block;
+
+  color: #909191;
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbarcontent1 ul li a:nth-child(6n + 1) {
+  margin: 0;
+}
+.navbarcontent1 ul li a:hover {
+  color: white;
+}
+
+.btnnav {
+  padding: 20px 10px 10px 0px;
+}
+.btnnav2,
+.btnnav1 {
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #2b2929;
+  color: #909191;
+}
+.btnnav2:hover {
+  background-color: gray;
+  color: white;
+}
+.btnnav1:hover {
+  background-color: gray;
+  color: white;
+}
+
+.nav2img {
+  padding-left: 55px;
+  padding-top: 20px;
+
+  height: 70px;
+}
+
+.dv1 {
+  padding: 10px 0px 15px 10px;
+  background: #2b2929;
+
+  height: 110px;
+}
+
+.middlepic {
+  width: 100%;
+  max-width: 420px;
+  height: 440px;
+  object-fit: contain;
+}
+
+.leftpic {
+  width: 100%;
+  max-width: 600px;
+  height: 420px;
+  object-fit: contain;
+  padding-top: 80px;
+}
+
+.rightpic {
+  width: 100%;
+  max-width: 560px;
+  height: 410px;
+  object-fit: contain;
+  padding-top: 90px;
+}
+
+.mustache {
+  width: 420px;
+  height: 30px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.shopnow {
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+}
+.shopnowlink {
+  text-decoration: none;
+  color: rgb(165, 168, 172);
+}
+.shopnowlink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.quote {
+  height: 900px;
+}
+.quotefont1 {
+  padding-top: 100px;
+  font-family: ChocolateBox;
+  font-size: 74px;
+  font-weight: 900;
+  text-align: center;
+}
+.quotefont2 {
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-33%, -40%);
+}
+.centeredquote2 {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-33%, -40%);
+}
+.centered72 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quoteimg {
+  width: 100%;
+  height: 800px;
+  opacity: 0.3;
+  margin-top: 60px;
+}
+.fullimg {
+  background-image: url("../Content/PNG/Spotlight1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.organic {
+  margin-bottom: 50px;
+  margin-top: 200px;
+  height: 450px;
+}
+
+.dv8 {
+  height: 800px;
+}
+.organiccontent {
+  margin-top: 30px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+.organicheading {
+  margin-top: 10px;
+  font-family: ChocolateBox;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Productdiv {
+  margin-top: 80px;
+}
+.VariantImg1 {
+  width: 100%;
+  max-width: 470px;
+  height: 600px;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 90px;
+}
+.Variantheading {
+  font-family: ChocolateBox;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+.Variantimg2 {
+  margin-left: 20px;
+  width: 500px;
+  height: 570px;
+  opacity: 0.1;
+}
+.Variantbtn1div {
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-top: 20px;
+}
+.Addtocartbtn {
+  width: 100%;
+
+  height: 80px;
+  min-width: 200px;
+  max-width: 250px;
+  font-size: 24px;
+
+  border-radius: 40px;
+  border: 2px solid black;
+}
+.Addtocartbtn:hover {
+  background-color: gray;
+}
+.mustacheAddtoCart {
+  width: 100px;
+  height: 30px;
+}
+.Variantbtn2divfill {
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 20px;
+}
+
+.Productfill1div {
+  margin-top: 90px;
+}
+.Variantimg2fill {
+  width: 100%;
+  max-width: 620px;
+  height: 600px;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 100px;
+}
+
+.Variantimg1fill {
+  margin-left: 0px;
+  width: 500px;
+  height: 570px;
+  opacity: 0.1;
+}
+.Variantheadingfill {
+  margin-left: 60px;
+
+  font-family: ChocolateBox;
+  font-size: 64px;
+  font-weight: 900;
+}
+.dv9font11 {
+  margin-top: 70px;
+  font-family: "Playball", cursive;
+  font-size: 44px;
+  text-decoration: underline;
+  font-weight: 900;
+  text-align: center;
+}
+.Variantcontent {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  width: 480px;
+  text-align: center;
+}
+.centered91 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered92 {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.HowtoApply {
+  margin-top: 100px;
+}
+.Howtoapplyheading {
+  margin-top: 50px;
+  height: 150px;
+}
+.Howtoheadingfont1 {
+  margin-top: 30px;
+  font-family: ChocolateBox;
+  font-size: 84px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.applypicsdiv {
+  margin-bottom: 160px;
+}
+.dv11 {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  border-radius: 50%;
+}
+.dv12 {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  border-radius: 50%;
+}
+.dv13 {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  border-radius: 50%;
+}
+.dv14 {
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  border-radius: 50%;
+}
+.Howtosubheading {
+  margin-top: 40px;
+  font-family: "Playball", cursive;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(240, 233, 233);
+}
+.ingredientfont1 {
+  color: rgb(0, 0, 0);
+
+  font-family: ChocolateBox;
+  font-size: 84px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.ActivateIngredient {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  position: relative;
+  height: 650px;
+}
+.IngredientImage {
+  width: 100%;
+  max-width: 380px;
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Ingredientimgoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.75s;
+}
+.Ingredientimgoverlay > * {
+  transform: translateY(15px);
+  transition: 0.5s;
+}
+.Ingredientimgoverlay:hover > * {
+  transform: translateY(0);
+}
+
+.Ingredientimgoverlay--blur {
+  backdrop-filter: blur(10px);
+}
+.Ingredientimgoverlay:hover {
+  opacity: 1;
+}
+.IngredientTitle {
+  font-family: ChocolateBox;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+}
+.IngredientDescription {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.FillPatchesIngredient {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+.NourishIngredient {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+
+.dv15 {
+  margin-top: 70px;
+  height: 120px;
+  color: black;
+}
+.dv15font1 {
+  margin-top: 10px;
+  font-family: "Playball", cursive;
+  font-size: 28px;
+  font-weight: 600;
+}
+.dv15img {
+  margin-left: 130px;
+  width: 300px;
+  height: 300px;
+}
+.Sliderdiv {
+  height: 800px;
+  margin-top: 50px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+*/
+.dv161 {
+  height: 300px;
+  margin-top: 40px;
+  background-color: rgb(38, 40, 43);
+}
+.Footerrow {
+  background-color: rgb(38, 40, 43);
+  margin-top: 70px;
+}
+
+.footerlogo {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.footerlogopic {
+  width: 40px;
+  height: 40px;
+}
+.footer1content {
+  width: 340px;
+  height: 61.57px;
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer2content1 {
+  font-size: larger;
+  font-weight: 700;
+}
+.footer2content2 {
+  font-size: large;
+  margin-top: 20px;
+}
+
+.footer3content1 {
+  font-size: large;
+  margin-top: 20px;
+}
+.Footer1,
+.Footer2,
+.Footer3,
+.Footer4 {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(38, 40, 43);
+}
+
+.logo17 {
+  margin-left: 0px;
+}
+/*
+  @media screen and (max-width: 640px) {
+  .topnav{
+    display: none;
+  }
+  .dvnav{
+    display: none;
+  }
+  
+    
+    .quote{
+     height: 650px;
+      
+      
+    }
+    .quotefont1{
+      padding-top:100px;
+      font-family:ChocolateBox; 
+      font-size:34px; 
+      font-weight:900; 
+      text-align: center;
+    }
+    .quotefont2{
+      padding-top:10px;
+      font-family: 'Poppins', sans-serif;
+      font-size:20px;
+      font-weight:900; 
+      text-align: center;
+    }
+    .centered {
+      position: absolute;
+      
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }     
+    .centered2 {
+      position: absolute;
+      top:50%;
+      left: 40%;
+      transform: translate(-33%, -40%);
+    }  
+    .centeredquote2 {
+      position: absolute;
+      top:35%;
+      left: 40%;
+      transform: translate(-33%, -40%);
+    }  
+      
+         .quoteimg{
+          display: none;
+  
+    }
+  
+    .fullimg{background-image: url("../Content/PNG/Spotlight1.png");
+      background-repeat: no-repeat;
+       background-position:center;
+       background-size: cover; 
+       height:400px;
+          }
+      
+      
+          .organic{
+            margin-bottom: 50px;
+            margin-top:100px;
+      height:400px;
+        }
+    .organiccontent{
+      margin-top:30px;
+      
+      font-family:'Playball', cursive; 
+      font-size:24px; 
+      font-weight:900; 
+      text-align: center;
+    }
+    .organicheading{
+      margin-top:10px;
+      font-family:ChocolateBox; 
+      font-size:44px; 
+      font-weight:900; 
+      text-align: center;
+    }
+  
+    .Productdiv{
+      margin-top: 40px;
+    }
+    .Productfill1div{
+      margin-top: 40px;
+      order: 2;
+    }
+    .Productfill2div{
+      margin-top: 40px;
+      order:1;
+    }
+    .VariantImg1{
+      width: 100%;
+      max-width: 470px;
+      height: 550px;
+      padding-right: 65px;
+      padding-left: 65px;
+      padding-top: 40px;
+    
+      
+    }
+    .Variantheading{
+  
+      
+      font-family:ChocolateBox; 
+      font-size:44px; 
+      font-weight:900; 
+      text-align: center;
+  
+    }
+    .Variantimg2{
+      margin-left: 20px;
+      width:500px;
+      height:570px;
+      opacity: 0.1;
+    }
+    .Variantbtn1div{
+        
+      padding-left: 115px;
+      padding-right: 115px;
+      padding-top: 20px;
+    }
+    .Addtocartbtn{
+      width: 100%;
+     
+      height: 80px;
+      min-width: 200px;
+      max-width:250px;
+       font-size: 24px;
+      
+      border-radius: 40px;
+      border: 2px solid black;
+    }
+    .Variantbtn2divfill{
+    
+      padding-left: 145px;
+        padding-right: 145px;
+        padding-top: 20px;
+    }
+  
+    .Variantimg2fill{
+      width: 100%;
+      max-width: 620px;
+      height: 600px;
+      padding-right: 90px;
+      padding-left: 90px;
+      padding-top: 100px;
+      
+    }
+   
+    .Variantimg1fill{
+      margin-left: 0px;
+      width:500px;
+      height:570px;
+      opacity: 0.1;
+    }
+    .Variantheadingfill{
+  margin-left: 60px;
+      
+      font-family:ChocolateBox; 
+      font-size:64px; 
+      font-weight:900; 
+    
+    }
+    .dv9font11{
+      margin-top:70px;
+      font-family:'Playball', cursive; 
+      font-size:44px; 
+      text-decoration: underline;
+      font-weight:900; 
+      text-align: center;
+    }
+    .Variantcontent{
+      margin-top:10px;
+      font-family:'Poppins', sans-serif;
+      font-size:18px;
+      font-weight:900;
+      width: 480px;
+      text-align: center;
+       
+     
+    }
+    .centered91 {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }     
+    .centered92 {
+      position: absolute;
+      top:45%;
+      left: 48%;
+      transform: translate(-50%, -50%);
+    }   
+    
+    
+    .ActivateIngredient{
+       
+      background-color: rgb(255, 255, 255);
+      border: 1px solid black;
+      position: relative;
+    }
+  
+    .IngredientImage{
+      width: 100%;
+      max-width: 580px;
+      height: 520px;
+     
+      padding-left: 130px;
+      padding-right: 130px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+      
+    }
+    .Ingredientimgoverlay{
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 0, 0,0.6);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      opacity: 0;
+      transition: 0.75s;
+    }
+    .Ingredientimgoverlay > *{
+      transform: translateY(15px);
+      transition: 0.5s;
+    }
+    .Ingredientimgoverlay:hover > *{
+    transform: translateY(0);
+    
+    }
+  
+    .Ingredientimgoverlay--blur {
+      backdrop-filter: blur(10px);
+    }
+    .Ingredientimgoverlay:hover{
+      opacity: 1;
+  
+    }
+    .IngredientTitle{
+      font-family: ChocolateBox;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .IngredientDescription{
+      margin-top: 10px;
+      font-size: 16px;
+      
+    }
+    .FillPatchesIngredient{
+    
+      background-color: rgb(255, 255, 255);
+      border: 1px solid black;
+    }
+    .NourishIngredient{
+  
+      background-color: rgb(255, 255, 255);
+      border: 1px solid black;
+    }
+    .ingredientfont1{
+      color: rgb(0, 0, 0);
+    
+      font-family:ChocolateBox; 
+      font-size:34px; 
+      font-weight:900; 
+      text-align: center;
+    }
+    .Sliderdiv{
+        
+      height: 300px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      
+    
+    }
+  
+  }
+  
+  
+  
+  
+  @media screen and (max-width :1200px){
+   
+    .dvnav{
+      display: none;
+    }
+    
+    
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 360px) {
+    .topnav{
+      display: none;
+    }
+   
+  
+  
+  .middlepic{
+    width: 100%;
+    max-width: 420px;
+    height: 440px;
+    object-fit: contain;
+  }
+  
+  .leftpic{
+  display: none;
+    
+  }
+  
+  .rightpic{
+  display: none;
+   
+  }
+  
+  .mustache{
+    width:420px;
+    height:30px;
+  
+    padding-left:100px;
+    padding-right: 100px;
+  }
+  .shopnow {
+  
+  font-size: 34px;
+  text-align: center; 
+   font-weight: 700;
+  }
+  .shopnowlink{
+    text-decoration: none;
+     color:rgb(165, 168, 172);
+  }
+  .shopnowlink:hover{
+    color: white;
+    text-decoration: none;
+  }
+      
+      .quote{
+        height: 450px;
+         
+         
+       }
+       .whybaba{
+         height: 450;
+       }
+       .quotefont1{
+        
+         font-family:ChocolateBox; 
+         font-size:24px; 
+         font-weight:900; 
+         text-align: center;
+       }
+       .quotefont2{
+         padding-top:10px;
+         font-family: 'Poppins', sans-serif;
+         font-size:16px;
+         font-weight:900; 
+         text-align: center;
+       }
+       .centered {
+         position: absolute;
+         
+         top: 15%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+       }     
+       .centered2 {
+         position: absolute;
+          top:65%;
+         left: 40%;
+         transform: translate(-33%, -40%);
+       }  
+       .centeredquote2 {
+         position: absolute;
+         top:45%;
+         left: 40%;
+         transform: translate(-33%, -40%);
+       }  
+           .quoteimg{
+            display: none;
+    
+      }
+    
+      .fullimg{background-image: url("../Content/PNG/Spotlight1.png");
+        background-repeat: no-repeat;
+         background-position:center;
+         background-size: cover; 
+         height:300px;
+         margin-top: 80px;
+            }
+        
+        
+            .organic{
+              margin-bottom: 50px;
+              margin-top:100px;
+        height:400px;
+          }
+      .organiccontent{
+        margin-top:30px;
+        
+        font-family: 'Poppins', sans-serif;
+        font-size:16px; 
+        font-weight:900; 
+        text-align: center;
+      }
+      .organicheading{
+        margin-top:50px;
+        font-family:ChocolateBox; 
+        font-size:30px; 
+        font-weight:900; 
+        text-align: center;
+       
+      }
+    
+      .Productdiv{
+        margin-top: 40px;
+      }
+      .Productfill1div{
+        margin-top: 40px;
+        order: 2;
+      }
+      .Productfill2div{
+        margin-top: 40px;
+        order:1;
+      }
+  
+      .VariantImg1{
+        width: 100%;
+        max-width: 390px;
+        height: 300px;
+        padding-right: 70px;
+        padding-left: 70px;
+        padding-top: 40px;
+      
+        
+      }
+      .Variantbtn1div{
+        width: 100%;
+       
+        height: 70px;
+       
+      
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+      }
+     
+   
+  
+  
+  
+  
+    
+      .Variantheading{
+        
+        margin-top: 30px;
+        font-family:ChocolateBox; 
+        font-size:44px; 
+        font-weight:900; 
+        text-align: center;
+    
+      }
+      .Variantimg2{
+        padding-right: 40px;
+       
+        width:350px;
+        height:550px;
+        opacity: 0.1;
+      }
+    
+      
+     
+  
+      
+      .Variantimg2fill{
+        width: 100%;
+        max-width: 390px;
+        height: 370px;
+        margin-top: 100px;
+        padding-right: 70px;
+        padding-left: 70px;
+        padding-top: 40px;
+      }
+      .Variantbtn2divfill{
+      
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 20px;
+      }
+      .Addtocartbtn{
+        width: 100%;
+       
+        height: 60px;
+        
+        max-width:250px;
+         font-size: 14px;
+         font-weight: bold;
+        
+        border-radius: 40px;
+        border: 2px solid black;
+      }
+      .Variantimg1fill{
+        margin-left: 20px;
+        width:350px;
+        height:550px;
+        opacity: 0.1;
+      }
+      .Variantheadingfill{
+    margin-left: 10px;
+        margin-top: 30px;
+        font-family:ChocolateBox; 
+        font-size:64px; 
+        font-weight:900; 
+        text-align: center;
+      
+      }
+      .dv9font11{
+        margin-top:70px;
+        font-family:'Playball', cursive; 
+        font-size:44px; 
+        text-decoration: underline;
+        font-weight:900; 
+        text-align: center;
+      }
+      .Variantcontent{
+        margin-top:50px;
+        font-family:'Poppins', sans-serif;
+        font-size:18px;
+        font-weight:900;
+        width: 100%;
+        text-align: center;
+      }
+  .Productfill1div{
+    order:2;
+  }
+  .Productfill2div{
+    order:1
+  }
+      
+      
+      .centered91 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }     
+      .centered92 {
+        position: absolute;
+        top:55%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+      }   
+      
+      
+      .ActivateIngredient{
+         
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        position: relative;
+        height: 600px;
+      }
+      .IngredientImage{
+        width: 100%;
+        max-width: 380px;
+        height: 550px;
+        padding-left: 30px;
+        padding-right: 30px;
+       padding-top: 100px;
+       padding-bottom: 50px;
+        
+      }
+      .Ingredientimgoverlay{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0,0.6);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        opacity: 0;
+        transition: 0.75s;
+      }
+      .Ingredientimgoverlay > *{
+        transform: translateY(20px);
+        transition: 0.5s;
+      }
+      .Ingredientimgoverlay:hover > *{
+      transform: translateY(0);
+      
+      }
+    
+      .Ingredientimgoverlay--blur {
+        backdrop-filter: blur(10px);
+      }
+      .Ingredientimgoverlay:hover{
+        opacity: 1;
+    
+      }
+      .IngredientTitle{
+        font-family: ChocolateBox;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .IngredientDescription{
+        margin-top: 10px;
+        font-size: 16px;
+        
+      }
+      .FillPatchesIngredient{
+      
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;    
+        height: 600px;
+      }
+      .NourishIngredient{
+    
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        height: 600px;
+      }
+      .Sliderdiv{
+          
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        
+      
+      }
+      .Howtoheadingfont1{
+     
+        font-family:ChocolateBox; 
+        font-size:54px; 
+        font-weight:900; 
+        text-align: center;
+      }
+      .ingredientfont1{
+        color: rgb(0, 0, 0);
+      
+        font-family:ChocolateBox; 
+        font-size:54px; 
+        font-weight:900; 
+        text-align: center;
+      }
+      
+    } 
+*/

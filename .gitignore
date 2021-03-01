@@ -10,7 +10,7 @@
 
 # production
 .env
-/build
+./frontent/build
 
 # misc
 .DS_Store

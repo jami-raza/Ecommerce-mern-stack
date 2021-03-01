@@ -1,0 +1,78 @@
+@font-face{
+    src: url(../Content/C_BOX_D.TTF);
+    font-family: ChocolateBox;
+  }
+
+.policyheading{
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(58, 58, 58);
+    margin-top: 50px;
+
+}
+
+.policycontent{
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 59, 59);
+    margin-top: 10px;
+}
+.policymainheading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: ChocolateBox;
+    font-size:3.125rem ;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(59, 59, 59);
+
+}
+.bannertext2{
+    top: 0px;
+    font-size: 40px;
+    font-family: ChocolateBox;
+    text-align: center;
+}
+.refundpolicy{
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 59, 59);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+@media (min-width:300px){
+
+    html{
+    font-size:60%;
+    }
+     
+    }
+    @media (min-width:760px){
+
+        html{
+        font-size:70%;
+        }
+         
+        }
+    
+    @media (min-width:900px){
+        html{
+          font-size: 80%;
+        }
+      
+    }
+    
+    
+    @media (min-width:1200px){
+        html{
+          font-size: 90%;
+        }
+    }

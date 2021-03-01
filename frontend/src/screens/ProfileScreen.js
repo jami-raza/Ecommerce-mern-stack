@@ -5,10 +5,10 @@ import { LinkContainer } from 'react-router-bootstrap'
 import Message from "../Components/Message";
 import Loader from "../Components/Loader";
 import { getUserDetails, updateUserProfile } from "../actions/userAction";
-import OrderScreen from "./OrderScreen";
+
 import { USER_UPDATE_PROFILE_RESET } from "../constants/userConstant";
 import { listMyOrders } from "../actions/orderAction";
-import { Link } from "react-router-dom";
+
 
 const ProfileScreen = ({ history }) => {
   

@@ -1,0 +1,46 @@
+.parallax {
+    /* The image used */
+    background-image: url("../Content/images/scroll-image.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+    
+    z-index: 1;
+  }
+
+.parallax img {
+    width:100%;
+    max-width:850px;
+    height:800px;
+    object-fit:contain;
+    
+    
+}
+
+.subscription {
+    background-color: #2b2929;
+    padding:20px;
+    position: relative;
+    opacity: 0.8;
+}
+
+.subscription h5{
+    color: #f4f4f4;
+    
+}
+.subscription h1 {
+    color: #f4f4f4;
+}
+
+@media(max-width:650px) {
+    .parallax img {
+        display:none;
+    }
+}

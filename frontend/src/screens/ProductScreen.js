@@ -8,13 +8,11 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Rating from "../Components/Rating";
 import Message from "../Components/Message";
 import Loader from "../Components/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { listProductDetails } from "../actions/productAction";
-
+import Whatsapp from '../Components/Whatsapp';
 const ProductScreen = ({ match, history }) => {
   const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
@@ -25,15 +23,14 @@ const ProductScreen = ({ match, history }) => {
     dispatch(listProductDetails(match.params.id));
   }, [dispatch, match]);
 
-  const addToCartHandler = () => {
+   const addToCartHandler = () => {
+     
     history.push(`/cart/${match.params.id}?qty=${qty}`);
   };
 
   return (
     <>
-      <Link className="btn btn-light my-3" to="/">
-        Go Back
-      </Link>
+      
       {loading ? (
         <Loader />
       ) : error ? (
@@ -41,19 +38,14 @@ const ProductScreen = ({ match, history }) => {
       ) : (
         <Row>
           <Col md={6}>
-            <Image src={product.image} alt={product.name} fluid />
+            <Image style={{width:'100%',maxWidth:'500px',height:'500px',objectFit:'contain'}} src={product.image} alt={product.name} fluid />
           </Col>
           <Col md={3}>
             <ListGroup variant="flush">
               <ListGroup.Item>
                 <h3>{product.name}</h3>
               </ListGroup.Item>
-              <ListGroup.Item>
-                <Rating
-                  value={`${product.rating}`}
-                  text={`${product.numReviews} reviews`}
-                />
-              </ListGroup.Item>
+              
               <ListGroup.Item>Price: Rs{product.price}</ListGroup.Item>
               <ListGroup.Item>Discription:{product.description}</ListGroup.Item>
             </ListGroup>
@@ -104,7 +96,7 @@ const ProductScreen = ({ match, history }) => {
                     type="button"
                     disabled={product.countInStock === 0}
                   >
-                    Add To Cart
+                   Add to cart
                   </Button>
                 </ListGroup.Item>
               </ListGroup>
@@ -112,6 +104,7 @@ const ProductScreen = ({ match, history }) => {
           </Col>
         </Row>
       )}
+      <Whatsapp/>
     </>
   );
 };
