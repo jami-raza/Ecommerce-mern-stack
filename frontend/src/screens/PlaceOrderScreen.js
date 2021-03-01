@@ -65,13 +65,7 @@ const PlaceOrderScreen = ({history}) => {
                             {cart.shippingAddress.postalCode}
                             </strong>
                     </ListGroup.Item>
-                    <ListGroup.Item>
-                        <h2>Payment Method</h2>
-                        
-                            <strong>Method:</strong>
-                            {cart.paymentMethod.paymentMethod}
-                        
-                    </ListGroup.Item>
+                    
                     <ListGroup.Item>
                         <h2>Order Items</h2>
                         
