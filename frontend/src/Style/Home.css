@@ -29,48 +29,162 @@ body {
   height: auto;
   background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
 }
-.banner-model {
-  position: absolute;
-  left: -250px;
-  width: auto;
-  height: 550px;
-  top: 150px;
+.banner .banner-content {
+  position:relative;
+  display:block;
+  width:fit-content;
+  float:right;
+  margin-right:120px;
+  margin-top:40px;
 }
-.banner-bottle {
-  position: absolute;
-  right: 120px;
-  width: auto;
-  height: 550px;
-  top: 138px;
+.banner .banner-content .banner-bottle {
+  float:right;
+  width:auto;
+  height:500px;
+  
 }
 
-.banner-title {
-  font-size: 2rem;
+.banner .banner-content .banner-title {
+  font-size: 28px;
   color: #f8f8f8;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 350px;
-  right: 240px;
-  border-bottom: 2px solid #f8f8f8;
+  align-self: center;
+  width:100%;
+  margin-right: 280px;
+  margin-top: 180px;
 }
 
-.banner-btn {
-  position: absolute;
-  right: 500px;
-  top: 420px;
-}
-.banner-btn button {
+
+.banner .banner-content .banner-btn {
   padding: 5px 10px 5px 10px;
   color: #f8f8f8;
   background: transparent;
   background-position: right bottom;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
   border: 1px solid #f8f8f8;
   transition: all 0.6s ease;
   outline: none;
+  float:right;
+  margin-right:180px;
+  margin-top:10px;
+}
+
+.banner-btn button:hover {
+  background: white;
+  color: #000;
+  background-position: left bottom;
+}
+
+.banner2 {
+  width: 100%;
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-image: url("../Content/images/banner2.jpg");
+}
+.banner2 .banner-content {
+  position:relative;
+  display:block;
+  width:fit-content;
+  float:left;
+  margin-left:120px;
+  margin-top:40px;
+}
+.banner2 .banner-content .banner2-bottle {
+  float:left;
+  width:auto;
+  height:500px;
+}
+
+.banner2 .banner-content .banner2-title {
+  font-size: 28px;
+  color: #f8f8f8;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  align-self: center;
+  width:100%;
+  margin-left: 150px;
+  margin-top: 180px;
+  
+
+  
+}
+
+.banner2 .banner-content .banner2-btn {
+  padding: 5px 10px 5px 10px;
+  color: #f8f8f8;
+  background: transparent;
+  background-position: right bottom;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  border: 1px solid #f8f8f8;
+  transition: all 0.6s ease;
+  outline: none;
+  display:block;
+  text-align:center;
+  float:left;
+  margin-left:180px;
+  margin-top:10px;
+}
+
+.banner2-btn button:hover {
+  background: white;
+  color: #000;
+  background-position: left bottom;
+}
+.banner3 {
+  width: 100%;
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-image: url("../Content/images/banner3.jpg");
+}
+.banner3 .banner-content {
+  position:relative;
+  display:block;
+  width:fit-content;
+  float:right;
+  margin-right:120px;
+  margin-top:40px;
+}
+.banner3 .banner-content .banner-bottle {
+  float:right;
+  width:auto;
+  height:500px;
+  
+}
+
+.banner3 .banner-content .banner-title {
+  font-size: 28px;
+  color: #f8f8f8;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  align-self: center;
+  width:100%;
+  margin-right: 280px;
+  margin-top: 180px;
+}
+
+
+.banner3 .banner-content .banner-btn {
+  padding: 5px 10px 5px 10px;
+  color: #f8f8f8;
+  background: transparent;
+  background-position: right bottom;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  border: 1px solid #f8f8f8;
+  transition: all 0.6s ease;
+  outline: none;
+  float:right;
+  margin-right:180px;
+  margin-top:10px;
 }
 
 .banner-btn button:hover {
@@ -90,13 +204,13 @@ body {
 }
 .home-section-2 .home-section-2-row .home-section-2-col h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 400;
   transform: translate(rotateY(190));
 }
 .home-section-2 .home-section-2-row .home-section-2-col h1 {
   font-family: "Oswald", sans-serif;
-  font-size: 2.7rem;
+  font-size: 32px;
   margin-top: -20px;
   font-weight: 500;
 }
@@ -107,7 +221,7 @@ body {
 .home-section-2 .home-section-2-row .home-section-2-col .desc p {
   font-family: "Open Sans", sans-serif;
   color: #000;
-  font-size: 1rem;
+  font-size: 16px;
   margin-right: 40px;
 }
 .home-section-2 .home-section-2-row .home-section-2-col .desc button {
@@ -150,20 +264,19 @@ body {
   background-repeat: no-repeat;
 }
 .home-section-3 .home-section-3-row .home-section-3-col .content {
-  margin-top: 160px;
-  margin-left: 40px;
+  float:left;
 }
 
 .home-section-3 .home-section-3-row .home-section-3-col .content h5 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   color: #2b2929;
 }
 .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 32px;
   color: #2b2929;
   margin-right: 50%;
 }
@@ -197,21 +310,19 @@ body {
 }
 
 .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
-  margin-top: 160px;
-  position: absolute;
-  right: 50px;
+  float: right;
 }
 
 .home-section-3 .home-section-3-row .home-section-3-col-2 .content h5 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   color: #2b2929;
 }
 .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 32px;
   color: #2b2929;
 }
 
@@ -243,12 +354,16 @@ body {
 /* Home section 4 Start */
 .home-section-4 .home-section-4-row {
   margin-top: 100px;
+  margin-bottom: 100px;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
 }
 .home-section-4 .home-section-4-row .home-section-4-col {
   margin-bottom:50px;
 }
 .home-section-4 .home-section-4-row .home-section-4-col h2{
-  font-size:2rem;
+  font-size:32px;
   font-family: "Oswald", sans-serif;
   font-weight:500;
   text-align: center;
@@ -257,7 +372,7 @@ body {
 .home-section-4 .home-section-4-row .home-section-4-col p{
   font-family: "Open Sans", sans-serif;
   color: #000;
-  font-size: 1rem;
+  font-size: 16px;
   margin-right: 40px;
   margin:20px 180px 10px 180px;
   text-align:center;
@@ -269,30 +384,133 @@ body {
 /* Media Queries*/
 @media (max-width: 400px) {
   .banner {
+    
+    height: 280px;
+    background-image: linear-gradient(#362819b6,#362819b6),url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  
+  }
+  .banner .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:5%;
+    margin-top:40px;
+  }
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:200px;
+    
+  }
+  
+  .banner .banner-content .banner-title {
+    font-size: 16px;
+    
+    margin-right: 0;
+    margin-top: 80px;
+    text-align:center;
+
+  }
+  
+  
+  .banner .banner-content .banner-btn {
+    
+    font-size: 16px;
+    
+    
+    margin-right:30%;
+    margin-top:-5px;
+  }
+  
+  .banner2 {
     background-repeat: repeat-x;
     height: 280px;
+    background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner2.jpg");
   }
-  .banner-model {
-    height: 250px;
-    left: -150px;
-    top: 180px;
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:5%;
+    margin-top:40px;
   }
-  .banner-bottle {
-    height: 250px;
-    right: 10px;
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:200px;
   }
-  .banner-title {
-    right: 30px;
-    font-size: 1rem;
-    top: 230px;
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 18px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    
+    text-align:center;
+    width:100%;
+    margin-left:10px;
+    margin-top: 80px;
+    
+  
+    
   }
-  .banner-btn {
-    right: 180px;
-    top: 250px;
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:30%;
+    margin-top:-5px;
   }
-  .banner-btn button {
-    font-size: 1rem;
-  }
+  .banner3 {
+    background-repeat: repeat-x;
+      height: 280px;
+      background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner3.jpg");
+    }
+    .banner3 .banner-content {
+      position:relative;
+      display:block;
+      width:fit-content;
+      float:right;
+      margin-right:5%;
+      margin-top:40px;
+    }
+    .banner3 .banner-content .banner-bottle {
+      float:right;
+      width:auto;
+      height:200px;
+      
+    }
+    
+    .banner3 .banner-content .banner-title {
+      font-size: 16px;
+      
+      margin-right: 10px;
+      margin-top: 80px;
+      text-align:center;
+  
+    }
+    
+    
+    .banner3 .banner-content .banner-btn {
+      
+      font-size: 16px;
+      
+      
+      margin-right:30%;
+      margin-top:-5px;
+    }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 200px;
@@ -304,26 +522,30 @@ body {
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
-    font-size: 2.4rem;
+    font-size: 22px;
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col .content button {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
-    top:-80px;
-    right:0;
+    margin-top: 50px;
+    
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
-    font-size: 2.4rem;
+    font-size: 24px;
+    margin-left: 50%;
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
-    font-size: 1rem;
+    font-size: 16px;
+  }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content h5 {
+    margin-left: 50%;
   }
   .home-section-4 .home-section-4-row .home-section-4-col p{
     
-    font-size: 0.9rem;
+    font-size: 16px;
     
     margin:20px 10px 10px 10px;
     
@@ -333,30 +555,133 @@ body {
 
 @media (min-width: 401px) {
   .banner {
-    height: 350px;
+    
+    height: 280px;
+    background-image: linear-gradient(#362819b6,#362819b6),url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  
+  }
+  .banner .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:5%;
+    margin-top:40px;
+  }
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:200px;
     
   }
-  .banner-model {
-    height: 250px;
-    left: -150px;
-    top: 180px;
+  
+  .banner .banner-content .banner-title {
+    font-size: 16px;
+    
+    margin-right: 20%;
+    margin-top: 80px;
+    text-align:center;
+
   }
-  .banner-bottle {
-    height: 250px;
-    right: 10px;
+  
+  
+  .banner .banner-content .banner-btn {
+    
+    font-size: 16px;
+    
+    
+    margin-right:30%;
+    margin-top:-5px;
   }
-  .banner-title {
-    right: 30px;
-    font-size: 1rem;
-    top: 230px;
+  
+  .banner2 {
+    background-repeat: repeat-x;
+    height: 280px;
+    background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner2.jpg");
   }
-  .banner-btn {
-    right: 180px;
-    top: 250px;
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:5%;
+    margin-top:40px;
   }
-  .banner-btn button {
-    font-size: 1rem;
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:200px;
   }
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 18px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    
+    text-align:center;
+    width:100%;
+    margin-left:10px;
+    margin-top: 80px;
+    
+  
+    
+  }
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:30%;
+    margin-top:-5px;
+  }
+  .banner3 {
+    background-repeat: repeat-x;
+      height: 280px;
+      background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner3.jpg");
+    }
+    .banner3 .banner-content {
+      position:relative;
+      display:block;
+      width:fit-content;
+      float:right;
+      margin-right:5%;
+      margin-top:40px;
+    }
+    .banner3 .banner-content .banner-bottle {
+      float:right;
+      width:auto;
+      height:200px;
+      
+    }
+    
+    .banner3 .banner-content .banner-title {
+      font-size: 16px;
+      
+      margin-right: 10px;
+      margin-top: 80px;
+      text-align:center;
+  
+    }
+    
+    
+    .banner3 .banner-content .banner-btn {
+      
+      font-size: 16px;
+      
+      
+      margin-right:30%;
+      margin-top:-5px;
+    }
   .home-section-2 .home-section-2-row .home-section-2-col img {
     width: auto;
     height: 300px;
@@ -366,30 +691,29 @@ body {
     margin-left: 40px;
   }
   .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
-    font-size: 2.4rem;
+    font-size: 32px;
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col .content button {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
-    top:-40px;
-    right:10px;
+    margin-top: 50px;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
-    font-size: 2.4rem;
+    font-size: 32px;
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
-    font-size: 1rem;
+    font-size: 16px;
   }
   .home-section-4 .home-section-4-row .home-section-4-col p{
     
-    font-size: 0.9rem;
+    font-size: 16px;
     
     margin:20px 10px 10px 10px;
     
@@ -398,24 +722,134 @@ body {
 }
 @media (min-width: 601px) {
   .banner {
-    height: 400px;
-  }
-  .banner-model {
+    
     height: 350px;
+    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  
   }
-  .banner-bottle {
+  .banner .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:5%;
+    margin-top:40px;
+    
+  }
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:250px;
+    
+  }
+  
+  .banner .banner-content .banner-title {
+    font-size: 16px;
+    
+    margin-left: 38%;
+    margin-top: 80px;
+    text-align:center;
+
+  }
+  
+  
+  .banner .banner-content .banner-btn {
+    
+    font-size: 16px;
+    
+    
+    margin-right:17%;
+    margin-top:-5px;
+  }
+  
+  .banner2 {
+    background-repeat: repeat-x;
     height: 350px;
-    right: 30px;
+    background-image: url("../Content/images/banner2.jpg");
   }
-  .banner-title {
-    right: 70px;
-    font-size: 1.4rem;
-    top: 280px;
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:5%;
+    margin-top:40px;
   }
-  .banner-btn {
-    right: 270px;
-    top: 320px;
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:250px;
   }
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 18px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    
+    text-align:center;
+    width:50%;
+    margin-left:5%;
+    margin-top: 80px;
+    
+  
+    
+  }
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:15%;
+    margin-top:-5px;
+  }
+  .banner3 {
+    background-repeat: repeat-x;
+      height: 350px;
+      background-image:url("../Content/images/banner3.jpg");
+    }
+    .banner3 .banner-content {
+      position:relative;
+      display:block;
+      width:fit-content;
+      float:right;
+      margin-right:5%;
+      margin-top:40px;
+    }
+    .banner3 .banner-content .banner-bottle {
+      float:right;
+      width:auto;
+      height:250px;
+      
+    }
+    
+    .banner3 .banner-content .banner-title {
+      font-size: 16px;
+      
+      margin-left: 42%;
+      margin-top: 80px;
+      text-align:center;
+  
+    }
+    
+    
+    .banner3 .banner-content .banner-btn {
+      
+      font-size: 16px;
+      
+      
+      margin-right:17%;
+      margin-top:-5px;
+    }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -427,7 +861,7 @@ body {
   .home-section-3 .home-section-3-row .home-section-3-col .content h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 32px;
     color: #2b2929;
     margin-right: 50%;
   }
@@ -445,10 +879,13 @@ body {
     transition: all 0.5s ease;
     font-family: "Roboto", sans-serif;
   }
+  .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
+    margin-top: 50px;
+  }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 32px;
     color: #2b2929;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content button {
@@ -473,24 +910,134 @@ body {
 }
 @media (min-width: 769px) {
   .banner {
-    height: 450px;
-  }
-  .banner-model {
+    
     height: 400px;
+    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  
   }
-  .banner-bottle {
+  .banner .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:10%;
+    margin-top:40px;
+    
+  }
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:300px;
+    
+  }
+  
+  .banner .banner-content .banner-title {
+    font-size: 16px;
+    
+    margin-left: 30%;
+    margin-top: 80px;
+    text-align:center;
+
+  }
+  
+  
+  .banner .banner-content .banner-btn {
+    
+    font-size: 16px;
+    
+    
+    margin-right:20%;
+    margin-top:-5px;
+  }
+  
+  .banner2 {
+    background-repeat: repeat-x;
     height: 400px;
-    right: 50px;
+    background-image: url("../Content/images/banner2.jpg");
   }
-  .banner-title {
-    right: 70px;
-    font-size: 1.8rem;
-    top: 280px;
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:10%;
+    margin-top:40px;
   }
-  .banner-btn {
-    right: 300px;
-    top: 320px;
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:300px;
   }
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 18px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    
+    text-align:center;
+    width:50%;
+    margin-left:17%;
+    margin-top: 80px;
+    
+  
+    
+  }
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:20%;
+    margin-top:-5px;
+  }
+  .banner3 {
+    background-repeat: repeat-x;
+      height: 400px;
+      background-image:url("../Content/images/banner3.jpg");
+    }
+    .banner3 .banner-content {
+      position:relative;
+      display:block;
+      width:fit-content;
+      float:right;
+      margin-right:10%;
+      margin-top:40px;
+    }
+    .banner3 .banner-content .banner-bottle {
+      float:right;
+      width:auto;
+      height:300px;
+      
+    }
+    
+    .banner3 .banner-content .banner-title {
+      font-size: 16px;
+      
+      margin-left: 45%;
+      margin-top: 80px;
+      text-align:center;
+  
+    }
+    
+    
+    .banner3 .banner-content .banner-btn {
+      
+      font-size: 16px;
+      
+      
+      margin-right:15%;
+      margin-top:-5px;
+    }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -520,31 +1067,135 @@ body {
   }
 }
 @media (min-width: 996px) {
-  .banner-title {
-    right: 130px;
-    font-size: 1.8rem;
-    top: 280px;
-  }
-  .banner-bottle {
-    right: 100px;
-  }
   .banner {
-    height: 550px;
+    
+    height: 450px;
+    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  
   }
-  .banner-btn {
-    right: 400px;
-    top: 320px;
+  .banner .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:10%;
+    margin-top:40px;
+    
   }
-  .home-section-2 .home-section-2-row .home-section-2-col-2 img {
-    width: auto;
-    height: 350px;
-  }
-  .home-section-3 .home-section-3-row .home-section-3-col .content {
-    margin-top: 100px;
-    margin-left: 40px;
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:350px;
+    
   }
   
+  .banner .banner-content .banner-title {
+    font-size: 22px;
+    
+    margin-left: 35%;
+    margin-top: 80px;
+    text-align:center;
 
+  }
+  
+  
+  .banner .banner-content .banner-btn {
+    
+    font-size: 20px;
+    
+    
+    margin-right:20%;
+    margin-top:10px;
+  }
+  
+  .banner2 {
+    background-repeat: repeat-x;
+    height: 450px;
+    background-image: url("../Content/images/banner2.jpg");
+  }
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:10%;
+    margin-top:40px;
+  }
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:350px;
+  }
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 22px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    
+    text-align:center;
+    width:50%;
+    margin-left:20%;
+    margin-top: 80px;
+    
+  
+    
+  }
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:25%;
+    margin-top:10px;
+  }
+  .banner3 {
+    background-repeat: repeat-x;
+      height: 450px;
+      background-image:url("../Content/images/banner3.jpg");
+    }
+    .banner3 .banner-content {
+      position:relative;
+      display:block;
+      width:fit-content;
+      float:right;
+      margin-right:10%;
+      margin-top:40px;
+    }
+    .banner3 .banner-content .banner-bottle {
+      float:right;
+      width:auto;
+      height:350px;
+      
+    }
+    
+    .banner3 .banner-content .banner-title {
+      font-size: 20px;
+      
+      margin-left: 45%;
+      margin-top: 80px;
+      text-align:center;
+  
+    }
+    
+    
+    .banner3 .banner-content .banner-btn {
+      
+      font-size: 16px;
+      
+      
+      margin-right:17%;
+      margin-top:-5px;
+    }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
     margin-top: 110px;
     position: absolute;
@@ -572,32 +1223,158 @@ body {
 }
 @media (min-width: 1200px) {
   .banner {
+
     height: 600px;
+   
   }
-  .banner-model {
-    height: 550px;
-    left: -250px;
-    top: 180px;
+  .banner .banner-content {
+   
+    margin-right:10%;
+  
   }
-  .banner-bottle {
-    height: 550px;
-    right: 200px;
+  .banner .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:450px;
+    
   }
-  .banner-title {
-    top: 350px;
-    right: 240px;
+  
+  .banner .banner-content .banner-title {
+    font-size: 28px;
+    
+    margin-left: 35%;
+    margin-top: 180px;
   }
-  .banner-btn {
-    right: 500px;
-    top: 420px;
+  
+  
+  .banner .banner-content .banner-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+
+    float:right;
+    margin-right:21%;
+    margin-top:10px;
   }
+  
+
+  
+  .banner2 {
+    
+    height: 600px;
+    
+  }
+  .banner2 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:left;
+    margin-left:10%;
+    margin-top:40px;
+  }
+  .banner2 .banner-content .banner2-bottle {
+    float:left;
+    width:auto;
+    height:450px;
+  }
+  
+  .banner2 .banner-content .banner2-title {
+    font-size: 28px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    width:60%;
+    margin-left: 10%;
+    margin-top: 180px;
+    
+  
+    
+  }
+  
+  .banner2 .banner-content .banner2-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    display:block;
+    text-align:center;
+    float:left;
+    margin-left:20%;
+    margin-top:10px;
+  }
+  
+  .banner3 {
+   
+    height: 600px;
+    
+  }
+  .banner3 .banner-content {
+    position:relative;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-right:10%;
+    margin-top:40px;
+  }
+  .banner3 .banner-content .banner-bottle {
+    float:right;
+    width:auto;
+    height:450px;
+    
+  }
+  
+  .banner3 .banner-content .banner-title {
+    font-size: 28px;
+    color: #f8f8f8;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    width:100%;
+   
+    margin-right: 40%;
+    margin-top: 180px;
+  }
+  
+  
+  .banner3 .banner-content .banner-btn {
+    padding: 5px 10px 5px 10px;
+    color: #f8f8f8;
+    background: transparent;
+    background-position: right bottom;
+    font-size: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    border: 1px solid #f8f8f8;
+    transition: all 0.6s ease;
+    outline: none;
+    float:right;
+    margin-right:15%;
+    margin-top:10px;
+  }
+  
+  .banner-btn button:hover {
+    background: white;
+    color: #000;
+    background-position: left bottom;
+  }
+  
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 450px;
   }
   .home-section-3 .home-section-3-row .home-section-3-col .content {
-    margin-top: 160px;
-    margin-left: 40px;
+    float: left;
   }
   .home-section-3 .home-section-3-row .home-section-3-col {
     background-image: url("https://maelectrics.com/tf/html/arowana-preview/arowana/img/banner/10.png");
@@ -608,19 +1385,18 @@ body {
   }
 
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
-    margin-top: 200px;
-    right: 50px;
+    float: right;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content h5 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 16px;
     color: #2b2929;
   }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 32px;
     color: #2b2929;
   }
   
@@ -640,7 +1416,7 @@ body {
   .home-section-4 .home-section-4-row .home-section-4-col p{
     font-family: "Open Sans", sans-serif;
     color: #000;
-    font-size: 1rem;
+    font-size: 16px;
     margin-right: 40px;
     margin:20px 180px 10px 180px;
     text-align:center;

@@ -14,20 +14,23 @@ const Product = ({product}) => {
                 </div>
             </Link>
             
-            <Link to ={`/product/${product._id}`}>
+            
+            <div className="body">
             <span class="short-text">{product.brand}</span>
+            <Link to ={`/product/${product._id}`}>
                 <h3>
                     {product.name}
                 </h3>
-                
-            </Link>
+                </Link>
             
-            <div className="body">
+            
+            
                 <h4>
                 Rs.{product.price}
                 </h4>
                 
             </div>
+            
             <div className="cart-preview">
                 <div className="cart-btn">
                     <Link to={`/product/${product._id}`}><button>Shop Now</button></Link>

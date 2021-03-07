@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Components/Header';
-import Footer from './Components/Footer'
 import {Container} from 'react-bootstrap';
 import HomeScreen from './screens/Homescreen';
 import ProductScreen from './screens/ProductScreen';
@@ -21,6 +20,7 @@ import About from './screens/AboutScreen'
 import Contactus from './Components/Contactus'
 import RefundPolicy from './Components/RefundPolicy'
 import ReplacingPolicy from './Components/ReplacingPolicy'
+
 
 
 
@@ -58,7 +58,7 @@ const App = () => {
       <Container fluid style={{margin:'-20px 0 0 0',padding:0}}>
       <Route path='/' component={HomeScreen} exact />
       </Container>
-      <Footer />
+      
       </main>
       
     

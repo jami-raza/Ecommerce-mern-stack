@@ -69,7 +69,7 @@ hr{
 .bannertxt2{
   position: absolute;
   top: 50%;
-  font-size: 2.5rem;
+  font-size: 18px;
   font-family: ChocolateBox;
   text-align: center;
   color: rgb(218, 218, 218);
@@ -78,13 +78,13 @@ hr{
 
 .aboutfont1heading{
   font-family: ChocolateBox;
-  font-size:3.5rem;
+  font-size:32px;
   font-weight: bold;
   text-align: center;
   color: rgb(0, 0, 0)
   }
   .aboutcontent{
-      font-size: 1.19rem;
+      font-size: 18px;
       text-align: center;
       font-family: 'Poppins', sans-serif;
       color: rgb(0, 0, 0)
@@ -114,19 +114,19 @@ height: auto;
 
 .dvaboutfont1{
 font-family: ChocolateBox;
-font-size:3.125rem ;
+font-size:32px ;
 font-weight: bold;
 text-align: center;
 color: rgb(0, 0, 0)
 }
 .aboutcontent{
-    font-size: 1.125rem;
+    font-size: 16px;
     
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98)
 }
 .aboutcontent2{
-    font-size: 1.125rem;
+    font-size: 16px;
   text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(99, 98, 98)
@@ -149,13 +149,13 @@ color: rgb(0, 0, 0)
 
 .emailfont1{
     font-family: Poppins;
-     font-size: 1.5rem; 
+     font-size: 18px; 
      color:white;
 
 }
 .emailfont2{
     font-family: Poppins; 
-    font-size: 1rem; 
+    font-size: 16px; 
  
     color:white;
 }
@@ -190,40 +190,3 @@ color: rgb(0, 0, 0)
  
 
 
-@media(max-width:768px) {
-  .aboutbannerbackground{
-          
-    background-size: cover;
-    
-  }
-}
-
-  @media (min-width:300px){
-
-    html{
-    font-size:60%;
-    }
-     
-    }
-    @media (min-width:768px){
-
-        html{
-        font-size:70%;
-        }
-        
-         
-        }
-    
-    @media (min-width:900px){
-        html{
-          font-size: 80%;
-        }
-      
-    }
-    
-    
-    @media (min-width:1200px){
-        html{
-          font-size: 90%;
-        }
-    }

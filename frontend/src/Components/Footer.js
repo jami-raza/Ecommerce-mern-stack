@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/Footer.css";
 import { Container, Col, Row } from "react-bootstrap";
 import {Link} from 'react-router-dom'
-import Logo from "../Content/images/Silver.png";
+import Logo from "../Content/images/logo.png";
 const Footer = () => {
   return (
     <Container fluid className="contain">
