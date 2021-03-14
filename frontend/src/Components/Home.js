@@ -11,6 +11,7 @@ import Product from "../Components/Product";
 import Message from "../Components/Message";
 import Loader from "../Components/Loader";
 import Services from "../Components/Services"
+import ShareFacebook from "../Components/ShareFacebook"
 import Whatsapp from "../Components/Whatsapp"
 import Footer from "../Components/Footer"
 import {Link} from 'react-router-dom'
@@ -50,7 +51,7 @@ function Home() {
           <p className="banner-title">Start your Beard journey with the best thing in the Town</p>
         
         
-          <a href="#productContainer"><button className="banner-btn">Shop Now</button></a>
+          <button className="banner-btn">Shop Now</button>
           </div>
       </Container>
       </Carousel.Item>
@@ -164,6 +165,7 @@ function Home() {
           </Row>
         )}
       </Container>
+      <ShareFacebook/>
       <Scrollableimage/>
       <Services />
       <Whatsapp/>

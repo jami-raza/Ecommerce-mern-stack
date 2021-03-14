@@ -1,49 +1,91 @@
-.contain .footersection{
+ .footersection{
     background-color: rgb(32, 32, 32);
-    height: auto;
-    padding-left: 50px;
-    font-size: 1.2rem;
+    height: fit-content;
+    padding:20px;
+    font-size: 16px;
     color: #fff;
+    
 }
 a {
     text-decoration: none;
     color:#fff
 }
-.contain .footersection .firstsection{
+.footersection .firstsection{
      
-   padding: 40px; 
+   padding: 0px; 
 }
-.contain .footersection .sectioncontent1{
-    width: 60%;
+.footersection .firstsection .section1{
+    display:flex;
+    flex-direction:row ;
+    justify-content: center;
 }
-.contain .footersection .secondsection{
-    padding: 40px; 
+.footersection .sectioncontent1{
+    width:100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
 }
-.contain .footersection .thirdsection{
-    padding: 40px; 
+.footersection .secondsection{
+    padding: 20px; 
+    text-align: center;
+}
+.footersection .secondsection .section2 {
+    padding-top: 25px;
+}
+.footersection .thirdsection{
+    padding: 20px; 
     
 }
-.contain .footersection .fourthsection{
-    padding: 40px; 
+.footersection .fourthsection{
+    padding: 20px; 
+    text-align: center;
 }
-.contain .footersection .Logo{
+.footersection .Logo{
     width: 100px;
     height: 60px;
-    margin-bottom: 30px;
+    
 }
-.contain .footersection .linktag{
+.footersection .linktag{
     text-decoration: none;
-     
+    
   }
     
-.contain .footersection .linktag:hover{
+.footersection .linktag:hover{
     text-decoration: none;
     color: gray;
+    
   }
 
-  .contain .footersection .footerheading{     
-    font-size: 2.5rem;
+  .footersection .footerheading{     
+    font-size: 22px;
     font-weight: bold;
+    border-bottom:1px solid grey;
+    text-align: center;
+    padding:10px 0 10px 0;
 }
 
+.footersection .fourthsection .section2 {
+    padding-top: 25px;
+} 
 
+.footersection .fourthsection .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footersection .fourthsection .footer-icons .circle {
+    width:50px;
+    height:50px;
+    border-radius:10%;
+    background-color: white;
+    box-shadow: 1px 1px 6px #888888;
+    padding:7px;
+}
+.footersection .fourthsection .footer-icons .circle .instagram {
+
+  background: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
+  border-radius: 40%;
+  font-size:32px;
+  padding:4px;
+}

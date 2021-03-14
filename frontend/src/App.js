@@ -27,11 +27,15 @@ import ReplacingPolicy from './Components/ReplacingPolicy'
 const App = () => {
   return (
     <Router>
-    <Header/>
+    
     <main>
       
-      
-       <Container style={{marginTop:'20px',marginBottom:'20px'}}>
+    <Header/>
+       
+       <Container fluid style={{margin:'0px 0 0 0',padding:0}}>
+      <Route path='/' component={HomeScreen} exact />
+      </Container>
+      <Container >
       <Route path='/login' component={LoginScreen} />
       <Route path='/register' component={RegisterScreen} />
       <Route path='/profile' component={ProfileScreen} />
@@ -55,9 +59,7 @@ const App = () => {
       <Route path='/replacing-policy' component={ReplacingPolicy} />
 
       </Container>
-      <Container fluid style={{margin:'-20px 0 0 0',padding:0}}>
-      <Route path='/' component={HomeScreen} exact />
-      </Container>
+      
       
       </main>
       

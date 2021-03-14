@@ -8,7 +8,7 @@
     min-height: 500px; 
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -38,8 +38,33 @@
     color: #f4f4f4;
 }
 
-@media(max-width:650px) {
+@media(max-width:767px) {
     .parallax img {
         display:none;
     }
+    .subscription {
+        background-color: #2b2929;
+        padding:20px;
+        position: relative;
+        opacity: 0.8;
+        margin-top: 50px;
+    }
+    .parallax {
+        /* The image used */
+        background:linear-gradient(
+            #cdc9c951,#d0c0c09e
+          ), url(../Content/images/scroll-image.jpg);
+      
+        /* Set a specific height */
+        min-height: 400px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        z-index: 1;
+      }
 }
