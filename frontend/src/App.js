@@ -20,7 +20,8 @@ import About from './screens/AboutScreen'
 import Contactus from './Components/Contactus'
 import RefundPolicy from './Components/RefundPolicy'
 import ReplacingPolicy from './Components/ReplacingPolicy'
-
+import Ingredient from './screens/IngredientScreen'
+import Shop from './screens/ShopScreen'
 
 
 
@@ -57,6 +58,8 @@ const App = () => {
       <Route path='/contact-us' component={Contactus} />
       <Route path='/refund-policy' component={RefundPolicy} />
       <Route path='/replacing-policy' component={ReplacingPolicy} />
+      <Route path='/ingredient' component={Ingredient} />
+      <Route path='/shop' component={Shop} />
 
       </Container>
       

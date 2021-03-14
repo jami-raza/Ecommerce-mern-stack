@@ -19,8 +19,8 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Free Home Delivery</h5>
-              <p>Provide free home delivery for all product over $100</p>
+              <h5>DELIVERING NATION WIDE</h5>
+              <p>We are delivering our bottle of care to your door step, all over Pakistan</p>
             </Media.Body>
           </Media>
         </Col>
@@ -35,8 +35,9 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Quality Products</h5>
-              <p>We ensure the product quality that is our main goal</p>
+            <h5>PREMIUM QUALITY</h5>
+              <p>You will get exactly what you are paying for “a Premium Quality Product”</p>
+             
             </Media.Body>
           </Media>
         </Col>
@@ -51,8 +52,8 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Return</h5>
-              <p>Return any product within 3 days you buy lorem ipsum</p>
+            <h5>NO SIDE EFFECTS</h5>
+              <p>We know your worries, we have make sure that you will only get benefits from Baba Beard, NOTHING ELSE</p>
             </Media.Body>
           </Media>
         </Col>

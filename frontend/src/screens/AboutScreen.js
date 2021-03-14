@@ -9,11 +9,7 @@ import Services from "../Components/Services";
 function About() {
   return (
     <div>
-      <div>
-        <Container fluid className="bannr">
-          <div className="bannertxt2">BabaBeard - About us</div>
-        </Container>
-      </div>
+       
 
       <Container>
         <Row className="justify-content-center">
