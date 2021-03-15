@@ -29,7 +29,7 @@ function Shop() {
         <Container>
           <Row className="justify-content-center">
           <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping1">
-              <div className="dvshopfont1">Activate - Arvore Aquilaria </div>
+              <div className="dvshopfont1">Activate <br/>Arvore Aquilaria </div>
               <img className="dv9shopingimg1" src={ActivateVariant} />
               
               <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
@@ -86,7 +86,7 @@ function Shop() {
               
             </Col>
              <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping2">
-              <div className="dvshopfont1">Fill Patches - Grama Fresca</div>
+              <div className="dvshopfont1">Fill Patches <br/> Grama Fresca</div>
               <img className="dv9shopingimg1" src={FillPatchesVariant} />
               <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
                 <div className="dv9imgshopdescription">
@@ -144,7 +144,7 @@ function Shop() {
            
   
             <Col lg={4} xl={4} md={6} sm={8} xs={8} className="dvshoping3">
-              <div className="dvshopfont1">Nourish - Serien <br/>Epice</div>
+              <div className="dvshopfont1">Nourish <br/> Serien Epice</div>
               <img className="dv9shopingimg1" src={NourishVariant} />
               <div className="Ingredientimgoverlay Ingredientimgoverlay--blur">
                 <div className="dv9imgshopdescription">

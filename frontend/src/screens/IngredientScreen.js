@@ -172,38 +172,38 @@ function Ingredients() {
                         antibacterial, anti-inflammatory and antifungal properties which can detoxify and treat
                         infection while stimulating blood circulation to the skin.s</p>
                 </Col >
-                <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12  act2">
+                <Col lg={6} md={6} sm={6} xs={12} className="act2">
                     <img className="CastorOil"src={CastorOil}/>
-                </div>
+                </Col>
             </Row>
 
 
 
             <Row className="justify-content-around">
-                <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12  act1">
+            <Col lg={6} md={6} sm={6} xs={12} className="act1">
                     <p className="Title">Rosemary</p>
                     <p className="Description">
                         Gets easily absorbed into your bloodstream and stimulates hair
                         follicles.
                     </p>
-                </div>
-                <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12  act2">
+                </Col>
+                <Col lg={6} md={6} sm={6} xs={12} className="act2">
                     <img className="RosemaryImg" src={Rosemary}/>
-                </div>
+                </Col>
             </Row>
 
             <Row className="justify-content-around">
-                <div className="col-lg-6 col-sm-6 col-md-6 col-xs-12  act1">
+            <Col lg={6} md={6} sm={6} xs={12} className="act1">
                     <p className="Title">Tea Tree</p>
                     <p className="Description">
                         Protects facial hair, helps to unclog pores, gives your hair a
                         non-greasy and
                         healthy look.
                     </p>
-                </div>
-                <div className="col-lg-4 col-sm-6 col-md-6 col-xs-12  act2">
+                </Col>
+                <Col lg={6} md={6} sm={6} xs={12} className="act2">
                     <img className="TeatreeImg" src={TeaTree}/>
-                </div>
+                </Col>
             </Row>
 
 
@@ -253,26 +253,27 @@ function Ingredients() {
 
 
                                     <Row className="justify-content-around">
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act1">
+                                       <Col lg={6} md={6} sm={6} xs={12} className="act1">
+                                        
                                             <p className="Title">Jojoba Oil</p>
                                             <p className="Description">Extremely nourishing to damaged skin and hair, helps to prevent
                                                 protein and moisture loss in hair, protects against the sun with a thin lipid layer.</p>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act2">
+                                        </Col>
+                                        <Col lg={6} md={6} sm={6} xs={12} className="act2">
                                             <img className="JojobaOil" src={JojobaOil}/>
-                                        </div>
+                                        </Col>
                                     </Row>
                     
                                     <Row className="justify-content-around">
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act1">
+                                    <Col lg={6} md={6} sm={6} xs={12} className="act1">
                                             <p className="Title">Sweet Almond Oil </p>
                                             <p className="Description">It helps normalize the pH levels of the skin under the beard
                                                 and is known
                                                 for its ability to soothe inflamed skin, preventing beard itch while conditioning hair.</p>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act2">
+                                        </Col>
+                                        <Col lg={6} md={6} sm={6} xs={12} className="act2">
                                             <img className="SweetAlmondOil" src={SweetAlmond} />
-                                        </div>
+                                        </Col>
                                     </Row>
                     
                     
@@ -280,28 +281,28 @@ function Ingredients() {
                     
                     
                                     <Row className="justify-content-around">
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act1">
+                                    <Col lg={6} md={6} sm={6} xs={12} className="act1">
                                             <p className="Title">Peppermint</p>
                                             <p className="Description"> It helps to stimulate better blood flow beneath the skin which
                                                 brings more
                                                 nutrients to the hair follicles.</p>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act2">
+                                        </Col>
+                                        <Col lg={6} md={6} sm={6} xs={12} className="act2">
                                             <img className="PeppermintImg" src={Peppermint}/>
-                                        </div>
+                                        </Col>
                                     </Row>
                     
                                     <Row className="justify-content-around">
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act1">
+                                    <Col lg={6} md={6} sm={6} xs={12} className="act1">
                                             <p className="Title">Lavender</p>
                                             <p className="Description">
                                                 It has a calming fragrance and helps to grow hair thicker and
                                                 faster.
                                             </p>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6 col-md-6 col-sm-6 col-xs-12 act2">
+                                        </Col>
+                                        <Col lg={6} md={6} sm={6} xs={12} className="act2">
                                             <img className="LavenderImg" src={Lavender}/>
-                                        </div>
+                                        </Col>
                                     </Row>
                     
                     
