@@ -22,6 +22,7 @@ import RefundPolicy from './Components/RefundPolicy'
 import ReplacingPolicy from './Components/ReplacingPolicy'
 import Ingredient from './screens/IngredientScreen'
 import Shop from './screens/ShopScreen'
+import FAQS from './screens/FaqsScreen'
 
 
 
@@ -60,6 +61,7 @@ const App = () => {
       <Route path='/replacing-policy' component={ReplacingPolicy} />
       <Route path='/ingredient' component={Ingredient} />
       <Route path='/shop' component={Shop} />
+      <Route path='/faqs' component={FAQS} />
 
       </Container>
       

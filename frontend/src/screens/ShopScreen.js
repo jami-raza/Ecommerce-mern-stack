@@ -59,11 +59,12 @@ function Shop() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <div className="row">
-                        <div className="col-lg-6 col-sm-12 col-md-6">
+                    <Row>
+                   
+                    <Col lg={6} md={6} sm={12}> 
                           <img className="dv9shopingimg1" src={ActivateVariant} />
-                        </div>
-                        <div className="col-lg-6 col-sm-12 col-md-6">
+                        </Col>
+                        <Col lg={6} md={6} sm={12}> 
                           <div className="fontproduct">Activate - Beard Oil</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
@@ -78,8 +79,8 @@ function Shop() {
                           <div>
                             <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                           </div>
-                        </div>
-                      </div>
+                        </Col>
+                      </Row>
                 </Modal.Body>
               </Modal>
               
@@ -115,11 +116,12 @@ function Shop() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <div className="row">
-                        <div className="col-lg-6 col-sm-12 col-md-6">
+                    <Row>
+                    <Col lg={6} md={6} sm={12}> 
+                        
                           <img className="dv9shopingimg1" src={FillPatchesVariant} />
-                        </div>
-                        <div className="col-lg-6 col-sm-12 col-md-6">
+                        </Col>
+                        <Col lg={6} md={6} sm={12}> 
                           <div className="fontproduct">Fill Patches - Grama Fresca</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
@@ -134,8 +136,8 @@ function Shop() {
                           <div>
                             <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                           </div>
-                        </div>
-                      </div>
+                        </Col>
+                      </Row>
                 </Modal.Body>
               </Modal>
             </Col>
@@ -174,10 +176,10 @@ function Shop() {
                 </Modal.Header>
                 <Modal.Body>
                 <Row>
-                      <div className="col-lg-6 col-sm-12 col-md-6">
+                <Col lg={6} md={6} sm={12}> 
                         <img className="dv9shopingimg1" src={NourishVariant} />
-                      </div>
-                      <div className="col-lg-6 col-sm-12 col-md-6">
+                      </Col>
+                      <Col lg={6} md={6} sm={12}> 
                         <div className="fontproduct">Nourish - Beard Oil</div>
                         <hr />
                         <div className="fontprice">Rs 799.00</div>
@@ -193,7 +195,7 @@ function Shop() {
                         <div>
                           <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                         </div>
-                      </div>
+                      </Col>
                     </Row>
                 </Modal.Body>
               </Modal>

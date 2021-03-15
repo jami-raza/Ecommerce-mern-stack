@@ -53,7 +53,7 @@ const Services = () => {
             />
             <Media.Body>
             <h5>NO SIDE EFFECTS</h5>
-              <p>We know your worries, we have make sure that you will only get benefits from Baba Beard, NOTHING ELSE</p>
+              <p>We know your worries, we have made sure that you will only get benefits from Baba Beard, NOTHING ELSE</p>
             </Media.Body>
           </Media>
         </Col>
