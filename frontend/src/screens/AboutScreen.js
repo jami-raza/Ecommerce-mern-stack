@@ -105,10 +105,10 @@ function About() {
             <div className="emaildiv2">
               <br/>
               <p className="emailfont1">
-                To get the news and updates related to Baba Beard{" "}
+               LET'S KEEP IN TOUCH{" "}
               </p>
               
-              <p className="emailfont2">Enter your email for Subscription. </p>
+              <p className="emailfont2">Get email offers & the latest news from us </p>
 
               <input
                 className="emailinput"

@@ -11,10 +11,7 @@ function Shop() {
     const [nourish, setNourish] = useState(false);
     return (
       <div>
-        <Container>
-          <div className="dvshop1">Beard Oil Variants</div>
-          <hr />
-        </Container>
+     
         <Container fluid>
           <Row>
             <div className="col-lg-12 col-sm-12 col-md-12">
@@ -42,11 +39,7 @@ function Shop() {
                 
               </div>
               
-              <button className="btnshop2" onClick={() => setActivate(true)}>
-                    Quick View  
-                    
-                  </button>
-              
+         
               <Modal
                 size="lg"
                 show={activate}
@@ -100,10 +93,7 @@ function Shop() {
                   </button>
                 </div>
               </div>
-              <button className="btnshop2" onClick={() => setFillPatches(true)}>
-                    Quick View  
-                    
-                  </button>
+              
             <Modal
                 size="lg"
                 show={fillpatches}
@@ -159,10 +149,7 @@ function Shop() {
                   </button>
                 </div>
               </div>
-              <button className="btnshop2" onClick={() => setNourish(true)}>
-                    Quick View  
-                    
-                  </button>
+               
             <Modal
                 size="lg"
                 show={nourish}

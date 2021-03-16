@@ -1,13 +1,12 @@
 import React from 'react';
 import {Container, Col, Row,Card,Accordion,Button} from 'react-bootstrap';
 import '../Style/FAQS.css';
- 
+
  
 
 function FAQS(){
     return(
         <div> 
-
 
 <Container>
     <Container>
@@ -28,7 +27,7 @@ function FAQS(){
  
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
       <p className="collapsible">
                                 Q. Are there any Side Effects?
 
@@ -47,7 +46,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="2">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="2">
       <p className="collapsible">
                                 Q. Can Beard Oil stop my skin from being itchy?
 
@@ -70,7 +69,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="3">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
       <p className="collapsible">
                                 Q. How often should I use beard oil?
 
@@ -96,7 +95,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="4">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="4">
         
       <p className="collapsible">
                                 Q. How long will the beard oil scent last? 
@@ -121,7 +120,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="5">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="5">
       <p className="collapsible">
                                 Q. What can I do to  grow an awesome beard? 
 
@@ -151,7 +150,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="6">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="6">
       <p className="collapsible">
                                 Q. What is the life of the product?
 
@@ -171,7 +170,7 @@ function FAQS(){
 
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="7">
+      <Accordion.Toggle as={Card.Header} variant="link" eventKey="7">
           
       <p className="collapsible">
                                 Q. If i can grow a beard or my beard is patchy, will this give me the type of beard

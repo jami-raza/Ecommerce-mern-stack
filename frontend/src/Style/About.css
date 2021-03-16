@@ -85,6 +85,7 @@ padding-left: 10px;
   font-family:"Oswald", sans-serif;
    font-size: 20px; 
    color:white;
+   text-align: center;
   
 }
 .emailfont2{
@@ -135,7 +136,7 @@ padding-left: 10px;
     .emailfont1{
      
        font-size: 18px; 
-      
+       text-align: left;
       
     }
     .emailfont2{

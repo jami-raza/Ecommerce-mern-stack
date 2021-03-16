@@ -53,7 +53,7 @@ color: rgb(83, 83, 83)
     max-height: auto;
     padding: 0 18px;
     
-    background-color: #f1f1f1;
+   
     transition: max-height 0.2s ease-out;
   }
   .collapsible:after {
