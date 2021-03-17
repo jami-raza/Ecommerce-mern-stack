@@ -15,9 +15,11 @@ import ShareFacebook from "../Components/ShareFacebook"
 import Whatsapp from "../Components/Whatsapp"
 import Footer from "../Components/Footer"
 import {Link} from 'react-router-dom'
+import animation1 from '../Content/images/Animation/ani1.JPG';
+import animation2 from '../Content/images/Animation/ani2.JPG'
+import animation3 from '../Content/images/Animation/ani3.jpg'
 
-
-
+import '../Style/Animation.css';
 function Home() {
   const dispatch = useDispatch();
 
@@ -57,7 +59,7 @@ function Home() {
       
       <Container className="home-section-2">
         <Row className="justify-content-center home-section-2-row">
-          <Col md={6} className=" home-section-2-col">
+          <Col md={6} className="home-section-2-col">
             <h2>Providing The Premium Quality </h2>
             <br />
             <h1>Beard Oil For You</h1>
@@ -79,9 +81,19 @@ function Home() {
               <Link to="/about-us"><button>Read More</button></Link>
             </div>
           </Col>
-          <Col md={6} sm={10} xs={10} className=" home-section-2-col-2">
-            <img src="//cdn.shopify.com/s/files/1/0114/0994/8731/files/about-1_large.png?v=1568629696" />
-          </Col>
+          
+          <Col lg={3} xl={3} md={12} sm={12} xs={12} className="anicol">
+        <img className="an1" src={animation1}/> 
+        <img  className="an2" src={animation2}/>
+ 
+        
+        </Col>
+
+        <Col lg={3} xl={3} md={12} sm={12} xs={12} className="anicol">
+ 
+        <img  className="an3" src={animation3}/>
+        
+        </Col>
         </Row>
       </Container>
       <Container fluid className="home-section-3">
