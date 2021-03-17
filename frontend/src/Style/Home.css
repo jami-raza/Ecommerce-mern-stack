@@ -198,6 +198,7 @@ body {
 /* Home section 2 Start */
 .home-section-2 .home-section-2-row {
   margin-top: 10px;
+  margin-bottom: 100px;
 }
 .home-section-2 .home-section-2-row .home-section-2-col {
   margin-top: 60px;
@@ -511,6 +512,15 @@ body {
       margin-right:30%;
       margin-top:-5px;
     }
+
+  
+      /* For animation */
+      .home-section-2 .home-section-2-row {
+           
+       margin-bottom: 250px;
+     }
+     
+    
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 200px;
@@ -552,6 +562,11 @@ body {
     
   }
 }
+
+
+
+
+
 
 @media (min-width: 401px) {
   .banner {
@@ -682,6 +697,13 @@ body {
       margin-right:30%;
       margin-top:-5px;
     }
+
+ /* For animation */
+ .home-section-2 .home-section-2-row {
+      
+  margin-bottom: 350px;
+}
+
   .home-section-2 .home-section-2-row .home-section-2-col img {
     width: auto;
     height: 300px;
@@ -720,6 +742,9 @@ body {
     
   }
 }
+ 
+ 
+ 
 @media (min-width: 601px) {
   .banner {
     
@@ -850,6 +875,13 @@ body {
       margin-right:17%;
       margin-top:-5px;
     }
+
+     /* For animation */
+     .home-section-2 .home-section-2-row {
+      
+      margin-bottom: 320px;
+    }
+
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -1038,6 +1070,11 @@ body {
       margin-right:15%;
       margin-top:-5px;
     }
+   /* For animation */
+    .home-section-2 .home-section-2-row {
+      
+      margin-bottom: 450px;
+    }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -1195,6 +1232,12 @@ body {
       
       margin-right:17%;
       margin-top:-5px;
+    }
+
+    /* For animation */
+    .home-section-2 .home-section-2-row {
+      
+      margin-bottom: 10px;
     }
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
     margin-top: 110px;
