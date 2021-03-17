@@ -19,7 +19,7 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>DELIVERING NATION WIDE</h5>
+              <h5>DELIVERING NATION-WIDE</h5>
               <p>We are delivering our bottle of care to your door step, all over Pakistan</p>
             </Media.Body>
           </Media>
@@ -53,7 +53,7 @@ const Services = () => {
             />
             <Media.Body>
             <h5>NO SIDE EFFECTS</h5>
-              <p>We know your worries, we have made sure that you will only get benefits from Baba Beard, NOTHING ELSE</p>
+              <p>We know your worries, we have made sure that you will only get benefits from Baba Beard.</p>
             </Media.Body>
           </Media>
         </Col>
@@ -69,7 +69,7 @@ const Services = () => {
             />
             <Media.Body>
               <h5>Online Support</h5>
-              <p>We ensure the product quality that you can trust easily</p>
+              <p> Connect with us <a href="mailto:support@bababeard.com">@support.bababeard.com</a> for any query </p>
             </Media.Body>
           </Media>
         </Col>
