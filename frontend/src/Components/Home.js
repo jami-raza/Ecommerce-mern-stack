@@ -38,9 +38,7 @@ function Home() {
   };
   return (
     <div>
-      
-      <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} indicators={false} controls={false}>
-      <Carousel.Item>  
+     
         <Container fluid className="banner">
         <div className="banner-content">
           {/*<img src={Model} className="banner-model"/>
@@ -54,38 +52,7 @@ function Home() {
           <button className="banner-btn">Shop Now</button>
           </div>
       </Container>
-      </Carousel.Item>
-      <Carousel.Item>
-
-      <Container fluid className="banner2">
-        <div className="banner-content">
-          {/*<img src={Model} className="banner-model"/>
-          <img src={Model2} className="banner-model"/>*/}
-          <img src={FillPatches} className="banner2-bottle" />
-        
-          <p className="banner2-title">Own your Beard with pride and give the care it Needs!</p>
-                
-          <button className="banner2-btn"><a href="#productContainer" style={{color:'#f8f8f8',textDecoration:'none'}}>Shop Now</a></button>
-        </div>
-      </Container>
-           
-        </Carousel.Item>
-      <Carousel.Item>
-
-      <Container fluid className="banner3">
-        <div className="banner-content">
-          {/*<img src={Model} className="banner-model"/>
-          <img src={Model2} className="banner-model"/>*/}
-          <img src={Nourish} className="banner-bottle" />
-        
-          <p className="banner-title">The Journey must be awesome, Lets fill those patches to make it more</p>
-                
-          <button className="banner-btn"><a href="#productContainer" style={{color:'#f8f8f8',textDecoration:'none'}}>Shop Now</a></button>
-        </div>
-      </Container>
-           
-        </Carousel.Item>
-    </Carousel>   
+       
          
       
       <Container className="home-section-2">
@@ -167,11 +134,15 @@ function Home() {
           </Row>
         )}
       </Container>
-      <ShareFacebook/>
+      <div className="elfsight-app-aebaa9c2-8a41-4219-af28-da4278c779c7"></div>
+      <div className="hidden">
+        
+      </div>
       <Scrollableimage/>
       <Services />
       <Whatsapp/>
-      <Footer/>
+      
+      
       {/*<Container fluid className="dvnav">
         <Row className="justify-content-between">
             <div className="col-lg-5 col-sm-12 col-md-6 navbarcontent1">
@@ -623,4 +594,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;

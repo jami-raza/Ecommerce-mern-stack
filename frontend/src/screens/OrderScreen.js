@@ -47,7 +47,7 @@ const OrderScreen = ({ match }) => {
     <Message variant="danger">{error}</Message>
   ) : (
     <>
-      <h1>Order {order._id}</h1>
+      <h1>Order Details</h1>
       <Row>
         <Col md={8}>
           <ListGroup>
@@ -60,7 +60,12 @@ const OrderScreen = ({ match }) => {
               </p>
               <p>
                 <strong>Email: </strong>{" "}
-                <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
+                <a style={{color:'inherit'}} href={`mailto:${order.user.email}`}>{order.user.email}</a>
+              </p>
+              
+              <p>
+                <strong>Phone:</strong>
+                {order.shippingAddress.postalCode}
               </p>
               <p>
                 <strong>Address :</strong>
@@ -80,7 +85,7 @@ const OrderScreen = ({ match }) => {
               <p>
                 {" "}
                 <strong>Method: </strong>
-                {order.paymentMethod}
+                Cash on delivery
               </p>
               {order.isPaid ? (
                 <Message variant="success">Paid on {order.paidAt}</Message>
@@ -100,6 +105,7 @@ const OrderScreen = ({ match }) => {
                       <Row>
                         <Col md={1}>
                           <Image
+                          className="bottle-image"
                             src={item.image}
                             alt={item.name}
                             fluid
@@ -107,12 +113,12 @@ const OrderScreen = ({ match }) => {
                           />
                         </Col>
                         <Col>
-                          <Link to={`/product/${item.product}`}>
-                            {item.name}
+                          <Link style={{color:'black'}} to={`/product/${item.product}`}>
+                            <p>{item.name}</p>
                           </Link>
                         </Col>
                         <Col md={4}>
-                          {item.qty} x {item.price} = ${item.qty * item.price}
+                          <p>{item.qty} x {item.price} = Rs {item.qty * item.price}</p>
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -130,21 +136,21 @@ const OrderScreen = ({ match }) => {
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
-                  <Col>Items</Col>
-                  <Col>${order.itemsPrice}</Col>
+                  <Col><p>Items</p></Col>
+                  <Col><p>Rs{order.itemsPrice}</p></Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
-                  <Col>Shipping</Col>
-                  <Col>${order.shippingPrice}</Col>
+                  <Col><p>Shipping</p></Col>
+                  <Col><p>Rs{order.shippingPrice}</p></Col>
                 </Row>
               </ListGroup.Item>
               
               <ListGroup.Item>
                 <Row>
-                  <Col>Total Price</Col>
-                  <Col>${order.itemsTotalPrice}</Col>
+                  <Col><p>Total Price</p></Col>
+                  <Col><p>Rs{order.itemsTotalPrice}</p></Col>
                 </Row>
               </ListGroup.Item>
               

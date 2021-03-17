@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import {Container} from 'react-bootstrap';
 import HomeScreen from './screens/Homescreen';
 import ProductScreen from './screens/ProductScreen';
@@ -65,7 +66,7 @@ const App = () => {
 
       </Container>
       
-      
+      <Footer/>
       </main>
       
     

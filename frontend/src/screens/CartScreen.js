@@ -44,12 +44,12 @@ const CartScreen = ({ match, location, history }) => {
             <ListGroup.Item key={item.product}>
               <Row>
                 <Col md={2}>
-                  <Image src={item.image} alt={item.name} fluid rounded/>
+                  <Image src={item.image} alt={item.name} fluid rounded className="bottle-image"/>
                 </Col>
                 <Col md={3}>
-                  <Link style={{color:'black'}} to={`/product/${item.product}`}>{item.name}</Link>
+                  <Link style={{color:'black'}} to={`/product/${item.product}`}><h3>{item.name}</h3></Link>
                 </Col>
-                <Col md={2}>${item.price}</Col>
+                <Col md={2}><p>${item.price}</p></Col>
                 <Col md={2}>
                 <Form.Control
                           as='select'
@@ -88,7 +88,7 @@ const CartScreen = ({ match, location, history }) => {
             items
            
           </h2>
-          $ {cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
+         <p> $ {cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}</p>
         </ListGroup.Item>
         <ListGroup.Item>
           <Button className="btn-block" disabled={cartItems.length === 0}

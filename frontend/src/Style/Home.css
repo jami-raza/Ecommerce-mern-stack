@@ -21,13 +21,15 @@ body {
 }
 
 .banner {
-  width: 100%;
-  max-width: 100%;
-  background-position: center center;
+  width: auto;
+  
+  background-position:-50% 100%;
   background-size: cover;
+  
   background-repeat: no-repeat;
   height: auto;
-  background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+  background-image: url("../Content/images/Banner.png");
+  position:relative;
 }
 .banner .banner-content {
   position:relative;
@@ -381,6 +383,15 @@ body {
 
 
 /* Home section 4 Ends */
+.hidden {
+  position: absolute;
+  height: 100px;
+  background-color: #fff;
+  z-index: 99999 !important;
+  width:100%;
+  margin-top: -47px;
+}
+
 /* Media Queries*/
 @media (max-width: 400px) {
   .banner {
@@ -912,7 +923,7 @@ body {
   .banner {
     
     height: 400px;
-    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    background-image: url("../Content/images/Banner.png");
   
   }
   .banner .banner-content {
@@ -1069,8 +1080,8 @@ body {
 @media (min-width: 996px) {
   .banner {
     
-    height: 450px;
-    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    height: 650px;
+    background-image: url("../Content/images/Banner.png");
   
   }
   .banner .banner-content {
@@ -1223,8 +1234,8 @@ body {
 }
 @media (min-width: 1200px) {
   .banner {
-
-    height: 600px;
+    object-fit: contain;
+    height:650px;
    
   }
   .banner .banner-content {
@@ -1266,7 +1277,7 @@ body {
 
   
   .banner2 {
-    
+    background-position:10vh;
     height: 600px;
     
   }

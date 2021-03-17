@@ -8,7 +8,7 @@
     min-height: 500px; 
   
     /* Create the parallax scrolling effect */
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -28,6 +28,8 @@
     padding:20px;
     position: relative;
     opacity: 0.8;
+    width:100%;
+    margin: 20px 0px 20px 0px;
 }
 
 .subscription h5{
