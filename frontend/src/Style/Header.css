@@ -1,13 +1,108 @@
 .top-navbar {
-    position: fixed;
+    padding:5px;
+    background-color: #2b2929;
+   width: 100%;
+}
+.top-navbar-scroll {
+    padding:5px;
+    background-color: #f4f4f4;
+   width: 100%;
+   position: fixed;
+   z-index:9999999;
+}
+.brand-link {
+    display: inline-flex;
+    margin:0 auto;
+}
+.brand-link h3 {
+    color:#fff;
+    font-size:28px;
+    font-family: ChocolateBox;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    
+}
+.brand-link img{
+    width:156px;
+    height:40px;
+    
+    
+
+
+}
+#username {
+    color:#fff;
+}
+.nav-collapse {
+    opacity: 0.5;
+    background-color: black;
+}
+.header-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.nav-font {
+    font-family:'Oswald';
+    font-size:14px;
+    font-weight: normal;
+    color:#f4f4f4;
+}
+.nav-font-scroll {
+    font-family:'Oswald';
+    font-size:14px;
+    font-weight: normal;
+    color:#2b2929;
+}
+.nav-icon {
+    padding-right: 5px;
+}
+.mob-nav {
     display: none;
-    width: 100%;
-    height:20px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
+}
+@media(max-width:950px){
+    .top-navbar {
+        display:none;
+    }
+    .mob-nav{
+        display: block;
+        width: 100%;
+        background-color: #2b2929;
+    }
+    .mob-nav-scroll {
+        display: block;
+        width: 100%;
+        background-color: #f4f4f4;
+        position:fixed;
+        z-index:99999999;
+    }
+    .mob-nav-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-items {
+        background-color: #2b2929;
+        width:100vw;
+        padding-left:10px;
+        }
+        .menu-items-scroll {
+            background-color: #f4f4f4;
+        width:100vw;
+        padding-left:10px;
+        margin-top:-10px;
+        }
+    .custom-dropdown {
+        padding: 1.5rem 2rem;
+        background-color: transparent;
+        color: #f4f4f4;
+    }
+    .custom-dropdown-scroll {
+        padding: 1.5rem 2rem;
+        background-color: transparent;
+        color: #2b2929;
+    }
 }

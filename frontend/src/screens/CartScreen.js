@@ -47,9 +47,9 @@ const CartScreen = ({ match, location, history }) => {
                   <Image src={item.image} alt={item.name} fluid rounded/>
                 </Col>
                 <Col md={3}>
-                  <Link style={{color:'black'}} to={`/product/${item.product}`}>{item.name}</Link>
+                  <Link style={{color:'black'}} to={`/product/${item.product}`}><p>{item.name}</p></Link>
                 </Col>
-                <Col md={2}>${item.price}</Col>
+                <Col md={2}><p>Rs{item.price}</p></Col>
                 <Col md={2}>
                 <Form.Control
                           as='select'
@@ -88,13 +88,13 @@ const CartScreen = ({ match, location, history }) => {
             items
            
           </h2>
-          $ {cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
+          <p>Rs {cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}</p>
         </ListGroup.Item>
         <ListGroup.Item>
           <Button className="btn-block" disabled={cartItems.length === 0}
           onClick={ckeckoutHandler}
           >
-            Proceed to Checkout
+            <p>Proceed to Checkout</p>
           </Button>
         </ListGroup.Item>
       </ListGroup>

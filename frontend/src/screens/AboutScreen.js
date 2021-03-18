@@ -9,15 +9,11 @@ import Services from "../Components/Services";
 function About() {
   return (
     <div>
-      <div>
-        <Container fluid className="bannr">
-          <div className="bannertxt2">BabaBeard - About us</div>
-        </Container>
-      </div>
+       
 
       <Container>
         <Row className="justify-content-center">
-          <Col lg={6} xl={6} md={8} sm={8} xs={8} className="aboutsection1">
+          <Col lg={6} xl={6} md={10} sm={12} xs={12} className="aboutsection1">
             <div>
               <p className="aboutfont1heading"> Our story </p>
 
@@ -106,12 +102,13 @@ function About() {
       <Container fluid>
         <Row className="justify-content-center emaildivbackground">
           <Col lg={5} xl={5} md={5} sm={12} xs={12} className="emaildiv">
-            <div>
+            <div className="emaildiv2">
+              <br/>
               <p className="emailfont1">
-                To get the news and updates related to Baba Beard{" "}
+               LET'S KEEP IN TOUCH{" "}
               </p>
-              <br />
-              <p className="emailfont2">Enter your email for Subscription. </p>
+              
+              <p className="emailfont2">Get email offers & the latest news from us </p>
 
               <input
                 className="emailinput"

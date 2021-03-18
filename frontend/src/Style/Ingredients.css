@@ -1,152 +1,581 @@
-
 @font-face{
   src: url(../Content/C_BOX_D.TTF);
   font-family: ChocolateBox;
 }
-
 .ingredienthead{
-    margin-top: 50px;
-    margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 .IngredientMainHeading{
- text-align:center;
+text-align:center;
 }
 .ingcursor{
-   cursor: pointer;
+ cursor: pointer;
+
 }
 
 .column {
-    float: left;
-    
-    padding: 50px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-  }
+  float: left;
   
-  .containerTab {
-      margin-top: 50px;
-    padding: 20px;
-    color: black;
-  
-    border : 1px solid black;
-    margin-bottom: 50px;
+  padding: 50px;
+  text-align: center;
+  font-size:25px;
+  cursor: pointer;
+  color: white;
+}
 
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Closable button inside the container tab */
-  .closebtn {
-    float: right;
-    color: rgb(0, 0, 0);
-    width: 50px;
-    height: 50px;
+.containerTab {
+    margin-top: 50px;
+  padding: 20px;
+  color: black;
 
-    font-size: 35px;
-    cursor: pointer;
-  }
+  border : 1px solid black;
+  margin-bottom: 50px;
 
-  .ingimage1{
-      
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+
+  font-size:35px;
+  cursor: pointer;
+}
+
+ 
+
+  .ArganOilImg{
     width: 100%;
-      max-width: 400px;
-      padding-left: 40px;
-      padding-right: 40px;
+    height: 100%;
+    max-width:360px;
+    max-height:300px ;
+    padding-left: 30px;
+  }
+  .CastorOil{
+    width: 100%;
+    height:100%;
+    max-width:370px;
+     max-height:380px;
+  }
+  .EucalyptusImg{
+    width:470px;
+     height:340px; 
+     padding-left: 60px;
+  }
+  .RosemaryImg{
+    width:470px;
+     height:300px;
+     padding-left: 15px;
+  }
+  .TeatreeImg{
+    width:420px;
+     height:330px;
+     padding-left: 70px;
+  }
+  .PeppermintImg{
+    width:320px;
+    height:300px;  
+    padding-left: 50px;
+  }
+  .LavenderImg{
+    width:470px;
+     height:300px; 
+    padding-left: 45px;
+    padding-top: 10px;
+  }
+  .JojobaOil{
+    width: 100%;
+    height:100%;
+    max-width: 320px;
+    max-height:300px;
+  }
+  .SweetAlmondOil{
+    width: 100%;
+    height: 100%;
+    max-width:350px ;
+    max-height:420px;
+    padding-top: 30px;
+   }
+
+  .Description{
+      
+      font-size: 20px;
+      text-align: center;
+      
+    }
+    .Title{
+      font-family: ChocolateBox;
+      font-size: 50px;
+      font-weight: bold;
+      padding-top: 70px;
+      text-align: center;
+     
+    }
+    .MainTitle{
+      font-family: ChocolateBox;
+      font-size:70px;
+      font-weight: bold;
+      padding-top: 70px;
+   
+      text-align: center;
+     
+    }
+   
+  .btningredients{
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+        height: 60px;
+        width: 150px;
+        border-radius: 5px ;
+        border: 1px solid white;
+        text-align: center;
+  }
+  .btningredients:hover{
+      color: black;
+      background-color: white;
+  }
+  .divbtning{
+      justify-content: center;
+      display: flex;
+  }
+  .Footerrowing{
+      background-color:rgb(38, 40, 43);
+      margin-top: 80px;
+     
+  }
+  .act1 {
+  
+     
     
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+  .act2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+
+  @media (max-width:1200px ){
+    .Description{
+      
+      font-size: 18px;
+      text-align: center;
+      
+    }
+    .Title{
+      font-family: ChocolateBox;
+      font-size: 48px;
+      font-weight: bold;
+      padding-top: 70px;
+      text-align: center;
+     
     }
 
     .ArganOilImg{
-      width:360px;
-      height:300px ;
+      width: 100%;
+      height: 100%;
+      max-width:330px;
+      max-height:270px ;
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+
+    .JojobaOil{
+      width: 100%;
+      height:100%;
+      max-width: 320px;
+      max-height:300px;
+      padding-top: 50px;
+    }
+
+
+    .EucalyptusImg{
+      width: 100%;
+      height: 100%;
+      max-width:340px;
+       max-height:380px; 
+       padding-top: 20px;
+       padding-left: 30px;
+    
+    }
+    .RosemaryImg{
+      width: 100%;
+      height: 100%;
+      max-width:340px;
+       max-height:380px;
+       padding-top: 30px;
+      
+    }
+
+    .CastorOil{
+      width: 100%;
+      height:100%;
+      max-width:370px;
+       max-height:380px;
+       padding-top: 60px;
+    }
+
+    .TeatreeImg{
+      height: 100%;
+      width: 100%;
+      max-width:420px;
+       max-height:330px;
+       padding-left: 40px;
+    }
+
+    .SweetAlmondOil{
+      width: 100%;
+      height: 100%;
+      max-width:300px ;
+      max-height:360px;
+      padding-left: 30px;
+      padding-top: 50px;
+     }
+
+     .PeppermintImg{
+      width: 100%;
+      height: 100%;
+      max-width:300px;
+      max-height:280px;  
+      padding-left: 20px;
+      padding-top: 0px;
+    }
+
+    .LavenderImg{
+      width: 100%;
+      height: 100%;
+      max-width:470px;
+       max-height:300px;
+      padding-left: 45px;
+      padding-top: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px ){
+
+ 
+  .Description{
+      
+    font-size: 16px;
+    text-align: left;
+    
+  }
+  .Title{
+    font-family: ChocolateBox;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: left;
+   
+  }
+  
+.ArganOilImg{
+  width: 100%;
+  height: 100%;
+  max-width:330px;
+  max-height:270px ;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.JojobaOil{
+  width: 100%;
+  height:100%;
+  max-width: 320px;
+  max-height:280px;
+  padding-top: 80px;
+}
+
+
+.EucalyptusImg{
+  width: 100%;
+  height: 100%;
+  max-width:340px;
+   max-height:380px; 
+   padding-top: 20px;
+   padding-left: 30px;
+
+}
+.RosemaryImg{
+  width: 100%;
+  height: 100%;
+  max-width:340px;
+   max-height:380px;
+   padding-top: 30px;
+  
+}
+
+.CastorOil{
+  width: 100%;
+  height:100%;
+  max-width:370px;
+   max-height:380px;
+   padding-top: 60px;
+}
+
+.TeatreeImg{
+  height: 100%;
+  width: 100%;
+  max-width:420px;
+   max-height:330px;
+   padding-left: 40px;
+}
+
+.SweetAlmondOil{
+  width: 100%;
+  height: 100%;
+  max-width:450px ;
+  max-height:350px;
+  padding-top: 80px;
+  padding-left: 0px;
+ }
+
+ .PeppermintImg{
+  width: 100%;
+  height: 100%;
+  max-width:360px;
+  max-height:280px;  
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.LavenderImg{
+  width: 100%;
+  height: 100%;
+  max-width:470px;
+   max-height:320px;
+  padding-left: 15px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+ 
+
+    
+ 
+ 
+  
+    
+   
+  @media (max-width: 768px) {  
+
+    
+     
+
+    .ArganOilImg{
+      width: 100%;
+      height: 100%;
+      max-width:360px;
+      max-height:300px ;
+      padding-top: 50px;
       padding-left: 30px;
     }
 
     .EucalyptusImg{
-      width:470px;
-       height:340px; 
+      width: 100%;
+      height: 100%;
+      max-width:470px;
+       max-height:340px; 
        padding-left: 60px;
     }
     .RosemaryImg{
-      width:470px;
-       height:300px;
-       padding-left: 15px;
+      width: 100%;
+      height: 100%;
+      max-width:470px;
+       max-height:300px;
+       padding-left: 55px;
     }
     .TeatreeImg{
-      width:420px;
-       height:330px;
+      height: 100%;
+      width: 100%;
+      max-width:420px;
+       max-height:330px;
        padding-left: 70px;
+       padding-top: 30px;
     }
     .PeppermintImg{
-      width:320px;
-      height:300px;  
-      padding-left: 50px;
+      width: 100%;
+      height: 100%;
+      max-width:320px;
+      max-height:280px;  
+      padding-left: 20px;
+      
+      padding-top: 20px;
     }
     .LavenderImg{
-      width:470px;
-       height:300px; 
+      width: 100%;
+      height: 100%;
+      max-width:470px;
+       max-height:320px;
       padding-left: 45px;
+      padding-top: 30px;
     }
-    .Description{
-        
-        font-size: 20px;
-        text-align: center;
-        
-      }
-      .Title{
-        font-family: ChocolateBox;
-        font-size: 50px;
-        font-weight: bold;
-        padding-top: 70px;
-        text-align: center;
-       
-      }
-      .MainTitle{
-        font-family: ChocolateBox;
-        font-size: 70px;
-        font-weight: bold;
-        padding-top: 70px;
-        text-align: center;
-       
-      }
+    .JojobaOil{
+      width: 100%;
+      height:100%;
+      max-width: 320px;
+      max-height:300px;
+      padding-top: 80px;
+      padding-left: 0px;
+    }
+    .CastorOil{
+      width: 100%;
+      height:100%;
+      max-width:350px;
+       max-height:360px;
+       padding-left: 10px;
+       padding-top: 60px;
+    }
+   .SweetAlmondOil{
+    width: 100%;
+    height: 100%;
+    max-width:360px ;
+    max-height:350px;
+    padding-top: 70px;
+    padding-left: 0px;
+   }
+  }
+   
+
+  
+   
+  
+   
+  @media (max-width: 575px) {  
+
      
-    .btningredients{
-        background-color: transparent;
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-          height: 60px;
-          width: 150px;
-          border-radius: 5px ;
-          border: 1px solid white;
-          text-align: center;
-    }
-    .btningredients:hover{
-        color: black;
-        background-color: white;
-    }
-    .divbtning{
-        justify-content: center;
-        display: flex;
-    }
-    .Footerrowing{
-        background-color:rgb(38, 40, 43);
-        margin-top: 80px;
-       
-    }
-    .act1 {
-    
-       
+  .Description{
       
-       margin-top: 20px;
-       margin-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+    
+  }
+  .Title{
+    font-family: ChocolateBox;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center;
+   
+  }
+  
+     
+
+    .ArganOilImg{
+      width: 100%;
+      height: 100%;
+      max-width:330px;
+      max-height:320px ;
+      padding-left: 0px;
+      padding-top: 20px;
     }
-    .act2{
-      margin-bottom: 20px;
-      margin-top: 20px;
+
+    .EucalyptusImg{
+      width: 100%;
+      height: 100%;
+      max-width:360px;
+       max-height:320px; 
+       padding-left: 20px;
+       padding-top: 0px;
     }
+    .RosemaryImg{
+      width: 100%;
+      height: 100%;
+      max-width:360px;
+       max-height:320px;
+       padding-left: 0px;
+    }
+    .TeatreeImg{
+      height: 100%;
+      width: 100%;
+      max-width:400px;
+       max-height:330px;
+       padding-left: 0px;
+    }
+    .PeppermintImg{
+      width: 100%;
+      height: 100%;
+      max-width:320px;
+      max-height:320px;  
+      padding-left: 0px;
+      
+      padding-top: 0px;
+    }
+    .LavenderImg{
+      width: 100%;
+      height: 100%;
+      max-width:360px;
+       max-height:300px;
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    .JojobaOil{
+      width: 100%;
+      height:100%;
+      max-width: 320px;
+      max-height:300px;
+      padding-top: 0px;
+       
+    }
+    .CastorOil{
+      width: 100%;
+      height:100%;
+      max-width:370px;
+       max-height:380px;
+       padding-left: 0px;
+    }
+   .SweetAlmondOil{
+    width: 100%;
+    height: 100%;
+    max-width:360px ;
+    max-height:360px;
+    padding-top: 0px;
+   }
+   .act1 {
+  
+     
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .act2{
+   margin-bottom: 20px;
+   margin-top: 0px;
+ }
+
+  }

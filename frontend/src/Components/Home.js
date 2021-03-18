@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "../Style/Home.css";
 import Scrollableimage from './ScrollSection'
-import { Container, Col, Row, Carousel } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "../actions/productAction";
-import BeardOil from "../Content/images/Activate.png";
-import FillPatches from "../Content/images/FillPatches.png";
-import Nourish from "../Content/images/Nourish.png";
 import Product from "../Components/Product";
 import Message from "../Components/Message";
 import Loader from "../Components/Loader";
 import Services from "../Components/Services"
 import Whatsapp from "../Components/Whatsapp"
-import Footer from "../Components/Footer"
 import {Link} from 'react-router-dom'
-
+import animation1 from '../Content/images/Animation/ani1.JPG';
+import animation2 from '../Content/images/Animation/ani2.JPG'
+import animation3 from '../Content/images/Animation/ani3.jpg'
+import '../Style/Animation.css';
 
 
 function Home() {
@@ -38,53 +37,19 @@ function Home() {
   return (
     <div>
       
-      <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} indicators={false} controls={false}>
-      <Carousel.Item>  
-        <Container fluid className="banner">
+      <Container fluid className="banner">
         <div className="banner-content">
           {/*<img src={Model} className="banner-model"/>
           <img src={Model2} className="banner-model"/>*/}
-          <img src={BeardOil} className="banner-bottle" />
+         
         
         
-          <p className="banner-title">Start your Beard journey with the best thing in the Town</p>
+          <p className="banner-title">Start your Beard journey <br/>with the best thing in the Town</p>
         
         
-          <a href="#productContainer"><button className="banner-btn">Shop Now</button></a>
+          <button className="banner-btn">Shop Now</button>
           </div>
       </Container>
-      </Carousel.Item>
-      <Carousel.Item>
-
-      <Container fluid className="banner2">
-        <div className="banner-content">
-          {/*<img src={Model} className="banner-model"/>
-          <img src={Model2} className="banner-model"/>*/}
-          <img src={FillPatches} className="banner2-bottle" />
-        
-          <p className="banner2-title">Own your Beard with pride and give the care it Needs!</p>
-                
-          <button className="banner2-btn"><a href="#productContainer" style={{color:'#f8f8f8',textDecoration:'none'}}>Shop Now</a></button>
-        </div>
-      </Container>
-           
-        </Carousel.Item>
-      <Carousel.Item>
-
-      <Container fluid className="banner3">
-        <div className="banner-content">
-          {/*<img src={Model} className="banner-model"/>
-          <img src={Model2} className="banner-model"/>*/}
-          <img src={Nourish} className="banner-bottle" />
-        
-          <p className="banner-title">The Journey must be awesome, Lets fill those patches to make it more</p>
-                
-          <button className="banner-btn"><a href="#productContainer" style={{color:'#f8f8f8',textDecoration:'none'}}>Shop Now</a></button>
-        </div>
-      </Container>
-           
-        </Carousel.Item>
-    </Carousel>   
          
       
       <Container className="home-section-2">
@@ -109,9 +74,18 @@ function Home() {
               <Link to="/about-us"><button>Read More</button></Link>
             </div>
           </Col>
-          <Col md={6} sm={10} xs={10} className=" home-section-2-col-2">
-            <img src="//cdn.shopify.com/s/files/1/0114/0994/8731/files/about-1_large.png?v=1568629696" />
-          </Col>
+          <Col lg={3} xl={3} md={12} sm={12} xs={12} className="anicol">
+        <img className="an1" src={animation1}/> 
+        <img  className="an2" src={animation2}/>
+ 
+        
+        </Col>
+
+        <Col lg={3} xl={3} md={12} sm={12} xs={12} className="anicol">
+ 
+        <img  className="an3" src={animation3}/>
+        
+        </Col>
         </Row>
       </Container>
       <Container fluid className="home-section-3">
@@ -165,9 +139,11 @@ function Home() {
         )}
       </Container>
       <Scrollableimage/>
+      <div className="elfsight-app-aebaa9c2-8a41-4219-af28-da4278c779c7"></div>
+      <div className="hidden"></div>
       <Services />
       <Whatsapp/>
-      <Footer/>
+      
       {/*<Container fluid className="dvnav">
         <Row className="justify-content-between">
             <div className="col-lg-5 col-sm-12 col-md-6 navbarcontent1">

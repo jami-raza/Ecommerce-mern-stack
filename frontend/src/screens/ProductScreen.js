@@ -46,8 +46,8 @@ const ProductScreen = ({ match, history }) => {
                 <h3>{product.name}</h3>
               </ListGroup.Item>
               
-              <ListGroup.Item>Price: Rs{product.price}</ListGroup.Item>
-              <ListGroup.Item>Discription:{product.description}</ListGroup.Item>
+              <ListGroup.Item><p>Price: Rs{product.price}</p></ListGroup.Item>
+              <ListGroup.Item><p>Discription:{product.description}</p></ListGroup.Item>
             </ListGroup>
           </Col>
           <Col md={3}>
@@ -55,24 +55,24 @@ const ProductScreen = ({ match, history }) => {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <Row>
-                    <Col>Price:</Col>
+                    <Col><p>Price:</p></Col>
                     <Col>
-                      <strong>Rs{product.price}</strong>
+                      <strong><p>Rs{product.price}</p></strong>
                     </Col>
                   </Row>
                 </ListGroup.Item>
                 <ListGroup.Item>
                   <Row>
-                    <Col>Status:</Col>
+                    <Col><p>Status:</p></Col>
                     <Col>
-                      {product.countInStock > 0 ? "In stock" : "Out of Stock"}
+                      <p>{product.countInStock > 0 ? "In stock" : "Out of Stock"}</p>
                     </Col>
                   </Row>
                 </ListGroup.Item>
                 {product.countInStock > 0 && (
                   <ListGroup.Item>
                     <Row>
-                      <Col>Qty</Col>
+                      <Col><p>Qty</p></Col>
                       <Col>
                         <Form.Control
                           as='select'
@@ -96,7 +96,7 @@ const ProductScreen = ({ match, history }) => {
                     type="button"
                     disabled={product.countInStock === 0}
                   >
-                   Add to cart
+                  <p> Add to cart </p>
                   </Button>
                 </ListGroup.Item>
               </ListGroup>

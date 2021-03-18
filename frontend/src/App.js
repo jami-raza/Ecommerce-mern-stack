@@ -20,8 +20,10 @@ import About from './screens/AboutScreen'
 import Contactus from './Components/Contactus'
 import RefundPolicy from './Components/RefundPolicy'
 import ReplacingPolicy from './Components/ReplacingPolicy'
-
-
+import Ingredient from './screens/IngredientScreen'
+import Shop from './screens/ShopScreen'
+import FAQS from './screens/FaqsScreen'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -31,7 +33,7 @@ const App = () => {
     <main>
       
       
-       <Container style={{marginTop:'20px',marginBottom:'20px'}}>
+       <Container style={{marginTop:'-5px',marginBottom:'20px'}}>
       <Route path='/login' component={LoginScreen} />
       <Route path='/register' component={RegisterScreen} />
       <Route path='/profile' component={ProfileScreen} />
@@ -53,6 +55,9 @@ const App = () => {
       <Route path='/contact-us' component={Contactus} />
       <Route path='/refund-policy' component={RefundPolicy} />
       <Route path='/replacing-policy' component={ReplacingPolicy} />
+      <Route path='/ingredient' component={Ingredient} />
+      <Route path='/shop' component={Shop} />
+      <Route path='/faqs' component={FAQS} />
 
       </Container>
       <Container fluid style={{margin:'-20px 0 0 0',padding:0}}>
@@ -60,7 +65,7 @@ const App = () => {
       </Container>
       
       </main>
-      
+      <Footer/>
     
     </Router>
   );

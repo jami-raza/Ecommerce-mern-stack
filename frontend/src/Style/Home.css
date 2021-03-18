@@ -23,175 +23,48 @@ body {
 .banner {
   width: 100%;
   max-width: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: auto;
-  background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
-}
-.banner .banner-content {
-  position:relative;
-  display:block;
-  width:fit-content;
-  float:right;
-  margin-right:120px;
-  margin-top:40px;
-}
-.banner .banner-content .banner-bottle {
-  float:right;
-  width:auto;
-  height:500px;
-  
-}
-
-.banner .banner-content .banner-title {
-  font-size: 28px;
-  color: #f8f8f8;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-  align-self: center;
-  width:100%;
-  margin-right: 280px;
-  margin-top: 180px;
-}
-
-
-.banner .banner-content .banner-btn {
-  padding: 5px 10px 5px 10px;
-  color: #f8f8f8;
-  background: transparent;
-  background-position: right bottom;
-  font-size: 18px;
-  font-family: "PT Sans Narrow", sans-serif;
-  border: 1px solid #f8f8f8;
-  transition: all 0.6s ease;
-  outline: none;
-  float:right;
-  margin-right:180px;
-  margin-top:10px;
-}
-
-.banner-btn button:hover {
-  background: white;
-  color: #000;
-  background-position: left bottom;
-}
-
-.banner2 {
-  width: 100%;
-  max-width: 100%;
-  background-position: center center;
+  background-position: -50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-  background-image: url("../Content/images/banner2.jpg");
+  background-image: url("../Content/images/Banner.png");
 }
-.banner2 .banner-content {
-  position:relative;
-  display:block;
-  width:fit-content;
-  float:left;
-  margin-left:120px;
-  margin-top:40px;
-}
-.banner2 .banner-content .banner2-bottle {
-  float:left;
-  width:auto;
-  height:500px;
-}
-
-.banner2 .banner-content .banner2-title {
-  font-size: 28px;
-  color: #f8f8f8;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-  align-self: center;
-  width:100%;
-  margin-left: 150px;
-  margin-top: 180px;
-  
-
-  
-}
-
-.banner2 .banner-content .banner2-btn {
-  padding: 5px 10px 5px 10px;
-  color: #f8f8f8;
-  background: transparent;
-  background-position: right bottom;
-  font-size: 18px;
-  font-family: "PT Sans Narrow", sans-serif;
-  border: 1px solid #f8f8f8;
-  transition: all 0.6s ease;
-  outline: none;
-  display:block;
+.banner-content {
+  float:right;
+  margin-top: 200px;
   text-align:center;
-  float:left;
-  margin-left:180px;
-  margin-top:10px;
+  padding-right: 150px;
+  
 }
-
-.banner2-btn button:hover {
-  background: white;
-  color: #000;
-  background-position: left bottom;
-}
-.banner3 {
-  width: 100%;
-  max-width: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-  background-image: url("../Content/images/banner3.jpg");
-}
-.banner3 .banner-content {
-  position:relative;
-  display:block;
-  width:fit-content;
+.banner-title {
+  font-size: 32px;
+  color:#fff;
   float:right;
-  margin-right:120px;
-  margin-top:40px;
-}
-.banner3 .banner-content .banner-bottle {
-  float:right;
-  width:auto;
-  height:500px;
   
 }
 
-.banner3 .banner-content .banner-title {
-  font-size: 28px;
-  color: #f8f8f8;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
-  align-self: center;
-  width:100%;
-  margin-right: 280px;
-  margin-top: 180px;
-}
-
-
-.banner3 .banner-content .banner-btn {
-  padding: 5px 10px 5px 10px;
+.banner-btn {
+  padding: 10px 20px 10px 20px;
   color: #f8f8f8;
   background: transparent;
   background-position: right bottom;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "PT Sans Narrow", sans-serif;
   border: 1px solid #f8f8f8;
   transition: all 0.6s ease;
   outline: none;
-  float:right;
-  margin-right:180px;
-  margin-top:10px;
+  right:27%;
+  position:absolute;
+  margin-top:120px;
 }
 
-.banner-btn button:hover {
+.banner-btn:hover {
   background: white;
   color: #000;
   background-position: left bottom;
 }
+
+
 
 /* Banner Section End */
 
@@ -386,78 +259,28 @@ body {
   .banner {
     
     height: 280px;
-    background-image: linear-gradient(#362819b6,#362819b6),url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    background-position: 10% 100%;
   
   }
-  .banner .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:right;
-    margin-right:5%;
-    margin-top:40px;
-  }
-  .banner .banner-content .banner-bottle {
-    float:right;
-    width:auto;
-    height:200px;
+  .banner-content {
     
-  }
-  
-  .banner .banner-content .banner-title {
-    font-size: 16px;
-    
-    margin-right: 0;
-    margin-top: 80px;
+    margin-top: 50px;
     text-align:center;
-
-  }
-  
-  
-  .banner .banner-content .banner-btn {
+    padding-right: 10px;
+    padding-left: 10px;
+    float:right;
     
-    font-size: 16px;
+    background-color:#2b2929af;
+    height:fit-content;
     
+  }
+  .banner-title {
+    display:none;
     
-    margin-right:30%;
-    margin-top:-5px;
-  }
-  
-  .banner2 {
-    background-repeat: repeat-x;
-    height: 280px;
-    background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner2.jpg");
-  }
-  .banner2 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:left;
-    margin-left:5%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:200px;
-  }
-  
-  .banner2 .banner-content .banner2-title {
-    font-size: 18px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    
-    text-align:center;
-    width:100%;
-    margin-left:10px;
-    margin-top: 80px;
-    
-  
     
   }
   
-  .banner2 .banner-content .banner2-btn {
+  .banner-btn {
     padding: 5px 10px 5px 10px;
     color: #f8f8f8;
     background: transparent;
@@ -467,50 +290,17 @@ body {
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    display:block;
-    text-align:center;
-    float:left;
-    margin-left:30%;
-    margin-top:-5px;
+    position:absolute;
+    right:20px;
+    
   }
-  .banner3 {
-    background-repeat: repeat-x;
-      height: 280px;
-      background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner3.jpg");
-    }
-    .banner3 .banner-content {
-      position:relative;
-      display:block;
-      width:fit-content;
-      float:right;
-      margin-right:5%;
-      margin-top:40px;
-    }
-    .banner3 .banner-content .banner-bottle {
-      float:right;
-      width:auto;
-      height:200px;
-      
-    }
-    
-    .banner3 .banner-content .banner-title {
-      font-size: 16px;
-      
-      margin-right: 10px;
-      margin-top: 80px;
-      text-align:center;
   
-    }
-    
-    
-    .banner3 .banner-content .banner-btn {
-      
-      font-size: 16px;
-      
-      
-      margin-right:30%;
-      margin-top:-5px;
-    }
+
+  
+  .home-section-2 .home-section-2-row {
+           
+    margin-bottom: 250px;
+  }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 200px;
@@ -557,78 +347,28 @@ body {
   .banner {
     
     height: 280px;
-    background-image: linear-gradient(#362819b6,#362819b6),url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    background-position: 30% 100%;
   
   }
-  .banner .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:right;
-    margin-right:5%;
-    margin-top:40px;
-  }
-  .banner .banner-content .banner-bottle {
-    float:right;
-    width:auto;
-    height:200px;
+  .banner-content {
     
-  }
-  
-  .banner .banner-content .banner-title {
-    font-size: 16px;
-    
-    margin-right: 20%;
-    margin-top: 80px;
+    margin-top: 50px;
     text-align:center;
-
-  }
-  
-  
-  .banner .banner-content .banner-btn {
+    padding-right: 10px;
+    padding-left: 10px;
+    float:right;
     
-    font-size: 16px;
+    background-color:#2b2929af;
+    height:fit-content;
     
+  }
+  .banner-title {
+    display:none;
     
-    margin-right:30%;
-    margin-top:-5px;
-  }
-  
-  .banner2 {
-    background-repeat: repeat-x;
-    height: 280px;
-    background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner2.jpg");
-  }
-  .banner2 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:left;
-    margin-left:5%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:200px;
-  }
-  
-  .banner2 .banner-content .banner2-title {
-    font-size: 18px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    
-    text-align:center;
-    width:100%;
-    margin-left:10px;
-    margin-top: 80px;
-    
-  
     
   }
   
-  .banner2 .banner-content .banner2-btn {
+  .banner-btn {
     padding: 5px 10px 5px 10px;
     color: #f8f8f8;
     background: transparent;
@@ -638,50 +378,15 @@ body {
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    display:block;
-    text-align:center;
-    float:left;
-    margin-left:30%;
-    margin-top:-5px;
+    position:absolute;
+    right:80px;
+    
+    
   }
-  .banner3 {
-    background-repeat: repeat-x;
-      height: 280px;
-      background-image: linear-gradient(#362819b6,#362819b6),url("../Content/images/banner3.jpg");
-    }
-    .banner3 .banner-content {
-      position:relative;
-      display:block;
-      width:fit-content;
-      float:right;
-      margin-right:5%;
-      margin-top:40px;
-    }
-    .banner3 .banner-content .banner-bottle {
-      float:right;
-      width:auto;
-      height:200px;
+  .home-section-2 .home-section-2-row {
       
-    }
-    
-    .banner3 .banner-content .banner-title {
-      font-size: 16px;
-      
-      margin-right: 10px;
-      margin-top: 80px;
-      text-align:center;
-  
-    }
-    
-    
-    .banner3 .banner-content .banner-btn {
-      
-      font-size: 16px;
-      
-      
-      margin-right:30%;
-      margin-top:-5px;
-    }
+    margin-bottom: 350px;
+  }
   .home-section-2 .home-section-2-row .home-section-2-col img {
     width: auto;
     height: 300px;
@@ -724,79 +429,24 @@ body {
   .banner {
     
     height: 350px;
-    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+   
   
   }
-  .banner .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
+  .banner-content {
     float:right;
-    margin-right:5%;
-    margin-top:40px;
+    margin-top: 100px;
+    text-align:center;
+    padding-right: 10px;
     
   }
-  .banner .banner-content .banner-bottle {
+  .banner-title {
+    font-size: 24px;
+    color:#fff;
     float:right;
-    width:auto;
-    height:250px;
-    
-  }
-  
-  .banner .banner-content .banner-title {
-    font-size: 16px;
-    
-    margin-left: 38%;
-    margin-top: 80px;
-    text-align:center;
-
-  }
-  
-  
-  .banner .banner-content .banner-btn {
-    
-    font-size: 16px;
-    
-    
-    margin-right:17%;
-    margin-top:-5px;
-  }
-  
-  .banner2 {
-    background-repeat: repeat-x;
-    height: 350px;
-    background-image: url("../Content/images/banner2.jpg");
-  }
-  .banner2 .banner-content {
-    position:relative;
     display:block;
-    width:fit-content;
-    float:left;
-    margin-left:5%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:250px;
   }
   
-  .banner2 .banner-content .banner2-title {
-    font-size: 18px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    
-    text-align:center;
-    width:50%;
-    margin-left:5%;
-    margin-top: 80px;
-    
-  
-    
-  }
-  
-  .banner2 .banner-content .banner2-btn {
+  .banner-btn {
     padding: 5px 10px 5px 10px;
     color: #f8f8f8;
     background: transparent;
@@ -806,50 +456,15 @@ body {
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    display:block;
-    text-align:center;
-    float:left;
-    margin-left:15%;
-    margin-top:-5px;
+    right:20%;
+    position:absolute;
+    margin-top:120px;
   }
-  .banner3 {
-    background-repeat: repeat-x;
-      height: 350px;
-      background-image:url("../Content/images/banner3.jpg");
-    }
-    .banner3 .banner-content {
-      position:relative;
-      display:block;
-      width:fit-content;
-      float:right;
-      margin-right:5%;
-      margin-top:40px;
-    }
-    .banner3 .banner-content .banner-bottle {
-      float:right;
-      width:auto;
-      height:250px;
+
+  .home-section-2 .home-section-2-row {
       
-    }
-    
-    .banner3 .banner-content .banner-title {
-      font-size: 16px;
-      
-      margin-left: 42%;
-      margin-top: 80px;
-      text-align:center;
-  
-    }
-    
-    
-    .banner3 .banner-content .banner-btn {
-      
-      font-size: 16px;
-      
-      
-      margin-right:17%;
-      margin-top:-5px;
-    }
+    margin-bottom: 320px;
+  }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -911,133 +526,38 @@ body {
 @media (min-width: 769px) {
   .banner {
     
-    height: 400px;
-    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    height: 500px;
+   
   
   }
-  .banner .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
+  .banner-content {
     float:right;
-    margin-right:10%;
-    margin-top:40px;
+    margin-top: 100px;
+    text-align:center;
+    padding-right: 10px;
     
   }
-  .banner .banner-content .banner-bottle {
+  .banner-title {
+    font-size: 28px;
+    color:#fff;
     float:right;
-    width:auto;
-    height:300px;
     
   }
   
-  .banner .banner-content .banner-title {
-    font-size: 16px;
-    
-    margin-left: 30%;
-    margin-top: 80px;
-    text-align:center;
-
-  }
-  
-  
-  .banner .banner-content .banner-btn {
-    
-    font-size: 16px;
-    
-    
-    margin-right:20%;
-    margin-top:-5px;
-  }
-  
-  .banner2 {
-    background-repeat: repeat-x;
-    height: 400px;
-    background-image: url("../Content/images/banner2.jpg");
-  }
-  .banner2 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:left;
-    margin-left:10%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:300px;
-  }
-  
-  .banner2 .banner-content .banner2-title {
-    font-size: 18px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    
-    text-align:center;
-    width:50%;
-    margin-left:17%;
-    margin-top: 80px;
-    
-  
-    
-  }
-  
-  .banner2 .banner-content .banner2-btn {
-    padding: 5px 10px 5px 10px;
+  .banner-btn {
+    padding: 10px 20px 10px 20px;
     color: #f8f8f8;
     background: transparent;
     background-position: right bottom;
-    font-size: 18px;
+    font-size: 22px;
     font-family: "PT Sans Narrow", sans-serif;
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    display:block;
-    text-align:center;
-    float:left;
-    margin-left:20%;
-    margin-top:-5px;
+    right:20%;
+    position:absolute;
+    margin-top:120px;
   }
-  .banner3 {
-    background-repeat: repeat-x;
-      height: 400px;
-      background-image:url("../Content/images/banner3.jpg");
-    }
-    .banner3 .banner-content {
-      position:relative;
-      display:block;
-      width:fit-content;
-      float:right;
-      margin-right:10%;
-      margin-top:40px;
-    }
-    .banner3 .banner-content .banner-bottle {
-      float:right;
-      width:auto;
-      height:300px;
-      
-    }
-    
-    .banner3 .banner-content .banner-title {
-      font-size: 16px;
-      
-      margin-left: 45%;
-      margin-top: 80px;
-      text-align:center;
-  
-    }
-    
-    
-    .banner3 .banner-content .banner-btn {
-      
-      font-size: 16px;
-      
-      
-      margin-right:15%;
-      margin-top:-5px;
-    }
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
     height: 300px;
@@ -1069,133 +589,44 @@ body {
 @media (min-width: 996px) {
   .banner {
     
-    height: 450px;
-    background-image: url("//cdn.shopify.com/s/files/1/0114/0994/8731/files/home_04.jpg?v=1568111758");
+    height: 600px;
+    
   
   }
-  .banner .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
+  .banner-content {
     float:right;
-    margin-right:10%;
-    margin-top:40px;
+    margin-top: 300px;
+    text-align:center;
+    padding-right: 10px;
     
   }
-  .banner .banner-content .banner-bottle {
+  .banner-title {
+    font-size: 32px;
+    color:#fff;
     float:right;
-    width:auto;
-    height:350px;
     
   }
   
-  .banner .banner-content .banner-title {
-    font-size: 22px;
-    
-    margin-left: 35%;
-    margin-top: 80px;
-    text-align:center;
-
-  }
-  
-  
-  .banner .banner-content .banner-btn {
-    
-    font-size: 20px;
-    
-    
-    margin-right:20%;
-    margin-top:10px;
-  }
-  
-  .banner2 {
-    background-repeat: repeat-x;
-    height: 450px;
-    background-image: url("../Content/images/banner2.jpg");
-  }
-  .banner2 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:left;
-    margin-left:10%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:350px;
-  }
-  
-  .banner2 .banner-content .banner2-title {
-    font-size: 22px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    
-    text-align:center;
-    width:50%;
-    margin-left:20%;
-    margin-top: 80px;
-    
-  
-    
-  }
-  
-  .banner2 .banner-content .banner2-btn {
-    padding: 5px 10px 5px 10px;
+  .banner-btn {
+    padding: 10px 20px 10px 20px;
     color: #f8f8f8;
     background: transparent;
     background-position: right bottom;
-    font-size: 18px;
+    font-size: 22px;
     font-family: "PT Sans Narrow", sans-serif;
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    display:block;
-    text-align:center;
-    float:left;
-    margin-left:25%;
-    margin-top:10px;
+    right:20%;
+    position:absolute;
+    margin-top:120px;
   }
-  .banner3 {
-    background-repeat: repeat-x;
-      height: 450px;
-      background-image:url("../Content/images/banner3.jpg");
-    }
-    .banner3 .banner-content {
-      position:relative;
-      display:block;
-      width:fit-content;
-      float:right;
-      margin-right:10%;
-      margin-top:40px;
-    }
-    .banner3 .banner-content .banner-bottle {
-      float:right;
-      width:auto;
-      height:350px;
+     /* For animation */
+     .home-section-2 .home-section-2-row {
       
+      margin-bottom: 10px;
     }
-    
-    .banner3 .banner-content .banner-title {
-      font-size: 20px;
-      
-      margin-left: 45%;
-      margin-top: 80px;
-      text-align:center;
-  
-    }
-    
-    
-    .banner3 .banner-content .banner-btn {
-      
-      font-size: 16px;
-      
-      
-      margin-right:17%;
-      margin-top:-5px;
-    }
+ 
   .home-section-3 .home-section-3-row .home-section-3-col-2 .content {
     margin-top: 110px;
     position: absolute;
@@ -1227,147 +658,37 @@ body {
     height: 600px;
    
   }
-  .banner .banner-content {
-   
-    margin-right:10%;
-  
-  }
-  .banner .banner-content .banner-bottle {
+  .banner-content {
     float:right;
-    width:auto;
-    height:450px;
-    
-  }
-  
-  .banner .banner-content .banner-title {
-    font-size: 28px;
-    
-    margin-left: 35%;
-    margin-top: 180px;
-  }
-  
-  
-  .banner .banner-content .banner-btn {
-    padding: 5px 10px 5px 10px;
-    color: #f8f8f8;
-    background: transparent;
-    background-position: right bottom;
-    font-size: 24px;
-    font-family: "PT Sans Narrow", sans-serif;
-    border: 1px solid #f8f8f8;
-    transition: all 0.6s ease;
-    outline: none;
-
-    float:right;
-    margin-right:21%;
-    margin-top:10px;
-  }
-  
-
-  
-  .banner2 {
-    
-    height: 600px;
-    
-  }
-  .banner2 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
-    float:left;
-    margin-left:10%;
-    margin-top:40px;
-  }
-  .banner2 .banner-content .banner2-bottle {
-    float:left;
-    width:auto;
-    height:450px;
-  }
-  
-  .banner2 .banner-content .banner2-title {
-    font-size: 28px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    align-self: center;
-    width:60%;
-    margin-left: 10%;
-    margin-top: 180px;
-    
-  
-    
-  }
-  
-  .banner2 .banner-content .banner2-btn {
-    padding: 5px 10px 5px 10px;
-    color: #f8f8f8;
-    background: transparent;
-    background-position: right bottom;
-    font-size: 24px;
-    font-family: "PT Sans Narrow", sans-serif;
-    border: 1px solid #f8f8f8;
-    transition: all 0.6s ease;
-    outline: none;
-    display:block;
+    margin-top: 200px;
     text-align:center;
-    float:left;
-    margin-left:20%;
-    margin-top:10px;
-  }
-  
-  .banner3 {
-   
-    height: 600px;
+    padding-right: 150px;
     
   }
-  .banner3 .banner-content {
-    position:relative;
-    display:block;
-    width:fit-content;
+  .banner-title {
+    font-size: 32px;
+    color:#fff;
     float:right;
-    margin-right:10%;
-    margin-top:40px;
-  }
-  .banner3 .banner-content .banner-bottle {
-    float:right;
-    width:auto;
-    height:450px;
     
   }
   
-  .banner3 .banner-content .banner-title {
-    font-size: 28px;
-    color: #f8f8f8;
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
-    align-self: center;
-    width:100%;
-   
-    margin-right: 40%;
-    margin-top: 180px;
-  }
-  
-  
-  .banner3 .banner-content .banner-btn {
-    padding: 5px 10px 5px 10px;
+  .banner-btn {
+    padding: 10px 20px 10px 20px;
     color: #f8f8f8;
     background: transparent;
     background-position: right bottom;
-    font-size: 24px;
+    font-size: 22px;
     font-family: "PT Sans Narrow", sans-serif;
     border: 1px solid #f8f8f8;
     transition: all 0.6s ease;
     outline: none;
-    float:right;
-    margin-right:15%;
-    margin-top:10px;
+    right:27%;
+    position:absolute;
+    margin-top:120px;
   }
   
-  .banner-btn button:hover {
-    background: white;
-    color: #000;
-    background-position: left bottom;
-  }
+
+  
   
   .home-section-2 .home-section-2-row .home-section-2-col-2 img {
     width: auto;
