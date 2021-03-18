@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Container, Col, Row, Modal } from "react-bootstrap";
 import "../Style/Shop.css";
-import ActivateVariant from "../Content/images/ingredient/ActivateW.R..png";
-import FillPatchesVariant from "../Content/images/ingredient/FillPatchesW.R..png";
-import NourishVariant from "../Content/images/ingredient/NourishW.R..png";
+import ActivateVariant from "../Content/images/ingredient/ActivateBottle.jpeg";
+import FillPatchesVariant from "../Content/images/ingredient/FillPatchesBottle.jpeg";
+import NourishVariant from "../Content/images/ingredient/NourishBottle.jpeg";
 
 function Shop() {
     const [activate, setActivate] = useState(false);
@@ -54,10 +54,10 @@ function Shop() {
                 <Modal.Body>
                     <Row>
                    
-                    <Col lg={6} md={6} sm={12}> 
-                          <img className="dv9shopingimg1" src={ActivateVariant} />
+                    <Col lg={6} md={12} sm={12}> 
+                          <img className="dv9shopingimgmodal" src={ActivateVariant} />
                         </Col>
-                        <Col lg={6} md={6} sm={12}> 
+                        <Col lg={6} md={12} sm={12}> 
                           <div className="fontproduct">Activate - Beard Oil</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
@@ -107,11 +107,11 @@ function Shop() {
                 </Modal.Header>
                 <Modal.Body>
                     <Row>
-                    <Col lg={6} md={6} sm={12}> 
+                    <Col lg={6} md={12} sm={12}> 
                         
-                          <img className="dv9shopingimg1" src={FillPatchesVariant} />
+                          <img className="dv9shopingimgmodal" src={FillPatchesVariant} />
                         </Col>
-                        <Col lg={6} md={6} sm={12}> 
+                        <Col lg={6} md={12} sm={12}> 
                           <div className="fontproduct">Fill Patches - Grama Fresca</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
@@ -163,10 +163,10 @@ function Shop() {
                 </Modal.Header>
                 <Modal.Body>
                 <Row>
-                <Col lg={6} md={6} sm={12}> 
-                        <img className="dv9shopingimg1" src={NourishVariant} />
+                <Col lg={6} md={12} sm={12}> 
+                        <img className="dv9shopingimgmodal" src={NourishVariant} />
                       </Col>
-                      <Col lg={6} md={6} sm={12}> 
+                      <Col lg={6} md={12} sm={12}> 
                         <div className="fontproduct">Nourish - Beard Oil</div>
                         <hr />
                         <div className="fontprice">Rs 799.00</div>
