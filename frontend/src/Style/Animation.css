@@ -143,11 +143,45 @@
 @media (max-width:1199px){
 
 
+ 
     .an3{
-      
-        right: 0px;
-        top: 0px;
+        width: 100%;
+        max-width: 210px;
+        height: 220px;
+        animation: animationpic3 25s infinite ;
+        position: absolute;
+        right: 10px;
+        top: -30px;
+     
     }
+    @keyframes animationpic3{
+        0%{
+            transform: translate(0px,210px);
+            opacity: 1 ;
+        }
+        
+        30%{
+            opacity: 0.8 ;
+        }
+        50%{
+            transform: translate(0px,0px);
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.7;
+        }
+        
+        90%{
+            opacity: 0.9;
+        }
+        100%
+        {
+            transform: translate(0px,210px);
+            opacity: 1;
+        }
+        }
+
+    
 
 }
 
@@ -159,6 +193,8 @@
     .an3{
       
         right: 250px;
+        top:-30px;
+        animation: animationpic3 25s infinite ;
     }
 
     
@@ -222,7 +258,7 @@
     
     @keyframes animationpic3{
         0%{
-            transform: translate(0px,100px);
+            transform: translate(0px,150px);
             opacity: 1 ;
         }
         
@@ -242,7 +278,7 @@
         }
         100%
         {
-            transform: translate(0px,100px);
+            transform: translate(0px,150px);
             opacity: 1;
         }
         }
@@ -261,7 +297,35 @@
     .an3{
       
         right: 80px;
+        animation: animationpic3 25s infinite ;
     }
+
+    @keyframes animationpic3{
+        0%{
+            transform: translate(0px,120px);
+            opacity: 1 ;
+        }
+        
+        30%{
+            opacity: 0.8 ;
+        }
+        50%{
+            transform: translate(0px,0px);
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.7;
+        }
+        
+        90%{
+            opacity: 0.9;
+        }
+        100%
+        {
+            transform: translate(0px,120px);
+            opacity: 1;
+        }
+        }
 
 }
  
@@ -293,6 +357,17 @@
         animation: animationpic2 25s infinite;
         position: absolute;
         top: 140px;
+    }
+
+    .an3{
+        width: 100%;
+        max-width: 150px;
+        height: 160px;
+        animation: animationpic3 25s infinite ;
+        position: absolute;
+        right: 130px;
+        top: -30px;
+     
     }
     @keyframes animationpic1{
         0%{
@@ -351,16 +426,7 @@
     }
 
 
-    .an3{
-        width: 100%;
-        max-width: 150px;
-        height: 160px;
-        animation: animationpic3 25s infinite ;
-        position: absolute;
-        right: 130px;
-        top: -30px;
-     
-    }
+  
     
 @keyframes animationpic3{
     0%{
@@ -395,7 +461,7 @@
 }
 
  
-/* For 490 - 388px */
+/* For 490 - 428px */
 
 @media (max-width:490px){
     .AnimationRow{
@@ -436,7 +502,7 @@
     }
     @keyframes animationpic1{
         0%{
-            transform: translate(150px,0px);
+            transform: translate(160px,0px);
             opacity: 1;
         }
         30%{
@@ -457,7 +523,7 @@
         }
         100%
         {
-            transform: translate(150px,0px);
+            transform: translate(160px,0px);
             opacity: 1 ;
         }
         }
@@ -540,6 +606,276 @@
     }
     .an1{
         width: 100%;
+        max-width: 120px;
+        height: 120px;
+        position: absolute;
+    left: 25px;
+        animation: animationpic1 25s infinite ;
+    }
+    
+ 
+    .an2{
+        width: 100%;
+        max-width: 130px;
+        height: 130px;
+        animation: animationpic2 25s infinite ;
+        position: absolute;
+        top: 130px;
+    }
+    
+    .an3{
+        width: 100%;
+        max-width: 130px;
+        height: 140px;
+        animation: animationpic3 25s infinite  ;
+        position: absolute;
+        right: 110px;
+        top: -10px;
+     
+    }
+    @keyframes animationpic1{
+        0%{
+            transform: translate(160px,0px);
+            opacity: 1;
+        }
+        30%{
+            opacity: 0.8 ;
+        }
+        
+        
+        50%{
+            transform: translate(0px,0px);
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.7;
+        }
+        
+        90%{
+            opacity: 0.9;
+        }
+        100%
+        {
+            transform: translate(160px,0px);
+            opacity: 1 ;
+        }
+        }
+    
+@keyframes animationpic2{
+    0%{
+        transform: translate(0px,-100px);
+        opacity: 1;
+    }
+  
+    30%{
+        opacity: 0.8 ;
+    }
+   
+    50%{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    
+    90%{
+        opacity: 0.9;
+    }
+    100%
+    {
+        transform: translate(0px,-100px);
+        opacity: 1;
+    }
+    }
+
+
+    
+@keyframes animationpic3{
+    0%{
+        transform: translate(0px,120px);
+        opacity: 1 ;
+    }
+    
+    30%{
+        opacity: 0.8 ;
+    }
+    50%{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    
+    90%{
+        opacity: 0.9;
+    }
+    100%
+    {
+        transform: translate(0px,120px);
+        opacity: 1;
+    }
+    }
+
+    
+
+
+}
+ 
+
+
+
+
+
+
+
+
+/* For 388 - 356px */
+
+@media (max-width:388px){
+    .AnimationRow{
+        margin-bottom: 180px;
+       
+    }
+    .anicol{
+        margin-top: 50px;
+    }
+    .an1{
+        width: 100%;
+        max-width: 120px;
+        height: 120px;
+        position: absolute;
+    left: 25px;
+        animation: animationpic1 25s infinite ;
+    }
+    
+ 
+    .an2{
+        width: 100%;
+        max-width: 130px;
+        height: 130px;
+        animation: animationpic2 25s infinite ;
+        position: absolute;
+        top: 130px;
+    }
+    
+    .an3{
+        width: 100%;
+        max-width: 130px;
+        height: 140px;
+        animation: animationpic3 25s infinite  ;
+        position: absolute;
+        right: 85px;
+        top: -20px;
+     
+    }
+    @keyframes animationpic1{
+        0%{
+            transform: translate(140px,0px);
+            opacity: 1;
+        }
+        30%{
+            opacity: 0.8 ;
+        }
+        
+        
+        50%{
+            transform: translate(0px,0px);
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.7;
+        }
+        
+        90%{
+            opacity: 0.9;
+        }
+        100%
+        {
+            transform: translate(140px,0px);
+            opacity: 1 ;
+        }
+        }
+    
+@keyframes animationpic2{
+    0%{
+        transform: translate(0px,-100px);
+        opacity: 1;
+    }
+  
+    30%{
+        opacity: 0.8 ;
+    }
+   
+    50%{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    
+    90%{
+        opacity: 0.9;
+    }
+    100%
+    {
+        transform: translate(0px,-100px);
+        opacity: 1;
+    }
+    }
+
+
+    
+@keyframes animationpic3{
+    0%{
+        transform: translate(0px,100px);
+        opacity: 1 ;
+    }
+    
+    30%{
+        opacity: 0.8 ;
+    }
+    50%{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    
+    90%{
+        opacity: 0.9;
+    }
+    100%
+    {
+        transform: translate(0px,100px);
+        opacity: 1;
+    }
+    }
+
+    
+
+
+}
+ 
+
+
+
+
+/* For 356 - 335px */
+
+@media (max-width:356px){
+    .AnimationRow{
+        margin-bottom: 180px;
+       
+    }
+    .anicol{
+        margin-top:50px
+    }
+    .an1{
+        width: 100%;
         max-width: 100px;
         height: 100px;
         position: absolute;
@@ -554,286 +890,16 @@
         height: 120px;
         animation: animationpic2 25s infinite ;
         position: absolute;
-        top: 110px;
-    }
-    
-    .an3{
-        width: 100%;
-        max-width: 110px;
-        height: 120px;
-        animation: animationpic3 25s infinite  ;
-        position: absolute;
-        right: 140px;
-        top: -60px;
-     
-    }
-    @keyframes animationpic1{
-        0%{
-            transform: translate(130px,0px);
-            opacity: 1;
-        }
-        30%{
-            opacity: 0.8 ;
-        }
-        
-        
-        50%{
-            transform: translate(0px,0px);
-            opacity: 1;
-        }
-        70%{
-            opacity: 0.7;
-        }
-        
-        90%{
-            opacity: 0.9;
-        }
-        100%
-        {
-            transform: translate(130px,0px);
-            opacity: 1 ;
-        }
-        }
-    
-@keyframes animationpic2{
-    0%{
-        transform: translate(0px,-100px);
-        opacity: 1;
-    }
-  
-    30%{
-        opacity: 0.8 ;
-    }
-   
-    50%{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    70%{
-        opacity: 0.7;
-    }
-    
-    90%{
-        opacity: 0.9;
-    }
-    100%
-    {
-        transform: translate(0px,-100px);
-        opacity: 1;
-    }
-    }
-
-
-    
-@keyframes animationpic3{
-    0%{
-        transform: translate(0px,90px);
-        opacity: 1 ;
-    }
-    
-    30%{
-        opacity: 0.8 ;
-    }
-    50%{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    70%{
-        opacity: 0.7;
-    }
-    
-    90%{
-        opacity: 0.9;
-    }
-    100%
-    {
-        transform: translate(0px,90px);
-        opacity: 1;
-    }
-    }
-
-    
-
-
-}
- 
-
-
-
-
-
-
-
-
-/* For 388 - 331px */
-
-@media (max-width:388px){
-    .AnimationRow{
-        margin-bottom: 180px;
-       
-    }
-    .anicol{
-        margin-top: 50px;
-    }
-    .an1{
-        width: 100%;
-        max-width: 100px;
-        height: 100px;
-        position: absolute;
-    left: 25px;
-        animation: animationpic1 25s infinite ;
-    }
-    
- 
-    .an2{
-        width: 100%;
-        max-width: 110px;
-        height: 110px;
-        animation: animationpic2 25s infinite ;
-        position: absolute;
         top: 120px;
     }
     
     .an3{
         width: 100%;
-        max-width: 110px;
-        height: 120px;
+        max-width: 130px;
+        height: 140px;
         animation: animationpic3 25s infinite  ;
         position: absolute;
-        right: 120px;
-        top: -30px;
-     
-    }
-    @keyframes animationpic1{
-        0%{
-            transform: translate(140px,0px);
-            opacity: 1;
-        }
-        30%{
-            opacity: 0.8 ;
-        }
-        
-        
-        50%{
-            transform: translate(0px,0px);
-            opacity: 1;
-        }
-        70%{
-            opacity: 0.7;
-        }
-        
-        90%{
-            opacity: 0.9;
-        }
-        100%
-        {
-            transform: translate(140px,0px);
-            opacity: 1 ;
-        }
-        }
-    
-@keyframes animationpic2{
-    0%{
-        transform: translate(0px,-100px);
-        opacity: 1;
-    }
-  
-    30%{
-        opacity: 0.8 ;
-    }
-   
-    50%{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    70%{
-        opacity: 0.7;
-    }
-    
-    90%{
-        opacity: 0.9;
-    }
-    100%
-    {
-        transform: translate(0px,-100px);
-        opacity: 1;
-    }
-    }
-
-
-    
-@keyframes animationpic3{
-    0%{
-        transform: translate(0px,100px);
-        opacity: 1 ;
-    }
-    
-    30%{
-        opacity: 0.8 ;
-    }
-    50%{
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-    70%{
-        opacity: 0.7;
-    }
-    
-    90%{
-        opacity: 0.9;
-    }
-    100%
-    {
-        transform: translate(0px,100px);
-        opacity: 1;
-    }
-    }
-
-    
-
-
-}
- 
-
-
-
-
-/* For 356 - 330px */
-
-@media (max-width:356px){
-    .AnimationRow{
-        margin-bottom: 180px;
-       
-    }
-    .anicol{
-        margin-top:50px
-    }
-    .an1{
-        width: 100%;
-        max-width: 90px;
-        height: 90px;
-        position: absolute;
-    left: 25px;
-        animation: animationpic1 25s infinite ;
-    }
-    
- 
-    .an2{
-        width: 100%;
-        max-width: 100px;
-        height: 100px;
-        animation: animationpic2 25s infinite ;
-        position: absolute;
-        top: 110px;
-    }
-    
-    .an3{
-        width: 100%;
-        max-width: 100px;
-        height: 110px;
-        animation: animationpic3 25s infinite  ;
-        position: absolute;
-        right: 120px;
+        right: 70px;
         top: -30px;
      
     }
@@ -897,7 +963,7 @@
     
 @keyframes animationpic3{
     0%{
-        transform: translate(0px,60px);
+        transform: translate(0px,90px);
         opacity: 1 ;
     }
     
@@ -917,7 +983,7 @@
     }
     100%
     {
-        transform: translate(0px,60px);
+        transform: translate(0px,90px);
         opacity: 1;
     }
     }
@@ -938,8 +1004,8 @@
     }
     .an1{
         width: 100%;
-        max-width: 80px;
-        height: 80px;
+        max-width: 90px;
+        height: 90px;
         position: absolute;
     left: 25px;
         animation: animationpic1 25s infinite ;
@@ -948,24 +1014,57 @@
  
     .an2{
         width: 100%;
-        max-width: 90px;
-        height: 90px;
+        max-width: 100px;
+        height: 100px;
         animation: animationpic2 25s infinite ;
         position: absolute;
-        top: 110px;
+        top: 120px;
     }
     
     .an3{
         width: 100%;
-        max-width: 90px;
-        height: 100px;
+        max-width: 110px;
+        height: 120px;
         animation: animationpic3 25s infinite  ;
         position: absolute;
-        right: 120px;
+        right: 90px;
         top: -30px;
      
     }
  
+    
+    @keyframes animationpic3{
+        0%{
+            transform: translate(0px,90px);
+            opacity: 1 ;
+        }
+        
+        30%{
+            opacity: 0.8 ;
+        }
+        50%{
+            transform: translate(0px,0px);
+            opacity: 1;
+        }
+        70%{
+            opacity: 0.7;
+        }
+        
+        90%{
+            opacity: 0.9;
+        }
+        100%
+        {
+            transform: translate(0px,90px);
+            opacity: 1;
+        }
+        }
+    
+        
+
+   
+
+
 
 
 }
