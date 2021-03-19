@@ -142,7 +142,7 @@ function Home() {
         )}
       </Container>
       <Scrollableimage/>
-      <div className="elfsight-app-aebaa9c2-8a41-4219-af28-da4278c779c7"></div>
+      <div class="elfsight-app-aebaa9c2-8a41-4219-af28-da4278c779c7"></div>
       <div className="hidden"></div>
       <Services />
       <Whatsapp/>

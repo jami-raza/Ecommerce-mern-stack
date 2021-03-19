@@ -36,7 +36,7 @@ const CartScreen = ({ match, location, history }) => {
   }
 
   return <Row>
-    <Col md={8}>
+    <Col md={8} className="mt-5">
       <h1>Shopping Cart</h1>
       {cartItems.length === 0 ? (<Message>You have no items in you Cart</Message>) : (
         <ListGroup variant="flush">
@@ -79,7 +79,7 @@ const CartScreen = ({ match, location, history }) => {
       )}
     </Col>
     
-    <Col md={4}>
+    <Col md={4} className="mt-5">
       <Card>
       <ListGroup variant='flush'>
         <ListGroup.Item>
@@ -94,7 +94,7 @@ const CartScreen = ({ match, location, history }) => {
           <Button className="btn-block" disabled={cartItems.length === 0}
           onClick={ckeckoutHandler}
           >
-            <p>Proceed to Checkout</p>
+            Proceed to Checkout
           </Button>
         </ListGroup.Item>
       </ListGroup>

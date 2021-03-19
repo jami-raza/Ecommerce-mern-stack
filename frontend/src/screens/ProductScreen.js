@@ -36,12 +36,12 @@ const ProductScreen = ({ match, history }) => {
       ) : error ? (
         <Message variant="danger">{error}</Message>
       ) : (
-        <Row>
-          <Col md={6}>
+        <Row >
+          <Col md={6} className="mt-5">
             <Image style={{width:'100%',maxWidth:'500px',height:'500px',objectFit:'contain'}} src={product.image} alt={product.name} fluid />
           </Col>
-          <Col md={3}>
-            <ListGroup variant="flush">
+          <Col md={6} className="mt-5">
+          <ListGroup variant="flush">
               <ListGroup.Item>
                 <h3>{product.name}</h3>
               </ListGroup.Item>
@@ -49,8 +49,6 @@ const ProductScreen = ({ match, history }) => {
               <ListGroup.Item><p>Price: Rs{product.price}</p></ListGroup.Item>
               <ListGroup.Item><p>Discription:{product.description}</p></ListGroup.Item>
             </ListGroup>
-          </Col>
-          <Col md={3}>
             <Card>
               <ListGroup variant="flush">
                 <ListGroup.Item>
@@ -96,7 +94,7 @@ const ProductScreen = ({ match, history }) => {
                     type="button"
                     disabled={product.countInStock === 0}
                   >
-                  <p> Add to cart </p>
+                   Add to cart 
                   </Button>
                 </ListGroup.Item>
               </ListGroup>

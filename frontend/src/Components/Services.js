@@ -69,7 +69,7 @@ const Services = () => {
             />
             <Media.Body>
               <h5>Online Support</h5>
-              <p> Connect with us <a style={{color:"black"}} href="mailto:support@bababeard.com">@support.bababeard.com</a> for any query </p>
+              <p> Connect with us <a style={{color:"black"}} href="mailto:support@bababeard.com">@support.<br/>bababeard.com</a> for any query </p>
             </Media.Body>
           </Media>
         </Col>
