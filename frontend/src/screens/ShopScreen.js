@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Container, Col, Row, Modal } from "react-bootstrap";
 import "../Style/Shop.css";
-import ActivateVariant from "../Content/images/ingredient/ActivateW.R..png";
-import FillPatchesVariant from "../Content/images/ingredient/FillPatchesW.R..png";
-import NourishVariant from "../Content/images/ingredient/NourishW.R..png";
+import ActivateVariant from "../Content/images/ingredient/ActivateBottle2.png";
+import FillPatchesVariant from "../Content/images/ingredient/FillPatchesBottle2.png";
+import NourishVariant from "../Content/images/ingredient/NourishBottle2.png";
 
 function Shop() {
     const [activate, setActivate] = useState(false);
@@ -52,17 +52,17 @@ function Shop() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Row>
+                    <Row className="justify-content-center">
                    
-                    <Col lg={6} md={6} sm={12}> 
-                          <img className="dv9shopingimg1" src={ActivateVariant} />
+                    <Col lg={6} md={10} sm={12}> 
+                          <img className="dv9shopingimgmodal" src={ActivateVariant} />
                         </Col>
-                        <Col lg={6} md={6} sm={12}> 
+                        <Col lg={6} md={12} sm={12}> 
                           <div className="fontproduct">Activate - Beard Oil</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
                           <hr />
-                          <div>
+                          <div className="modaldescription">
                           Those who lack beard hair follicles, need a product that can stimulate growth of hair
                                               follicles and get absorbed in the skin to facilitate beard growth.
                                          <br/>     Our Arvore aquilaria Activating Oil contains Eucalyptus oil which is one of the best
@@ -70,7 +70,7 @@ function Shop() {
                           </div>
                           <hr />
                           <div>
-                            <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
+                            <a style={{color:"black"}} href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                           </div>
                         </Col>
                       </Row>
@@ -106,17 +106,17 @@ function Shop() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Row>
-                    <Col lg={6} md={6} sm={12}> 
+                    <Row className="justify-content-center">
+                    <Col lg={6} md={10} sm={12}> 
                         
-                          <img className="dv9shopingimg1" src={FillPatchesVariant} />
+                          <img className="dv9shopingimgmodal" src={FillPatchesVariant} />
                         </Col>
-                        <Col lg={6} md={6} sm={12}> 
+                        <Col lg={6} md={12} sm={12}> 
                           <div className="fontproduct">Fill Patches - Grama Fresca</div>
                           <hr />
                           <div className="fontprice">Rs 799.00</div>
                           <hr />
-                          <div>
+                          <div className="modaldescription">
                           Grama Fresca Oil for filling patches of beard, helps to make your beard complete by
                                               removing patches off your beard.
                                               <br/>Having Tea tree Oil, Fill patches Oil helps to unclog pores, protect facial hair, and
@@ -124,7 +124,7 @@ function Shop() {
                           </div>
                           <hr />
                           <div>
-                            <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
+                            <a style={{color:"black"}} href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                           </div>
                         </Col>
                       </Row>
@@ -162,16 +162,16 @@ function Shop() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                <Row>
-                <Col lg={6} md={6} sm={12}> 
-                        <img className="dv9shopingimg1" src={NourishVariant} />
+                <Row className="justify-content-center">
+                <Col lg={6} md={10} sm={12}> 
+                        <img className="dv9shopingimgmodal" src={NourishVariant} />
                       </Col>
-                      <Col lg={6} md={6} sm={12}> 
+                      <Col lg={6} md={12} sm={12}> 
                         <div className="fontproduct">Nourish - Beard Oil</div>
                         <hr />
                         <div className="fontprice">Rs 799.00</div>
                         <hr />
-                        <div>
+                        <div className="modaldescription">
                         To tame the mane you proudly own, you need some whip in the form of Our Serein
                                               epic Nourishing Oil.
                                               Our Nourish Oil is a blend of Premium quality organic carrier oils, 
@@ -180,7 +180,7 @@ function Shop() {
                         </div>
                         <hr />
                         <div>
-                          <a href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
+                          <a style={{color:"black"}} href="product/6037e6775c439c1fc83e3a93">View Full Details</a>
                         </div>
                       </Col>
                     </Row>

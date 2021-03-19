@@ -1,3 +1,4 @@
+
 @font-face{
   src: url(../Content/C_BOX_D.TTF);
   font-family: ChocolateBox;
@@ -31,6 +32,9 @@
     position: relative;
     height: 500px;
    
+  }
+  .modaldescription{
+    font-size: 16px;
   }
 
 .dv9imgshopdescription{
@@ -82,8 +86,10 @@
 
   }
   .IngredientTitle{
-    font-family: ChocolateBox;
-    font-size: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:"Oswald", sans-serif ;
+    font-size: 54px;
     font-weight: bold;
     text-align: center;
   }
@@ -126,10 +132,10 @@
     max-width: 330px;
     width: 100%;
     height: auto;
-    padding-left: 50px;
+    padding-left: 65px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 50px;
+    padding-right: 65px;
   
    
     
@@ -154,12 +160,74 @@
 
   }
  
+@media(min-width:1201px){
+  .dv9shopingimgmodal{
+      
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    padding-left: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 75px;
+  
+   
+    
+  }
+}
+  
   @media (max-width:1200px ){
     .dvshopfont1{
     
       font-size:23px; 
       
     }
+    
+  .dv9shopingimg1{
+      
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 55px;
+  
+   
+    
+  }
+  .dv9shopingimgmodal{
+      
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    padding-left: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 75px;
+  
+   
+    
+  }
+
+  @media(max-width:991px){
+    .dv9shopingimgmodal{
+      
+      max-width: 330px;
+      width: 100%;
+      height: auto;
+      padding-left: 75px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 75px;
+    
+     
+      
+    }
+  }
+
+
+
   }
   @media (max-width:495px){
     .dv9shopingimg1{
@@ -167,10 +235,10 @@
       max-width: 335px;
       width: 100%;
       height: auto;
-      padding-left: 30px;
+      padding-left: 35px;
       padding-top: 20px;
       padding-bottom: 20px;
-      padding-right: 30px;
+      padding-right: 35px;
     
      
       

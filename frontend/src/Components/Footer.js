@@ -24,8 +24,8 @@ const Footer = () => {
             </a>
           </div>
           <p className="sectioncontent1">
-            BabaBeard is a private beard oil company that manufacture 100%
-            organic beard oil.
+            BabaBeard is a Private Ltd. Beard Oil Company that manufacture 100%
+            Organic Beard Oil.
           </p>
         </Col>
 

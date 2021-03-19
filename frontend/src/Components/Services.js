@@ -19,8 +19,8 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Free Home Delivery</h5>
-              <p>Provide free home delivery for all product over $100</p>
+              <h5>DELIVERING NATION-WIDE</h5>
+              <p>We are delivering our bottle of care to your door step, all over Pakistan</p>
             </Media.Body>
           </Media>
         </Col>
@@ -35,8 +35,9 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Quality Products</h5>
-              <p>We ensure the product quality that is our main goal</p>
+            <h5>PREMIUM QUALITY PRODUCT</h5>
+              <p>You will get exactly what you are paying for “a Premium Quality Product”</p>
+             
             </Media.Body>
           </Media>
         </Col>
@@ -51,8 +52,8 @@ const Services = () => {
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h5>Return</h5>
-              <p>Return any product within 3 days you buy lorem ipsum</p>
+            <h5>NO SIDE EFFECTS</h5>
+              <p>We know your worries,we have made sure that you'll only get benefits from Baba Beard.</p>
             </Media.Body>
           </Media>
         </Col>
@@ -68,7 +69,7 @@ const Services = () => {
             />
             <Media.Body>
               <h5>Online Support</h5>
-              <p>We ensure the product quality that you can trust easily</p>
+              <p> Connect with us <a style={{color:"black"}} href="mailto:support@bababeard.com">@support.bababeard.com</a> for any query </p>
             </Media.Body>
           </Media>
         </Col>

@@ -17,7 +17,7 @@ const Scrollableimage=()=>{
                 <h5>
                 Special Offers for Subscription
                 </h5>
-                <h1>GET INSTANT DISCOUNT FOR MEMBERSHIP</h1>
+                <h1>Join Us and Get Special 10% Discount on your first order</h1>
                 <Form>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>

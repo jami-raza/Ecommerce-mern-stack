@@ -43,7 +43,7 @@ function RefundPolicy() {
             </div>
 
             <div className="policyheading">Refund:</div>
-            <div className="policycontent">
+            <div style={{marginBottom:"70px"}}className="policycontent">
               Once we receive the product and finishes inspection, we’ll notify
               you whether the product is approved or not. After approval you
               will be refunded immediately via any payment method you would

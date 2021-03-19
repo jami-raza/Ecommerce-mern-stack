@@ -55,21 +55,24 @@ function Home() {
       <Container className="home-section-2">
         <Row className="justify-content-center home-section-2-row">
           <Col md={6} className=" home-section-2-col">
-            <h2>Provide The Best</h2>
+            <h2>Providing The Premium Quality</h2>
             <br />
             <h1>Beard Oil For You</h1>
             <div className="desc">
               <p>
-                We provide the best Beard oil all over the world. We are the
-                worldd best store for Beard Oil. You can buy our product without
-                any hegitation because we always consus about our product
-                quality and always maintain it properly so your can trust and
-                this is our main goal we belive that...
+              Baba Beard is providing the Blend of 100%  Natural Ingredients, no 
+              fillers or Chemical of any sort is used in the Premium Quality Beard Oil. 
+              We are committed and passionate to provide you the Best Beard Oil a man can get to
+               Promotes beard & mustache growth,
+               Nourishes skin underneath beard, Makes beard super soft & shiny, Prevents premature graying.
               </p>
               <p>
-                Some of our customer say’s that they trust us and buy our
-                product without any hagitation because they belive us and always
-                happy to buy our product.
+              Struggling in growing a proper Beard? Have Patches On your Beard? Or struggling with 
+              the fully grown but rough beard? Don't worry we are here to take care of your Beard Worries.
+               Our range of Activate Oil, FIll patches Oil, and Nourish Oil are the solution that you can trust
+                without any hesitation. Our Beard Oil Collection has been specifically designed to unlock the beard 
+                growth potential of your facial hair. It provides super boost to your beard by deep cleaning your hair follicle,
+               improving nutrient circulation & deep nourishing them with best possible ingredients for beard growth.
               </p>
               <Link to="/about-us"><button>Read More</button></Link>
             </div>
@@ -92,18 +95,18 @@ function Home() {
         <Row className="justify-content-space-between home-section-3-row">
           <Col lg={6} md={12} sm={12} xs={12} className="home-section-3-col">
             <div className="content">
-              <h5>Grow it</h5>
-              <h1>Just starting ?</h1>
+              <h5>Just starting?</h5>
+              <h1>Activate it</h1>
               <Link to="/product/6036b14c4205e327c86d3223"><button>Try a growth kit</button></Link>
             </div>
           </Col>
 
           <Col lg={6} md={12} sm={12} xs={12} className="home-section-3-col-2">
             <div className="content">
-              <h5>Groom it</h5>
+              <h5>Own a Grown Beard?</h5>
               <h1>
-                Just <br />
-                Shine ?
+                Maintain <br />
+                it
               </h1>
              <Link to="/product/6037e72d5c439c1fc83e3a94"> <button>Try a grooming kit</button></Link>
             </div>
