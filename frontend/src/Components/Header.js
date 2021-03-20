@@ -74,7 +74,7 @@ const Header = () => {
             <LinkContainer to="/cart">
               <Nav.Link>
                 <p className={`nav-font ${show && "nav-font-scroll"}`}>
-                  <i className="fas fa-cart-arrow-down nav-icon"></i>Cart
+                  <i className="fas fa-cart-arrow-down nav-icon-cart" style={{color:"grey",backgroundColor:'#2b29'}}></i>Cart
                 </p>
               </Nav.Link>
             </LinkContainer>

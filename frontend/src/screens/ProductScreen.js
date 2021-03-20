@@ -36,7 +36,7 @@ const ProductScreen = ({ match, history }) => {
       ) : error ? (
         <Message variant="danger">{error}</Message>
       ) : (
-        <Row >
+        <Row>
           <Col md={6} className="mt-5">
             <Image style={{width:'100%',maxWidth:'500px',height:'500px',objectFit:'contain'}} src={product.image} alt={product.name} fluid />
           </Col>

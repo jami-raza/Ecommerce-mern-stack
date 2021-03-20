@@ -22,11 +22,11 @@ const Product = ({product}) => {
                 </a>
             
                 <h4>
-                Rs.799
+                <small>rs</small>799
                 </h4>
             
                 <h4>
-                Rs.{product.price}
+                rs {product.price}
                 </h4>
                 
             </div>
