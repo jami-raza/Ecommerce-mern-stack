@@ -45,7 +45,15 @@
 .product-card .body{
     text-align: center;
 }
-
+.product-card .body h4:nth-child(odd)::after {
+    content: " ";
+    border-right: 2px solid #2b2929;
+    position: absolute;
+    height: 60px;
+    transform: rotate(100deg);
+    
+  
+}
 .product-card .body h4 {
     font-size:18px;
     font-family: "Roboto", sans-serif;

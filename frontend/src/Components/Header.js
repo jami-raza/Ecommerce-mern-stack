@@ -120,21 +120,21 @@ const Header = () => {
                 <Dropdown.Menu>
                   <LinkContainer to="/admin/userlist">
                     <Dropdown.Item>
-                      <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                      <p className="nav-font-scroll">
                         Users
                       </p>
                     </Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/admin/productlist">
                     <Dropdown.Item>
-                      <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                      <p className="nav-font-scroll">
                         Products
                       </p>
                     </Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/admin/orderlist">
                     <Dropdown.Item>
-                      <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                      <p className="nav-font-scroll">
                         Orders
                       </p>
                     </Dropdown.Item>
@@ -250,21 +250,21 @@ const Header = () => {
               <Dropdown.Menu>
                 <LinkContainer to="/admin/userlist">
                   <Dropdown.Item>
-                    <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                    <p className="nav-font-scroll">
                       Users
                     </p>
                   </Dropdown.Item>
                 </LinkContainer>
                 <LinkContainer to="/admin/productlist">
                   <Dropdown.Item>
-                    <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                    <p className="nav-font-scroll">
                       Products
                     </p>
                   </Dropdown.Item>
                 </LinkContainer>
                 <LinkContainer to="/admin/orderlist">
                   <Dropdown.Item>
-                    <p className={`nav-font ${show && "nav-font-scroll"}`}>
+                    <p className="nav-font-scroll">
                       Orders
                     </p>
                   </Dropdown.Item>

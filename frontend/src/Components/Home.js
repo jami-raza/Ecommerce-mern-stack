@@ -54,7 +54,7 @@ function Home() {
       
       <Container className="home-section-2">
         <Row className="justify-content-center home-section-2-row">
-          <Col md={6} className=" home-section-2-col">
+          <Col md={12} lg={6} xl={6} sm={12} xs={12} className=" home-section-2-col">
             <h2>Providing The Premium Quality</h2>
             <br />
             <h1>Beard Oil For You</h1>
@@ -97,7 +97,7 @@ function Home() {
             <div className="content">
               <h5>Just starting?</h5>
               <h1>Activate it</h1>
-              <Link to="/product/6036b14c4205e327c86d3223"><button>Try a growth kit</button></Link>
+              <a href="/product/6036b14c4205e327c86d3223"><button>Try a growth kit</button></a>
             </div>
           </Col>
 
@@ -108,7 +108,7 @@ function Home() {
                 Maintain <br />
                 it
               </h1>
-             <Link to="/product/6037e72d5c439c1fc83e3a94"> <button>Try a grooming kit</button></Link>
+             <a href="/product/6037e72d5c439c1fc83e3a94"> <button>Try a grooming kit</button></a>
             </div>
           </Col>
         </Row>

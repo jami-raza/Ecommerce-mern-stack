@@ -8,11 +8,9 @@ const Scrollableimage=()=>{
 
 <div>
 <Container fluid className="parallax">
-    <Row>
-        <Col md={4} lg={6} xl={6} >
-            <img className="nourish" src={Nourish} />
-        </Col>
-        <Col className="align-self-center">
+    <Row className="justify-content-center">
+        
+        <Col className="align-self-center mt-5" xs={10} sm={10} lg={10} md={10} xl={10} >
             <div className="subscription">
                 <h5>
                 Special Offers for Subscription

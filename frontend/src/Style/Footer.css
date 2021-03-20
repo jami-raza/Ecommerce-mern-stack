@@ -1,7 +1,6 @@
 .footersection{
     background-color: rgb(32, 32, 32);
     height: fit-content;
-    padding:20px;
     font-size: 16px;
     color: #fff;
     
@@ -71,16 +70,11 @@ a {
 .footersection .fourthsection .footer-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footersection .fourthsection .footer-icons .circle {
-    width:50px;
-    height:50px;
-    border-radius:10%;
-    background-color: white;
-    box-shadow: 1px 1px 6px #888888;
-    padding:7px;
+    
 }
 .footersection .fourthsection .footer-icons .circle .instagram {
 
@@ -88,4 +82,15 @@ a {
   border-radius: 40%;
   font-size:32px;
   padding:4px;
+}
+.footersection .footerbottom {
+    padding:10px;
+    text-align:center;
+    border-top: 1px ridge grey;
+}
+.footersection .footerbottom .copy-right {
+    margin-bottom:0rem;
+    font-size:14px;
+    color: azure;
+    
 }

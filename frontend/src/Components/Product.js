@@ -6,22 +6,24 @@ const Product = ({product}) => {
     
     return (
         <div className="product-card">
-            <Link to ={`/product/${product._id}`}>
+            <a href ={`/product/${product._id}`}>
                 <div className="image-container">
                 <img src={product.image}/>
                 </div>
-            </Link>
+            </a>
             
             
             <div className="body">
             <span class="short-text">{product.brand}</span>
-            <Link to ={`/product/${product._id}`}>
+            <a href ={`/product/${product._id}`}>
                 <h3>
                     {product.name}
                 </h3>
-                </Link>
+                </a>
             
-            
+                <h4>
+                Rs.799
+                </h4>
             
                 <h4>
                 Rs.{product.price}
@@ -31,7 +33,7 @@ const Product = ({product}) => {
             
             <div className="cart-preview">
                 <div className="cart-btn">
-                    <Link to={`/product/${product._id}`}><button>Shop Now</button></Link>
+                    <a href={`/product/${product._id}`}><button>Shop Now</button></a>
                 </div>
             </div>
         </div>

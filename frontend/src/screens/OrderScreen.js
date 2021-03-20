@@ -47,9 +47,10 @@ const OrderScreen = ({ match }) => {
     <Message variant="danger">{error}</Message>
   ) : (
     <>
-      <h1>Order {order._id}</h1>
+      
       <Row>
-        <Col md={8}>
+        <Col md={8} className="mt-5">
+        <h1 >Order <strong>id</strong>:{order._id}</h1>
           <ListGroup>
             <ListGroup.Item>
               <h2>Shipping</h2>
@@ -60,13 +61,19 @@ const OrderScreen = ({ match }) => {
               </p>
               <p>
                 <strong>Email: </strong>{" "}
-                <a href={`mailto:${order.user.email}`}>{order.user.email}</a>
+                <a href={`mailto:${order.user.email}`} style={{color:"black"}}>{order.user.email}</a>
               </p>
               <p>
-                <strong>Address :</strong>
+                <strong>Address: </strong>
                 {order.shippingAddress.address}, {order.shippingAddress.city}{" "}
                 
                 {order.shippingAddress.country}
+              </p>
+              <p>
+                <strong>Phone: </strong>
+                
+                
+                {order.shippingAddress.postalCode}
               </p>
               {order.isDelivered ? (
                 <Message variant="success">Delivered on {order.deliveredAt}</Message>
@@ -80,7 +87,7 @@ const OrderScreen = ({ match }) => {
               <p>
                 {" "}
                 <strong>Method: </strong>
-                {order.paymentMethod}
+                Cash on delivery
               </p>
               {order.isPaid ? (
                 <Message variant="success">Paid on {order.paidAt}</Message>
@@ -122,7 +129,7 @@ const OrderScreen = ({ match }) => {
             </ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="mt-5">
           <Card>
             <ListGroup variant="flush">
               <ListGroup.Item>
@@ -131,20 +138,20 @@ const OrderScreen = ({ match }) => {
               <ListGroup.Item>
                 <Row>
                   <Col>Items</Col>
-                  <Col>${order.itemsPrice}</Col>
+                  <Col>Rs{order.itemsPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Shipping</Col>
-                  <Col>${order.shippingPrice}</Col>
+                  <Col>Rs{order.shippingPrice}</Col>
                 </Row>
               </ListGroup.Item>
               
               <ListGroup.Item>
                 <Row>
                   <Col>Total Price</Col>
-                  <Col>${order.itemsTotalPrice}</Col>
+                  <Col>Rs{order.itemsTotalPrice}</Col>
                 </Row>
               </ListGroup.Item>
               

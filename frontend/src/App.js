@@ -16,6 +16,7 @@ import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
 import ProductListScreen from './screens/ProductListScreen';
+import ProductEditScreen from './screens/ProductEditScreen';
 import About from './screens/AboutScreen'
 import Contactus from './Components/Contactus'
 import RefundPolicy from './Components/RefundPolicy'
@@ -24,11 +25,13 @@ import Ingredient from './screens/IngredientScreen'
 import Shop from './screens/ShopScreen'
 import FAQS from './screens/FaqsScreen'
 import Footer from './Components/Footer'
+import HeaderTop from './Components/HeaderTop'
 
 
 const App = () => {
   return (
     <Router>
+      <HeaderTop/>
     <Header/>
     <main>
       
@@ -49,7 +52,7 @@ const App = () => {
      
 
       <Route path='/admin/productlist' component={ProductListScreen} />
-      {/*<Route path='/admin/product/:id/edit' component={ProductEditScreen} />*/}
+      <Route path='/admin/product/:id/edit' component={ProductEditScreen} />
       <Route path='/admin/orderlist' component={OrderListScreen} />
       <Route path='/about-us' component={About} />
       <Route path='/contact-us' component={Contactus} />
