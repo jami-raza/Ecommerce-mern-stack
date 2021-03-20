@@ -214,7 +214,7 @@ const Header = () => {
                   show && "custom-dropdown-scroll"
                 }`}
               >
-                {userInfo.name}
+                <i class="far fa-user-circle"></i>
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <LinkContainer to="/profile">
