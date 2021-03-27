@@ -21,10 +21,11 @@ import About from './screens/AboutScreen'
 import Contactus from './Components/Contactus'
 import RefundPolicy from './Components/RefundPolicy'
 import ReplacingPolicy from './Components/ReplacingPolicy'
+import Survey from './Components/Survey'
 import Ingredient from './screens/IngredientScreen'
 import Shop from './screens/ShopScreen'
 import FAQS from './screens/FaqsScreen'
-import Survey from './Components/Survey'
+ 
 
 
 const App = () => {
