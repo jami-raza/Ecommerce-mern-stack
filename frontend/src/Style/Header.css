@@ -61,9 +61,7 @@
 .nav-icon {
     padding-right: 5px;
 }
-.nav-icon-cart {
-    background-color: rgb(26 26 26 / 50%);;
-}
+
 .mob-nav {
     display: none;
 }
@@ -71,13 +69,7 @@
     display: block;
     
 }
-.fa-cart-arrow-down:before {
-    content: "\f218";
-    color: rgb(26 26 26 / 50%);
-    background: #00800099;
-    padding: 14px;
-    padding-top: 18px;
-}
+
 .header-top-scroll {
     display: none;
 }

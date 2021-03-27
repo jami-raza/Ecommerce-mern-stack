@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Row, Col, ListGroup, Image, Card } from "react-bootstrap";
+import { Row, Col, ListGroup, Image, Card, Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Message from "../Components/Message";
 import Loader from "../Components/Loader";
-import { getOrderDetails } from "../actions/orderAction";
+import { getOrderDetails, deliverOrder } from "../actions/orderAction";
+import {ORDER_DELIVER_RESET} from '../constants/orderConstants';
 
 const OrderScreen = ({ match }) => {
   const orderId = match.params.id;
@@ -13,7 +14,12 @@ const OrderScreen = ({ match }) => {
 
   const orderDetails = useSelector((state) => state.orderDetails);
   const { order, loading, error } = orderDetails;
+
+  const userLogin = useSelector((state) => state.userLogin);
+  const { userInfo } = userLogin;
   
+  const orderDeliver = useSelector((state) => state.orderDeliver);
+  const { loading:loadingDeliver, success:successDeliver } = orderDeliver;
  
   // Calculate prices
 
@@ -34,10 +40,16 @@ const OrderScreen = ({ match }) => {
   }
 
   useEffect(() => {
-      if(!order || order._id !== orderId){
+      if(!order || order._id !== orderId || successDeliver){
+        dispatch({ type: ORDER_DELIVER_RESET });
         dispatch(getOrderDetails(orderId));
+        
       }
-  }, [dispatch, order, orderId ]);
+  }, [dispatch, order, orderId, successDeliver ]);
+
+  const deliverHandler = () => {
+    dispatch(deliverOrder(order))
+  }
 
   console.log(order)
 
@@ -67,7 +79,7 @@ const OrderScreen = ({ match }) => {
                 <strong>Address: </strong>
                 {order.shippingAddress.address}, {order.shippingAddress.city}{" "}
                 
-                {order.shippingAddress.country}
+                
               </p>
               <p>
                 <strong>Phone: </strong>
@@ -75,6 +87,13 @@ const OrderScreen = ({ match }) => {
                 
                 {order.shippingAddress.postalCode}
               </p>
+              <p>
+                <strong>Message: </strong>
+                
+                
+                {order.shippingAddress.country}
+              </p>
+              
               {order.isDelivered ? (
                 <Message variant="success">Delivered on {order.deliveredAt}</Message>
               ) : (
@@ -114,12 +133,14 @@ const OrderScreen = ({ match }) => {
                           />
                         </Col>
                         <Col>
-                          <Link to={`/product/${item.product}`}>
+                        
+                          <Link to={`/product/${item.product}`} style={{color:'black'}}>
                             {item.name}
+                            
                           </Link>
                         </Col>
                         <Col md={4}>
-                          {item.qty} x {item.price} = ${item.qty * item.price}
+                          {item.qty} x {item.price} = Rs{item.qty * item.price}
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -137,13 +158,13 @@ const OrderScreen = ({ match }) => {
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
-                  <Col>Items</Col>
+                  <Col>Item Price</Col>
                   <Col>Rs{order.itemsPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
-                  <Col>Shipping</Col>
+                  <Col>Delivery Charges</Col>
                   <Col>Rs{order.shippingPrice}</Col>
                 </Row>
               </ListGroup.Item>
@@ -154,7 +175,18 @@ const OrderScreen = ({ match }) => {
                   <Col>Rs{order.itemsTotalPrice}</Col>
                 </Row>
               </ListGroup.Item>
-              
+              {loadingDeliver && <Loader />}
+              {userInfo.isAdmin && !order.isDelivered && (
+                <ListGroup.Item>
+                  <Button
+                  type='button'
+                  className='btn btn-block'
+                  onClick={deliverHandler}
+                  >
+                    Mark as Delivered
+                  </Button>
+                </ListGroup.Item>
+              )}
                 
             </ListGroup>
           </Card>

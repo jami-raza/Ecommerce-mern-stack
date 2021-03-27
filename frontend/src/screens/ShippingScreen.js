@@ -11,9 +11,9 @@ const ShippingScreen = ({ history }) => {
   const { shippingAddress } = cart;
   const [address, setAddress] = useState(shippingAddress.address);
   const [city, setCity] = useState(shippingAddress.city);
-  const [postalCode, setPostalCode] = useState(shippingAddress.postalcode);
-  const [country, setCountry] = useState(shippingAddress.country);
-
+  const [postalCode, setPostalCode] = useState(shippingAddress.postalCode);
+  const [country, setCountry] = useState("handle with care");
+  console.log(shippingAddress.country)
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
@@ -21,6 +21,13 @@ const ShippingScreen = ({ history }) => {
     dispatch(saveShippingAddress({ address, city, postalCode, country }));
     history.push("/placeorder");
   };
+
+  if(postalCode.length === 11){
+    console.log("passed")
+  } else {
+    console.log("failed")
+  }
+  
   return (
     <FormContainer>
       <CheckoutSteps step1 step2 />
@@ -52,10 +59,11 @@ const ShippingScreen = ({ history }) => {
           <Form.Label>Phone Number</Form.Label>
           <Form.Control
             type="number"
-            placeholder="Enter Phone Number"
+            placeholder="03160268662"
             value={postalCode}
             required
             onChange={(e) => setPostalCode(e.target.value)}
+            isInvalid={postalCode.length < 11 || postalCode.length > 11}
           ></Form.Control>
         </Form.Group>
 

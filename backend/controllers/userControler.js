@@ -2,6 +2,8 @@ const User = require("../model/userModel");
 const asyncHandler = require("express-async-handler");
 const generateToken = require("../utils/generateToken");
 
+
+
 // @desc    Auth user & get token
 // @route   POST /api/user/login
 // @access  Public
@@ -178,4 +180,5 @@ const updateUser = asyncHandler(async (req, res) => {
     throw new Error("User not found");
   }
 });
+
 module.exports = { authUser, getUserProfile, updateUser, getUserById ,getUsers, registerUser, updateUserProfile, deleteUser};

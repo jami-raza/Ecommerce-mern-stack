@@ -98,19 +98,19 @@ const Footer = () => {
           </div>
           <div className="footer-icons">
             <div >
-              <a href="www.twitter.com/bababeardco"> 
+              <a href="https://www.twitter.com/bababeardco"> 
               <i class="fab fa-twitter" style={{color:'#f4f4f4',fontSize:'24px',marginRight:'20px'}}></i>
               </a>
             </div>
             <div >
-              <a href="www.facebook.com/bababeardco">
+              <a href="https://www.facebook.com/bababeardco">
               <i class="fab fa-facebook-f" style={{color:'#f4f4f4',fontSize:'24px',marginRight:'20px'}}></i>
                  </a>
             </div>
             <div>
             
               
-              <a href="www.instagram.com/bababeardco">
+              <a href="https://www.instagram.com/bababeardco">
               <i class="fab fa-instagram instagram" style={{color:'#f4f4f4',fontSize:'24px'}}></i>
               </a>
             

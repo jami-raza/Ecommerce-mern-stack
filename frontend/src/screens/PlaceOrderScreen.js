@@ -38,7 +38,7 @@ const PlaceOrderScreen = ({history}) => {
             shippingAddress: cart.shippingAddress,
             paymentMethod: cart.itemsPrice,
             shippingPrice: cart.shippingPrice,
-            taxPrice: cart.itemsTaxPrice,
+            
             totalPrice: cart.itemsTotalPrice
         }))
     }
@@ -50,9 +50,9 @@ const PlaceOrderScreen = ({history}) => {
                 <Col md={8} sm={12}>
                     <ListGroup>
                     <ListGroup.Item>
-                        <h2>Shipping</h2>
+                        <h2>Address</h2>
                         <p>
-                            <strong>Address</strong>
+                            
                             {cart.shippingAddress.address}, {cart.shippingAddress.city}{' '}
                             
                             
@@ -63,6 +63,13 @@ const PlaceOrderScreen = ({history}) => {
                         
                             <strong>
                             {cart.shippingAddress.postalCode}
+                            </strong>
+                    </ListGroup.Item>
+                    <ListGroup.Item>
+                        <h2>Message</h2>
+                        
+                            <strong>
+                            {cart.shippingAddress.country}
                             </strong>
                     </ListGroup.Item>
                     
@@ -101,13 +108,13 @@ const PlaceOrderScreen = ({history}) => {
                          </ListGroup.Item>  
                          <ListGroup.Item>
                              <Row>
-                                 <Col>Items</Col>
+                                 <Col>Item Price</Col>
                                  <Col>Rs. {cart.itemsPrice}</Col>
                              </Row>
                          </ListGroup.Item>
                          <ListGroup.Item>
                              <Row>
-                                 <Col>Shipping</Col>
+                                 <Col>Delivery Charges</Col>
                                  <Col>Rs .{cart.shippingPrice}</Col>
                              </Row>
                          </ListGroup.Item>  

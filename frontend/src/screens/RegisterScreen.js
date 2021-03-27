@@ -52,6 +52,7 @@ const RegisterScreen = ({location, history}) => {
                     placeholder="Enter name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
+                    required
                     >
                     </Form.Control>
                 </Form.Group>
@@ -62,6 +63,7 @@ const RegisterScreen = ({location, history}) => {
                     placeholder="Enter email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                     >
                         
                     </Form.Control>
@@ -73,6 +75,7 @@ const RegisterScreen = ({location, history}) => {
                     placeholder="Enter password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    required
                     >
                         
                     </Form.Control>
@@ -95,7 +98,7 @@ const RegisterScreen = ({location, history}) => {
             <Row className="py-3">
                 <Col>
                <p> Have an Account?{' '}</p>
-                <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>
+                <Link to={redirect ? `/login?redirect=${redirect}` : '/login'} style={{color:'black'}}>
                    <p> Login</p>
                 </Link>
                 </Col>

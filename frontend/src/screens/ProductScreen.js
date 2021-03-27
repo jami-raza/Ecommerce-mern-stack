@@ -25,7 +25,7 @@ const ProductScreen = ({ match, history }) => {
 
    const addToCartHandler = () => {
      
-    history.push(`/cart/${match.params.id}?qty=${qty}`);
+    history.push(`/cart/${match.params.id}?qty=${qty}#cart-container`);
   };
 
   return (
@@ -43,11 +43,14 @@ const ProductScreen = ({ match, history }) => {
           <Col md={6} className="mt-5">
           <ListGroup variant="flush">
               <ListGroup.Item>
-                <h3>{product.name}</h3>
+                <h3>{product.name} Oil</h3>
               </ListGroup.Item>
               
-              <ListGroup.Item><p>Price: Rs{product.price}</p></ListGroup.Item>
-              <ListGroup.Item><p>Discription:{product.description}</p></ListGroup.Item>
+              <ListGroup.Item><p><strong style={{fontWeight:'bold'}}>Price</strong>: Rs{product.price}</p></ListGroup.Item>
+              
+              <ListGroup.Item>
+              <p><strong style={{fontWeight:'bold'}}>Description</strong></p>
+                <p>{product.description}</p></ListGroup.Item>
             </ListGroup>
             <Card>
               <ListGroup variant="flush">

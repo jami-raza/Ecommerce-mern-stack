@@ -66,12 +66,14 @@ const LoginScreen = ({location, history}) => {
             <Row className="py-3">
                 <Col>
                 <p>New Customer?{' '}</p>
-                <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
+                <Link to={redirect ? `/register?redirect=${redirect}` : '/register'} style={{color:'black'}}>
                     <p>Register</p>
                 </Link>
                 </Col>
             </Row>
+            
         </FormContainer>
+        
     )
 }
 

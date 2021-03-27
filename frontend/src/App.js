@@ -25,13 +25,13 @@ import Ingredient from './screens/IngredientScreen'
 import Shop from './screens/ShopScreen'
 import FAQS from './screens/FaqsScreen'
 import Footer from './Components/Footer'
-import HeaderTop from './Components/HeaderTop'
+
 
 
 const App = () => {
   return (
     <Router>
-      <HeaderTop/>
+      
     <Header/>
     <main>
       

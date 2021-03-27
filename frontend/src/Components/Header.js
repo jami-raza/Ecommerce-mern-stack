@@ -8,7 +8,10 @@ import Logo1 from "../Content/images/logo-black.png";
 import mobLogo from "../Content/images/logo-white-mob.png";
 import mobLogo1 from "../Content/images/logo-black-mob.png";
 import "../Style/Header.css";
+import { useHistory } from 'react-router-dom';
+
 const Header = () => {
+  const history = useHistory();
   const dispatch = useDispatch();
   const [show, handleShow] = useState(false);
   const userLogin = useSelector((state) => state.userLogin);
@@ -16,6 +19,7 @@ const Header = () => {
 
   const logoutHandler = () => {
     dispatch(logout());
+    history.push('/')
   };
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -74,7 +78,7 @@ const Header = () => {
             <LinkContainer to="/cart">
               <Nav.Link>
                 <p className={`nav-font ${show && "nav-font-scroll"}`}>
-                  <i className="fas fa-cart-arrow-down nav-icon-cart" style={{color:"grey",backgroundColor:'#2b29'}}></i>Cart
+                  <i className="fas fa-cart-arrow-down nav-icon-cart"></i> Cart
                 </p>
               </Nav.Link>
             </LinkContainer>

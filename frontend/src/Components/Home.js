@@ -29,11 +29,8 @@ function Home() {
   useEffect(() => {
     dispatch(listProducts());
   }, [dispatch]);
-  const [index, setIndex] = useState(0);
+  
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
   return (
     <div>
       
@@ -47,7 +44,7 @@ function Home() {
           <p className="banner-title">Start your Beard journey <br/>with the best thing in the Town</p>
         
         
-          <button className="banner-btn">Shop Now</button>
+          <Link to="/shop"><button className="banner-btn">Shop Now</button></Link>
           </div>
       </Container>
          

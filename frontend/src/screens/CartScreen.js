@@ -35,7 +35,7 @@ const CartScreen = ({ match, location, history }) => {
     history.push('/register?redirect=shipping')
   }
 
-  return <Row>
+  return <Row id="cart-container">
     <Col md={8} className="mt-5">
       <h1>Shopping Cart</h1>
       {cartItems.length === 0 ? (<Message>You have no items in you Cart</Message>) : (
