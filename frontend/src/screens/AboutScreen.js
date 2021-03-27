@@ -6,6 +6,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import sunbottle from "../Content/images/faizan2.jpg";
 
 import Services from "../Components/Services";
+import Email from "../Components/Email"
 function About() {
   return (
     <div>
@@ -99,30 +100,7 @@ function About() {
         </Row>
       </Container>
 
-      <Container fluid>
-        <Row className="justify-content-center emaildivbackground">
-          <Col lg={5} xl={5} md={5} sm={12} xs={12} className="emaildiv">
-            <div className="emaildiv2">
-              <br/>
-              <p className="emailfont1">
-               LET'S KEEP IN TOUCH{" "}
-              </p>
-              
-              <p className="emailfont2">Get email offers & the latest news from us </p>
-
-              <input
-                className="emailinput"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Type your email"
-              />
-
-              <button className="btnemailsignup"> Signup </button>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <Email/>
       <Services />
       
     </div>
