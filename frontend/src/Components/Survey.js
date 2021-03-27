@@ -28,8 +28,8 @@ function Survey() {
         <Container fluid>
           <Row>
             <div className="col-lg-12 col-sm-12 col-md-12">
-              <div className="IngredientTitle">Products</div>
-  <hr/>
+              <div className="SurveyTitle">Select Your Category</div>
+ 
             </div>
           </Row>
         </Container>
@@ -50,7 +50,7 @@ function Survey() {
               </div>
 
                 <div className="surveycontent">
-                   Activate <br/>
+                Activate <br/>
                    Our original blend of Morrocan Argan Oil, Avocado Oil, Jojoba Oil, Eucalyptus 
                    and Vitamin E to accelerate your beard growth by stimulating your facial hair follicles.
                 </div>
@@ -75,6 +75,7 @@ function Survey() {
                  
                 </Modal.Header>
                 <Modal.Body>
+                    <Container>
                     <Row className="justify-content-center modalsurveyrow">
                    
                     <Col lg={5} md={12} sm={12} className="ModalPic-col"> 
@@ -117,6 +118,7 @@ function Survey() {
                           
                         </Col>
                       </Row>
+                      </Container>
                 </Modal.Body>
 
                 <Modal.Footer>
@@ -166,6 +168,7 @@ function Survey() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+                  <Container>
                     <Row className="justify-content-center modalsurveyrow">
                     <Col lg={5} md={12} sm={12} className="ModalPic-col"> 
                           <img className="dv9surveyimgmodal" src={FillPatchesVariant} />
@@ -207,6 +210,7 @@ function Survey() {
                           
                         </Col>
                       </Row>
+                      </Container>
                 </Modal.Body>
 
                 <Modal.Footer>
@@ -254,6 +258,7 @@ function Survey() {
                   </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+                  <Container>
                 <Row className="justify-content-center modalsurveyrow">
                     <Col lg={5} md={12} sm={12} className="ModalPic-col"> 
                           <img className="dv9surveyimgmodal" src={NourishVariant} />
@@ -295,6 +300,7 @@ function Survey() {
                           
                         </Col>
                     </Row>
+                    </Container>
                 </Modal.Body>
 
                 <Modal.Footer>

@@ -1,0 +1,487 @@
+
+
+
+
+@font-face{
+    src: url(../Content/C_BOX_D.TTF);
+    font-family: ChocolateBox;
+  }
+  
+.SurveyTitle{
+    font-family:"Oswald", sans-serif; 
+font-size: 50px;
+text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+  .dvSurvey1{
+       
+      background-color: rgb(255, 255, 255);
+    
+      position: relative;
+      height: 500px;
+     
+    }
+  
+    .dvsurveyfont1{
+      padding-top: 50px;
+      font-family:"Oswald", sans-serif; 
+      font-size:38px; 
+       
+      font-weight:900; 
+      text-align: center;
+       
+    }
+      
+    .contimg {
+      position: relative;
+    width: 100%;
+    
+  
+    }
+  
+    .contimg .dv9surveyimg1{
+      width: 100%;
+      height: auto;
+    }
+    
+  
+    .btnsurvey1{
+      background-color: transparent;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.651);
+      border-radius: 10px;
+      
+    border: none;
+    outline: none;
+        height: 70px;
+        width: 100%;
+        max-width: 260px;
+         
+        position: absolute;
+        transform: translate(-50%, -50%);
+      transition: ease 0.4s;
+      top:25%;
+  }
+  
+  .btnsurvey1:hover{
+      color: rgb(255, 255, 255);
+      background-color: #2b2929;
+      opacity: 75%;
+  }
+  
+  
+  .Surveyimg{
+        
+      max-width: 330px;
+      width: 100%;
+      height: auto;
+      padding-left: 0px;
+      padding-top: 0px;
+      padding-bottom: 30px;
+      padding-right: 0px;
+    
+    }
+  
+     .surveycontent{
+       position: absolute;
+       transform: translate(0%, -70%);
+        width: 100%;
+        padding-left: 0px; 
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       max-width: 310px;
+       top:80%;
+       text-align: center;
+       font-weight: bold;
+       color: white;
+       background-color: #2b2929;
+       opacity: 75%;
+     }
+    
+  
+     .modalsurveyrow{
+       background-color: rgb(255, 255, 255);
+     }
+  
+     .dv9surveyimgmodal{
+      max-width: 350px;
+      width: 100%;
+      height: auto;
+      padding-left: 100px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 0px;
+    
+     }
+  
+     .Surveyfontproduct{
+       padding-top: 30px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      color: black;
+     
+  }
+  
+  .Surveymodaldescription{
+     
+      font-size: 16px;
+   
+  }
+  .Modal1-Des{
+    text-align: center;
+  
+  }
+  
+  .modal1-heading{
+    font-family:ChocolateBox ;
+    font-size:40px ;
+    color:  rgb(214, 214, 214);
+  }
+  .modal1-subhead{
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: rgb(214, 214, 214);
+  }
+  .ModalPic-col{
+    background-color: #2b2929;
+  }
+  .ModalForm-col{
+   background-color: #e7e7e7;
+    
+  }
+  
+  .Form-div{
+   
+    padding-left: 60px;
+    color: black;
+  }
+  .lbltext{
+    font-size: 20px;
+  }
+  .lblinput{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    max-width: 280px;
+    font-size: 18px;
+  }
+   .lbltextterm{
+    font-size: 20px;
+    padding-left: 10px;
+   }
+   .btndivModal{
+     padding-top: 10px;
+     padding-left: 100px;
+   }
+  .btnSignupModal{
+    width: 120px;
+    border-radius: 30px;
+    background-color:#969696;
+    color: black;
+  }
+  
+  
+  @media(max-width:1201px){
+    .surveycontent{    
+      max-width: 310px;
+      top:80%;
+    
+    }
+  
+  
+    .btnsurvey1{
+        height: 70px;
+        width: 100%;
+        max-width: 260px;
+  
+  }
+  .dv9surveyimgmodal{
+    padding-left: 100px; 
+    padding-right: 0px;
+   }
+  
+   .modal1-subhead{
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+  
+  .Form-div{
+    padding-left: 60px;
+  }
+  
+  .btndivModal{
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+  .btnSignupModal{
+   width: 120px;
+   
+  }
+  }
+  
+  
+  @media(max-width:1200px){
+  
+  .surveycontent{
+    max-width: 250px;
+    
+    top:75%;
+  }
+  
+  .btnsurvey1{
+  
+      height: 60px;
+      max-width: 200px;
+  }
+  
+  .dv9surveyimgmodal{
+     
+    padding-left: 50px;
+    padding-right: 50px;
+  
+   }
+   .modal1-subhead{
+    font-size: 23px;
+    padding-bottom: 10px;
+  }
+   
+  .Form-div{
+   
+    padding-left: 10px;
+    color: black;
+  }
+  
+  .btndivModal{
+    padding-top: 10px;
+    padding-left: 60px;
+  }
+  .btnSignupModal{
+    width: 120px;
+   height: 40px;
+  }
+  .lbltextterm{
+    font-size: 16px;
+    padding-left: 5px;
+   }
+  
+  }
+  @media(max-width:991px){
+  
+    .surveycontent{
+      max-width: 285px;   
+      top:79%;
+    }
+  
+    .btnsurvey1{
+      height: 70px;
+      max-width: 230px;
+  }
+  
+  .dv9surveyimgmodal{
+     
+    padding-left: 120px;
+    padding-right: 60px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+   }
+  
+   .Form-div{
+   
+    padding-left: 50px;
+   
+  }
+  
+  .lbltext{
+    font-size: 20px;
+    
+  }
+  .lblinput{
+   
+    width: 100%;
+    text-align: center;
+  }
+   .lbltextterm{
+    font-size: 20px;
+    padding-left: 10px;
+   }
+   .btndivModal{
+    padding-bottom: 20px;
+  }
+  
+  
+    }
+  
+  
+    @media(max-width:767px){
+  
+      .surveycontent{
+        max-width: 280px;   
+        top:79%;
+      }
+    
+      }
+  
+      @media(max-width:575px){
+  
+        .Surveyimg{
+        
+          max-width: 480px;
+          width: 100%;
+          height: auto;
+          padding-left: 70px;
+          padding-right: 70px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          
+           
+        
+        }
+  
+  
+        .surveycontent{
+         width: 100%;
+          max-width: 240px; 
+          transform: translate(-50%, -55%);  
+          top:74%;
+          left: 50%;
+        }
+      
+        .btnsurvey1{
+          height: 60px;
+          max-width: 190px;
+      }
+  
+      .Form-div{
+   
+        padding-left: 70px;
+       
+      }
+      
+  
+      .dv9surveyimgmodal{
+        max-width: 530px;
+        width: 100%;
+        height: auto;
+        padding-left: 120px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 120px;
+      
+       }
+  
+        }
+  
+        
+      @media(max-width:465px){
+  
+  
+  .Surveyimg{
+        
+      max-width: 360px;
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+      padding-top: 0px;
+      padding-bottom: 30px;
+      padding-right: 20px;
+    
+    }
+        
+        .surveycontent{
+         width: 100%;
+          max-width: 250px; 
+          transform: translate(-50%, -50%);  
+          top:73%;
+          left: 50%;
+        }
+      
+        .btnsurvey1{
+          height: 50px;
+          max-width: 200px;
+          font-size: 35px;
+      }
+      .Form-div{
+   
+        padding-left: 40px;
+       
+      }
+  
+      .dv9surveyimgmodal{
+        max-width: 450px;
+        padding-left: 90px;
+        padding-right: 90px;
+      
+       }
+      
+      
+        }
+  
+        @media(max-width:380px){
+  
+  
+          .Surveyimg{
+                
+              max-width: 380px;
+              width: 100%;
+              height: auto;
+              padding-left: 0px;
+              padding-top: 0px;
+              padding-bottom: 30px;
+              padding-right: 0px;
+            
+            }
+                
+                .surveycontent{
+                 width: 100%;
+                  max-width: 220px; 
+                  transform: translate(-50%, -50%);  
+                  top:72%;
+                  left: 50%;
+                  background-color: #353434;
+                  
+                }
+              
+                .btnsurvey1{
+                  height: 50px;
+                  max-width: 200px;
+                  font-size: 35px;
+              }
+  
+              .Form-div{
+   
+                padding-left: 0px;
+               
+              }
+              .dv9surveyimgmodal{
+                max-width: 450px;
+                padding-left: 50px;
+                padding-right: 50px;
+              
+               }
+
+
+               .lbltext{
+                font-size: 18px;
+              }
+              .lblinput{
+               
+                 
+                max-width: 240px;
+               
+              }
+               .lbltextterm{
+                font-size: 16px;
+                padding-left: 5px;
+               }
+              
+                }
+  
+  

@@ -24,7 +24,7 @@ import ReplacingPolicy from './Components/ReplacingPolicy'
 import Ingredient from './screens/IngredientScreen'
 import Shop from './screens/ShopScreen'
 import FAQS from './screens/FaqsScreen'
-
+import Survey from './Components/Survey'
 
 
 const App = () => {
@@ -63,6 +63,7 @@ const App = () => {
       <Route path='/ingredient' component={Ingredient} />
       <Route path='/shop' component={Shop} />
       <Route path='/faqs' component={FAQS} />
+       <Route path='/survey' component={Survey} />
 
       </Container>
       
