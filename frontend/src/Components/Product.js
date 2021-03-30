@@ -22,7 +22,7 @@ const Product = ({product}) => {
                 </a>
             
                 <h4>
-                <small>rs</small>799
+                {/*<small>rs</small>799*/}
                 </h4>
             
                 <h4>
