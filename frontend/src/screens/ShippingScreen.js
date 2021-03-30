@@ -13,7 +13,7 @@ const ShippingScreen = ({ history }) => {
   const [city, setCity] = useState(shippingAddress.city);
   const [postalCode, setPostalCode] = useState(shippingAddress.postalCode);
   const [country, setCountry] = useState("handle with care");
-  console.log(shippingAddress.country)
+  
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
@@ -22,11 +22,6 @@ const ShippingScreen = ({ history }) => {
     history.push("/placeorder");
   };
 
-  if(postalCode.length === 11){
-    console.log("passed")
-  } else {
-    console.log("failed")
-  }
   
   return (
     <FormContainer>
@@ -63,7 +58,7 @@ const ShippingScreen = ({ history }) => {
             value={postalCode}
             required
             onChange={(e) => setPostalCode(e.target.value)}
-            isInvalid={postalCode.length < 11 || postalCode.length > 11}
+            
           ></Form.Control>
         </Form.Group>
 
